@@ -1,0 +1,32 @@
+{
+  "gpt-5": {
+    "model": "gpt-5",
+    "n": 6406,
+    "unparsed": 0,
+    "accuracy": 0.7185451139556666,
+    "total_input_tokens": 3825947,
+    "total_output_tokens": 80781,
+    "elapsed_minutes": 10.009317453702291,
+    "cost_usd": 5.59024375
+  },
+  "gpt-5-mini": {
+    "model": "gpt-5-mini",
+    "n": 6406,
+    "unparsed": 191,
+    "accuracy": 0.666934835076428,
+    "total_input_tokens": 3825947,
+    "total_output_tokens": 80914,
+    "elapsed_minutes": 8.823436645666758,
+    "cost_usd": 1.1183147500000001
+  },
+  "gpt-5-nano": {
+    "model": "gpt-5-nano",
+    "n": 6406,
+    "unparsed": 34,
+    "accuracy": 0.5916509730069052,
+    "total_input_tokens": 3825947,
+    "total_output_tokens": 80256,
+    "elapsed_minutes": 7.183102552096049,
+    "cost_usd": 0.22339975000000004
+  }
+}
