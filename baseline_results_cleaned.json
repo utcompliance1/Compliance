@@ -1,0 +1,22 @@
+{
+  "gpt-5": {
+    "model": "gpt-5",
+    "n": 4000,
+    "unparsed": 0,
+    "accuracy": 0.73075,
+    "total_input_tokens": 2408878,
+    "total_output_tokens": 50416,
+    "elapsed_minutes": 6.09,
+    "cost_usd": 3.5153
+  },
+  "gpt-5-nano": {
+    "model": "gpt-5-nano",
+    "n": 4000,
+    "unparsed": 20,
+    "accuracy": 0.6057788944723618,
+    "total_input_tokens": 2408878,
+    "total_output_tokens": 49968,
+    "elapsed_minutes": 4.06,
+    "cost_usd": 0.1404
+  }
+}
