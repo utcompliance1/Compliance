@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-09-30T03:13:34.932690+00:00",
+  "metadata": {
+    "dataset": "utcompliance1/imr-appeals-cleaned",
+    "revision": "0abb1e862c71e2b0558b560fceedab3d528759f7",
+    "split": "test",
+    "dataset_fingerprint": "72c31fcaab64aed2",
+    "dataset_rows": 9846,
+    "dataset_class_counts": {
+      "Upheld": 5307,
+      "Overturned": 4539
+    },
+    "input_field": "text",
+    "prompt_mode": "zero-shot",
+    "sampling": "equal per class, without replacement, pandas random_state",
+    "n": 200,
+    "seed": 42,
+    "sample_sha256": "d859c8770eefe6d4fca1c3851fa8d53280283c833232e19c3b477f2a5e7c76f5",
+    "class_counts": {
+      "Overturned": 100,
+      "Upheld": 100
+    },
+    "requested_model": "jev-1.13.0",
+    "questions": {
+      "decision": {
+        "type": "choice",
+        "instructions": "You are reviewing an independent medical review (IMR) appeal of a health insurance coverage denial. Based only on the case description, predict whether the insurer's denial was upheld or overturned on appeal.",
+        "criteria": {
+          "Upheld": "The independent review upheld the insurer's coverage denial.",
+          "Overturned": "The independent review overturned the insurer's coverage denial."
+        }
+      }
+    },
+    "input_price_usd_per_million_tokens": 0.042,
+    "pricing_source": "https://docs.typesafe.ai/models"
+  },
+  "resolved_models": [
+    "jev-1.13.0"
+  ],
+  "n": 200,
+  "attempted": 200,
+  "scored": 200,
+  "failed": 0,
+  "unattempted": 0,
+  "correct": 132,
+  "coverage": 1.0,
+  "accuracy": 0.66,
+  "accuracy_95pct_wilson": [
+    0.5918849552683626,
+    0.7220845402909121
+  ],
+  "accuracy_all_requested": 0.66,
+  "balanced_accuracy": 0.6599999999999999,
+  "majority_class_baseline": 0.5,
+  "confusion_matrix": {
+    "Overturned": {
+      "Overturned": 69,
+      "Upheld": 31
+    },
+    "Upheld": {
+      "Overturned": 37,
+      "Upheld": 63
+    }
+  },
+  "per_class": {
+    "Overturned": {
+      "precision": 0.6509433962264151,
+      "recall": 0.69,
+      "f1": 0.6699029126213593,
+      "support": 100
+    },
+    "Upheld": {
+      "precision": 0.6702127659574468,
+      "recall": 0.63,
+      "f1": 0.6494845360824743,
+      "support": 100
+    }
+  },
+  "elapsed_seconds": 28.295373540982837,
+  "latency_seconds": {
+    "p50": 0.13711881249037106,
+    "p95": 0.17850302980223198
+  },
+  "total_input_tokens": 100602,
+  "total_output_tokens": 7412,
+  "estimated_cost_usd": 0.004225284,
+  "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+}

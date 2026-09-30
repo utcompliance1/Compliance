@@ -1,0 +1,95 @@
+{
+  "status": "interrupted",
+  "created_at_utc": "2026-09-30T03:51:15.594281+00:00",
+  "metadata": {
+    "dataset": "utcompliance1/imr-appeals-cleaned",
+    "revision": "0abb1e862c71e2b0558b560fceedab3d528759f7",
+    "split": "test",
+    "dataset_fingerprint": "72c31fcaab64aed2",
+    "dataset_rows": 9846,
+    "dataset_class_counts": {
+      "Upheld": 5307,
+      "Overturned": 4539
+    },
+    "input_field": "text",
+    "prompt_mode": "zero-shot",
+    "prompt_name": "focused",
+    "sampling": "entire test split, natural prevalence",
+    "n": 9846,
+    "seed": null,
+    "sample_sha256": "6d29a7c7abe8f26973b02f4cf3b6acb6e97a87078bc470ea431c1197348cfab4",
+    "workers": 4,
+    "class_counts": {
+      "Upheld": 5307,
+      "Overturned": 4539
+    },
+    "requested_model": "jev-1.13.0",
+    "questions": {
+      "decision": {
+        "type": "choice",
+        "instructions": {
+          "question": "Was the health insurer's coverage denial UPHELD or OVERTURNED in independent medical review?",
+          "focus": "Predict the review outcome for the current case. Assess whether the particular requested treatment, test, drug, or care setting is medically necessary and supported for the described condition. Consider clinical severity, functional needs, prior treatment response, reasonable alternatives, and the denial rationale.",
+          "cautions": "The insurer's initial denial is not the review outcome. Do not assume missing facts are negative findings or invent patient history or coverage restrictions. Serious illness alone does not justify every intervention. Failed alternatives alone do not establish benefit of an investigational treatment."
+        },
+        "criteria": {
+          "Upheld": "Review agrees with the denial: the specific requested care is not medically necessary or appropriately supported for this case, its setting or intensity is not warranted, or evidence supports the stated investigational or coverage rationale.",
+          "Overturned": "Review disagrees with the denial: the requested care is justified by the patient's clinical needs, prior treatment history, and evidence of benefit for this indication, or those facts undermine the stated denial rationale."
+        }
+      }
+    },
+    "input_price_usd_per_million_tokens": 0.042,
+    "pricing_source": "https://docs.typesafe.ai/models"
+  },
+  "resolved_models": [
+    "jev-1.13.0"
+  ],
+  "n": 9846,
+  "attempted": 6915,
+  "scored": 6915,
+  "failed": 0,
+  "unattempted": 2931,
+  "correct": 4757,
+  "coverage": 0.702315661182206,
+  "accuracy": 0.6879248011569052,
+  "accuracy_95pct_wilson": [
+    0.6769022545747166,
+    0.6987386696274972
+  ],
+  "accuracy_all_requested": 0.4831403615681495,
+  "balanced_accuracy": 0.6883684616927414,
+  "majority_class_baseline": 0.5390006093845217,
+  "confusion_matrix": {
+    "Overturned": {
+      "Overturned": 2235,
+      "Upheld": 982
+    },
+    "Upheld": {
+      "Overturned": 1176,
+      "Upheld": 2522
+    }
+  },
+  "per_class": {
+    "Overturned": {
+      "precision": 0.6552330694810906,
+      "recall": 0.6947466583773703,
+      "f1": 0.6744115872057936,
+      "support": 3217
+    },
+    "Upheld": {
+      "precision": 0.7197488584474886,
+      "recall": 0.6819902650081124,
+      "f1": 0.7003610108303249,
+      "support": 3698
+    }
+  },
+  "elapsed_seconds": 268.86401025002124,
+  "latency_seconds": {
+    "p50": 0.14562362499418668,
+    "p95": 0.21884391679486723
+  },
+  "total_input_tokens": 4504782,
+  "total_output_tokens": 255762,
+  "estimated_cost_usd": 0.189200844,
+  "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+}

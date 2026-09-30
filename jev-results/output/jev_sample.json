@@ -1,0 +1,1238 @@
+{
+  "metadata": {
+    "dataset": "utcompliance1/imr-appeals-cleaned",
+    "revision": "0abb1e862c71e2b0558b560fceedab3d528759f7",
+    "split": "test",
+    "dataset_fingerprint": "72c31fcaab64aed2",
+    "dataset_rows": 9846,
+    "dataset_class_counts": {
+      "Upheld": 5307,
+      "Overturned": 4539
+    },
+    "input_field": "text",
+    "prompt_mode": "zero-shot",
+    "sampling": "equal per class, without replacement, pandas random_state",
+    "n": 200,
+    "seed": 42,
+    "sample_sha256": "d859c8770eefe6d4fca1c3851fa8d53280283c833232e19c3b477f2a5e7c76f5",
+    "class_counts": {
+      "Overturned": 100,
+      "Upheld": 100
+    },
+    "requested_model": "jev-1.13.0",
+    "questions": {
+      "decision": {
+        "type": "choice",
+        "instructions": "You are reviewing an independent medical review (IMR) appeal of a health insurance coverage denial. Based only on the case description, predict whether the insurer's denial was upheld or overturned on appeal.",
+        "criteria": {
+          "Upheld": "The independent review upheld the insurer's coverage denial.",
+          "Overturned": "The independent review overturned the insurer's coverage denial."
+        }
+      }
+    },
+    "input_price_usd_per_million_tokens": 0.042,
+    "pricing_source": "https://docs.typesafe.ai/models"
+  },
+  "sample": [
+    {
+      "test_index": 7935,
+      "row_id": 72047,
+      "text": "The patient has a history of postlaminectomy syndrome. The request is for an occipital stimulator trial for cervicalgia and paresthesia of skin. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8288,
+      "row_id": 72405,
+      "text": "Diagnosis: Substance abuse.\nTreatment: Continued intensive outpatient substance use treatment.\nThe insurer denied continued intensive outpatient substance use treatment.\nThe denial is Overturned.\n\nThe patient is an adolescent female who was admitted for intensive outpatient program (IOP) level treatment as a step down from residential level treatment. The patient was receiving treatment for sedative-hypnotic-anxiolytic (benzodiazepine), cannabis (marijuana), and alcohol use disorders. She was diagnosed with unspecified depressive disorder with associated symptoms of anxiety that served to trigger her substance use. The patient's alcohol and cannabis and sedative-hypnotic-anxiolytic substance-related disorders were severe with daily continuous use of Xanax together with prescribed Klonopin and use of marijuana up to four times per week with intermittent binge drinking of one-third bottle at a time. The patient's substance use started at adolescents with escalating use in the context of high-risk behaviors including impulsive aggression and self-harm. She had been suspended from school multiple times and had been hospitalized to address the problematic behaviors occurring while intoxicated. \n. The patient in this case presented with a co-occurring mood disturbance with associated symptoms of anxiety and use of large quantities of drugs and alcohol with severe psychosocial stressors and functional impairments \nto maintain abstinence without the continued IOP structure. And, the patient struggled with cr",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4225,
+      "row_id": 68311,
+      "text": "An enrollee has requested authorization and coverage for arthroscopic surgery for treatment of the enrollees medical condition. \n.  In this case, the patient has failed over one year of comprehensive conservative treatment including physical therapy, chiropractic care, medications, and intraarticular steroid injections.  The patient has significant left hip pain and functional limitations.  There was clinical examination evidence of impingement.  X-rays findings are reported with Tonnis grade 1, an alpha angle of 86 degrees, and small lateral osteophytes on the femoral head consistent with a cam deformity.  Imaging demonstrated a labral tear, with no severe chondral damage.  In this patients ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6907,
+      "row_id": 71012,
+      "text": "Diagnosis: Narcolepsy, Anxiety and Depression\nTreatment: Modafinil 200Mg (2 tablets twice daily)\nThe insurer denied: Modafinil 200Mg (2 tablets twice daily)\nThe \nThe patient is an adult female who was reported to have been diagnosed with narcolepsy. She was also reported to have been diagnosed with obsessive-compulsive disorder, generalized anxiety disorder and unspecified depressive disorder. The patient's provider is requesting the use of modafinil 200 mg (milligrams) tablet, 2 tablets twice daily for a total daily dosage of 800 mg (milligrams) modafinil (4 tablets daily) for treatment of symptoms related to narcolepsy. The requested medication (modafinil) was noted to have been previously denied coverage by the health plan, as the requested quantity of 4 tablets daily exceed the maximum allowed by the plan of 1 tablet daily. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1374,
+      "row_id": 65448,
+      "text": "An enrollee has requested partial-breast irradiation for treatment of her medical condition. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3858,
+      "row_id": 67944,
+      "text": "A 39-year-old male enrollee has requested for Xyrem for treatment of his obstructive sleep apnea and idiopathic hypersomnia. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9365,
+      "row_id": 73499,
+      "text": "Diagnosis: Stage III rectal cancer.\nTreatment: Lupron Depot (1-Month) 3.75 intramuscular (IM) kit.\nThe insure denied the Lupron Depot (1-Month) 3.75 intramuscular (IM) kit.\n\nThe patient is a female with Stage III rectal cancer receiving chemotherapy, which has been recommended to receive Lupron as ovarian suppression in order to avoid going into medical menopause from her cancer treatment.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4047,
+      "row_id": 68133,
+      "text": "A 28-year-old female enrollee requested authorization and coverage of a custom wheelchair and pressure relief cushion. The Health Plan denied the request indicating that the requested equipment is not medically necessary for the enrollees mobility.O",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3002,
+      "row_id": 67084,
+      "text": "The patient has requested authorization and coverage for physical therapy. The Health Plan denied the request and reported the requested services are not medically necessary for the treatment of this patient. \nThe patient was noted to be independent in a home exercise program, and the patient did not require further physical therapy sessions. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 838,
+      "row_id": 64909,
+      "text": "The patients parent has requested authorization and coverage for a standing power wheelchair with attendant control (CPT E2331), power seat elevation (CPT E2300), and powered standing feature (CPT E2301).",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 57,
+      "row_id": 64124,
+      "text": "The patient is a 54-year-old male who has a history of bilateral nasal congestion. In a letter dated 6/26/20, the provider noted that the patientas symptoms include no nasal discharge, difficulty breathing, no postnasal drip, no sinus pain, no headaches, no sore throat, and no ear fullness.The patient has requested authorization and coverage for repair nasal vestibular stenosis (CPT 30465). The Health Insurer has denied this request and reported that the requested services are not medically necessary for the treatment of this patient. \n. This patient has bilateral nasal obstruction. He has enlarged turbinates, deviated septum and valve collapse. A Cottle maneuver showed improvement of nasal breathing, indicating nasal vestibular stenosis. The provider is planning on septoplasty, bilateral turbinate reduction, and repair of bilateral vestibular stenosis. Vestibular stenosis is diagnosed by observing valve collapse and a positive Cottle maneuver. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6222,
+      "row_id": 70317,
+      "text": "Diagnosis: Syncope\n\nTreatment: Inpatient admission\n\nThe insurer denied coverage for inpatient admission. \n.\n\nThis patient is a female who presented to the emergency room (ER) with complaints of syncope. She suffered a laceration on her right temple. Vital signs noted blood pressure 186/89. EKG showed normal sinus rhythm with poor R-wave progression and prolonged QT interval. Cardiology recommended admission for telemetry. CT of the head was negative for any acute pathology. Troponins remained negative throughout her stay. She was evaluated by psychiatry and discharged home for follow-up with her primary care provider and recommendations for medication compliance. \n. \n\nThe patient presented with a single syncopal event; however there were no signs or symptoms of hemodynamic instability, myocardial ischemia, arrhythmia, heart ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 6279,
+      "row_id": 70374,
+      "text": "Diagnosis: Cervical Dystonia.\nTreatment: Xeomin.\n\nThe insurer denied Xeomin. \nThe patient has a history of cervical dystonia that is treated with Xeomin. \n. Most recently the patient presented for repeat Xeomin injections for cervical dystonia, and could no longer undergo treatment every eight weeks. He lost 40 pounds in the previous few months. He had a moderate dystonic head tremor worse with attempted head movements. He received Botox 600 units at that time.\n",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2370,
+      "row_id": 66451,
+      "text": "An enrollee has requested reimbursement for Caris Molecular Intelligence tumor testing for evaluation of the enrollees mesothelioma. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8544,
+      "row_id": 72667,
+      "text": "Diagnosis: pneumonia\ntreatment: inpatient stay\nThe insurer denied the inpatient stay. \nThe patient is a female with a medical history hypertension, hypercholesterolemia, diabetes mellitus and Bipolar 1 disorder who was admitted for a pneumonia and possible colitis with symptoms of nausea, vomiting, generalized weakness and cough. Her computed tomography (CT) chest demonstrated pneumonia but did not demonstrate evidence of an empyema/abscess/necrotizing pneumonia. \n. This patient with a medical history of hypertension, hypercholesterolemia, diabetes mellitus and Bipolar 1 disorder was admitted for pneumonia and possible colitis with symptoms of nausea, vomiting, generalized weakness and cough. Of note, the patient was diagnosed with Influenza A and was treated with Tamiflu. As per the clinical documentation, on admission, the patient was afebrile, hemodynamically stable, with a respiratory rate of 18 breaths per minute, oxygen saturation 99% (percent) on room air, and had normal breath sounds without rales/rhonchi/wheezes on auscultation of the chest. Her computed tomography (CT) chest demonstrated pneumonia but did not demonstrate evidence of an empyema/abscess/necrotizing pneumonia and she was treated with antibiotics (Ceftriaxone & Azithromycin). She was alert, awake and oriented throughout her stay, she did not have a documented immunosuppressed state, bacteremia, or dehydration, acute kidney injury, she was able to ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 45,
+      "row_id": 64112,
+      "text": "A 63-year-old female enrollee has requested reimbursement for inpatient hospital stay provided from 8/5/15 through 8/6/15. The Health Insurer has denied this request indicating that the services at issue were not medically necessary for treatment of the enrollees medical condition. \nOn 8/5/15 the patient presented to the ED following an episode of altered level of consciousness. The patient did not have a significant history of cardiovascular disease. At the time of admission, the patient was described as being awake and alert, without any new focal neurologic or cardiac findings. The laboratory studies and imaging performed in the ED were unremarkable.\nThe patient was discharged from the hospital on 8/6/15 with plans to follow up at a later date.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2243,
+      "row_id": 66324,
+      "text": "A 65-year-old male enrollee has requested for transdermal fentanyl patches for treatment of his neck and shoulder pain. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3264,
+      "row_id": 67347,
+      "text": "An enrollee has requested authorization and coverage to remain in a skilled nursing facility and continue physical therapy for treatment of the enrollee, who has a history of congestive heart failure. \nThis patient has a history of dilated cardiomyopathy with an ejection fraction of 20-25% and New York Heart Association (NYHA) class III-IV congestive heart failure.  He has had multiple episodes of volume overload in the last year requiring intensive diuresis.  He was hospitalized with volume overload and pneumonia. He was aggressively treated in the hospital over a week and medically stabilized.  He has been receiving care at the skilled nursing facility, primarily for deconditioning.  He had made very modest functional progress.  He was continuing to require minimum assistance for transfers and very short distance ambulation.  He continued to require minimum to moderate assistance for his basic self-care. \nfurther significant gains. Overall, his function had plateaued at a level \nhave returned to the community with custodial level support for assistance with basic activities of daily living and mobility or have been transitioned to longer term care. He had multiple conditions that were very chronic, but otherwise stable.  There were also stage 1 pressure injuries that were ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4787,
+      "row_id": 68874,
+      "text": "The patient has requested authorization and coverage for bilateral Synvisc injections of knees. \nIn this case, the patient has a history of significant relief from prior injections. The patient has tried and failed other conservative treatments including cortisone injections. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9339,
+      "row_id": 73471,
+      "text": "involves a female who has a past medical history to include pelvic congestion syndrome. \ndocumentation detail the patient does have long-standing cyclical pelvic pain with pressure correlating with her menses, pain during/after sexual intercourse, and pelvic pain which worsens upon standing. \n.  The patient has been seen by gynecology and has undergone a rigorous clinical evaluation.  The findings are consistent with pelvic congestion syndrome which includes recurrent varicose veins to lower extremities and vulvar varices.  A CT venogram also was performed showing large ovarian and pelvic veins.  The patient has undergone selective ovarian venography demonstrating enlarged ovarian veins as well as reflux and ovarian varices.  The documentation detailed the patient has been recommended to undergo bilateral gonadal vein embolization.\n",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4247,
+      "row_id": 68333,
+      "text": "This 61-year-old male was diagnosed with prostate cancer in May 2004. His Gleason score was 7 (3+4) involving 5%-10% of the entire specimen from the right side and his stage was T1c. His radiation oncologist has offered him brachytherapy, and external beam irradiation. His medical oncologist has offered him hormonal therapy. His urologist has offered him prostatectomy. The patient would like to have proton beam therapy.B",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7366,
+      "row_id": 71473,
+      "text": "Cancer\nGenetic testing\n\nDiagnosis: rule out cancer\nTreatment: Genetic testing\nThe insurer denied genetic testing. \nThe patient is a female who had genetic testing for hereditary breast and ovarian cancer (BRCA). She has three maternal aunts and a maternal grandmother with breast cancer. She has had genetic counseling. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1161,
+      "row_id": 65234,
+      "text": "An enrollee has requested authorization and coverage for endoluminal ablation of varicose veins in the lower extremities for treatment of the enrollees varicose veins of the lower extremitiesFi\nhas a family history of coronary artery disease and has a history of smoking, hypertension, hyperlipidemia, and leg pain with cramping and possible ulceration resistant to compression stockings. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9841,
+      "row_id": 73982,
+      "text": "Diagnosis: Class I malocclusion\nTreatment: braces/monthly visit\nThe insurer denied braces/monthly visit\n\nThe patient in question is a female with a Class I malocclusion with maxillary spacing and mandibular crowding. She has 7 millimeter (mm) overjet and a 2 mm anterior open bite. She is congenitally missing teeth 20 and 29. She is treatment planned for braces to correct her malocclusion. \n\nBraces and Monthly Visit are medically necessary for this patient.\nTeeth number (#) 8-9 are protruding forward within the ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9209,
+      "row_id": 73340,
+      "text": "Orthopedic/Musculoskeletal\nHome Health Care\n\nDiagnosis: Osteoporosis/unsteady gait\nTreatment: Personal Care Aide \nThe insurer denied Personal Care Aide (PCA) Level 2: Live-In Per Diem for 24 Hours per Day/7 Days per Week. \n. \n\nThe patient is a female with past medical history of colon cancer, hypertension, hyperlipidemia, diabetes mellitus, osteoporosis, atrial fibrillation on anticoagulation, Alzheimer's dementia, osteoarthritis, unsteady gait, urinary incontinence, and bowel incontinence who had been assigned PCA (personal care assistant) service hours. The patient was noted to need total assistance with tasks of ordinary housework, managing finances, stairs, shopping, transportation and locomotion while maximum assistance with tasks of meal preparation, managing medication, bathing, dressing lower body, walking, transfer toilet and toilet use. At this assessment, the patient was assessed at extensive assistance for tasks of personal hygiene, dressing upper body, bed mobility, limited assistance with task of phone use and supervision for task of eating.\n\nPersonal Care Aide\nThere is documentation in the patient's medical record of worsening physical and cognitive abilities. The patient has the diagnosis of osteoarthritis and dementia which are both progressive illnesses worsening with age. The patient had more noticeable decline following her last assessment as documented in medical records. Although the patient has documented wandering and confusion at night,\n. It is documented that the patient does not have an informal helper during the hours she doesn't have a PCA. The patient had diagnosis of urinary and bowel incontinence with the documented need for assistance with transfer toilet, toilet use, walking and locomotion and incontinence cares per previous two assessment tools. Toileting and incontinence care needs are unpredictable and unscheduled tasks over a 24 hour period of time. The plan did ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9534,
+      "row_id": 73668,
+      "text": "Diagnosis: High blood pressure (hypertension). \nTreatment: Inpatient admission. \nThe insurer denied the inpatient admission. \nThe patient is a female. She was readmitted to the hospital six days postpartum for high blood pressure.  She had severe preeclampsia with her pregnancy. \n\nThe patient's initial measurement of blood pressure was 156/88 to 187/107.  An attempt was made to stabilize her in the emergency room with several pushes of intravenous labetalol, but her blood pressure remained elevated.  She was admitted to the hospital and treated with MgSO4 (Magnesium Sulfate) and Procardia in addition to labetalol.  \n\nOn hospital day 1, the patient's blood pressures were 118/67, but she did have a mild headache.  Her physician documented that if she continued to be stable, she could be discharged the next day (hospital day 2).  On hospital day 2 her blood pressure was 127/74, the headache had resolved, and she was discharged home. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6588,
+      "row_id": 70686,
+      "text": "Diagnosis: Heart disease, hypertension, gastroesophageal reflux disease (GERD), and diabetes.\t\nTreatment: personal care worker (PCW) services 4 days per week, 19 hours per day (Monday to Thursday), 2 days per week, 10 hours per day (Friday and Saturday), and 1 day per week, 9 hours per day (Sunday) for a total of 105 hours a week.\nThe insurer denied coverage for personal care worker (PCW) services 4 days per week, 19 hours per day (Monday to Thursday), 2 days per week, 10 hours per day (Friday and Saturday), and 1 day per week, 9 hours per day (Sunday) for a total of 105 hours a week.\n\nThis female has experienced significant functional decline associated with various medical conditions and needs assistance with all daily activities. As per UAS (Uniform Assessment System), the patient lives alone in an apartment; daughter lives in attached private home. The patient receives personal care worker (PCW) services 84 hours per week (12 hours per day). The family provides informal care during non-PCW hours (as per UAS, 5 family members take turns assisting patient).  The patient (via designee) requested increase of PCW services to 105 hours per week allocated as 4 days per week, 19 hours per day; 2 days per week, 10 hours per day; ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7174,
+      "row_id": 71280,
+      "text": "Diagnosis: Nausea, vomiting, and abdominal pain in the context of severe alcohol use disorder.\nTreatment: Inpatient Detoxification Treatment.\nThe insurer denied the Inpatient Detoxification Treatment.\n\nThe patient is a male who presented to an emergency department with nausea, vomiting, and abdominal pain in the context of severe alcohol use disorder. The patient has a history of severe substance use disorder with daily use of alcohol and intermittent use of cannabis (marijuana). He has a history of prior detoxification and rehabilitation treatment episodes with relapses and no recent sober time. \n\nAt the time of presentation to the emergency department, the patient reported functional decline as the substance use/disease had progressed. The patient provided no past history of withdrawal seizures or delirium tremens, but did report severe alcohol withdrawal symptoms in the past. He was admitted for inpatient level care with plans for withdrawal management and detoxification and stabilization with an Ativan protocol with Clinical Institute Withdrawal Assessment for Alcohol (CIWA) monitoring and supportive measures. \n\nThe medical screening had revealed evidence for acute pancreatitis, elevated liver functions and a drug screen that was positive for tetrahydrocannabinol (THC), consistent with history. His examination revealed abdominal tenderness with complaints of epigastric pain, as well as withdrawal symptoms including nausea, vomiting, tremors and chills with ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3575,
+      "row_id": 67661,
+      "text": "A 60-year-old female enrollee has requested an endoscopy for the treatment of her gastroesophageal reflux disease (GERD). ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9665,
+      "row_id": 73804,
+      "text": "Diagnosis: Substance abuse\nIssue under review: Continued residential \nThe patient is an adult male. He was referred for residential rehabilitation substance use disorder treatment to address longstanding and severe alcohol use disorder. The patient has no history of withdrawal seizures or delirium tremens. He was self-referred due to difficulty with the social environment and coping problems related to the substance use disorder. His history of substance use included complications including a stroke three years prior to admission and memory problems that were presumed to be due to Wernicke-Korsakoff syndrome.\n\nThe patient has no history of psychiatric disorder or treatment and no acute general medical issues.\n\nThe patient is single, homeless and unemployed and was living with his mother. He had no current legal issues.\n\nEvaluation on admission revealed a mental status examination that reflected motivation for rehabilitation treatment, but limited insight, and fair judgment. The patient was described as cooperative with fluent speech and organized thought processing. He displayed anxious mood, and diminished focus or concentration and memory with no severe symptoms such as mania, formal thought disorder, psychosis, perceptual disturbance or severe cognitive impairment. He did not report suicidal ideation or aggressive impulses. There were no significant withdrawal symptoms or post-acute withdrawal symptoms.\n\nOn admission, the patient received comprehensive evaluation and treatment that included focus on coping skills, relapse ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 6686,
+      "row_id": 70786,
+      "text": "This patient has a documented complication or technical failure of a sleeve gastrectomy that was performed in another country in 2009.  This technical failure is documented by upper endoscopy and is a significant contributor to her refractory morbid obesity.\n\nhas retained gastric fundus and cardia.  This patient has been appropriately evaluated with upper endoscopy, mental health evaluation, medical consultations, lab assessment, and she has participated in a supervised weight loss program over a period of more than six months. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8485,
+      "row_id": 72607,
+      "text": "Diagnosis: Achalasis. \nTreatment: POEM (peroral endoscopic myotomy) procedure. \n\nThe insurer denied coverage for POEM procedure. \nThe patient is diagnosed with achalasia. The patient has had an extensive work-up as per the provided records. As definitive treatment, the provider has requested the provision of the peroral endoscopic myotomy (POEM) procedure. The plan declined coverage. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 5429,
+      "row_id": 69518,
+      "text": "Orthopedic\nHome health care\n\nDiagnosis: Mobility issues\nTreatment: Home health care\nThe insurer denied Consumer Directed Personal Assistance Servies (CDPAS): 7 Days per Week, 12 Hours per Day; 84 Hours per Week.\n\nreview for a male with medical history notable for mobility issues. The patient's child provided a letter of support for this appeal. The letter states that the patient requires the increased hours to ensure his safety, well-being, and overall quality of life. He requires assistance with bathing, dressing, hygiene, meal preparation, and medication prompting. Additionally, his wife passed away which has resulted in feelings of loss and isolation. The child requests the additional time in part to ensure his safety.\n\nThe patient's physician provided a letter of support for this appeal. The letter states that the patient has diagnoses of hypertension, depression, anxiety, dizziness, arthritis, and back pain. His current medication list was provided for review. The physician states that the patient requires assistance with activities of daily living including toileting, transfers, bathing, and dressing.\n\nThe requested Consumer Directed Personal Assistance Services (CDPAS): 7 Days per Week,\npatient requires assistance with all activities of daily living. He is unable to toilet, transfer,\nwithout assistance. His son is willing to provide intermittent assistance overnight, but his son works full-time and cannot provide care continuously ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3387,
+      "row_id": 67472,
+      "text": "Physician 1: The patient is a 47-year-old female with chronic pain and temporomandibular joint dysfunction. She has requested authorization and coverage for Botox indicating it has reduced her need for Ultram by 50%. The patient continues to have moderate pain. The Health Plan has denied coverage for Botox therapy on the basis it is considered experimental for treatment of the patients medical condition.R\n: The patient is a 47-year-old female who has been diagnosed with temporomandibular joint (TMJ) disorder by two dentists. She has tried Botox in the past and has had relief of her pain. The patient has tried medications and splints without sustained relief. She has requested Botox therapy, which the Health Plan has denied as experimental for treatment of her myofascial pain disorder.TMJ disorder is a condition that results from overactivity of the temporomandibular muscles. The patient has apparently gained relief from previous use of Botox and has failed to respond to other forms of treatment. Botox",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9769,
+      "row_id": 73909,
+      "text": "Diagnosis: Orthostatic Hypertension\n\nTreatment: inpatient hospitalization\n\nThe insurer is denied coverage for inpatient hospitalization.\n\nThis patient has a history of a stroke with residual left-sided weakness/facial droop as well as a history of hypertension, hyperlipidemia, asthma, pulmonary edema, morbid obesity, aortic valve replacement, congestive heart failure, major depression, and non-ST (interval on echocardiogram) elevated myocardial infarction.  The submitted documentation indicated she was seen with complaints of dizziness.  The documentation indicated she complained of persistent ataxia with lightheadedness.  She was at therapy when she had an episode of ataxia and lightheadedness.  She was told to go to the emergency department by therapy.  The documentation indicated that on physical examination her vital signs revealed a blood pressure 138/83 with a pulse of 69 bpm (beats per minute).  Oxygen saturation was 95% (oxygen) on room air.  She was alert and oriented.  She did have residual left facial weakness with a positive Romberg and narrow gait.  The physical examination also revealed an appropriate mood.  EKG (echocardiogram) was without evidence of STEMI [ST elevation myocardial infarction] or ischemia.  She was not hypoglycemic, and her clinical picture did not suggest another stroke.  It was recommended she undergo additional studies to include laboratory studies as well as a computed tomography (CT) scan.  The laboratory studies revealed her warfarin level was subtherapeutic.  It was recommended she undergo consultation by Neurology.  She was admitted for further monitoring and testing.  The documentation does indicate upon further evaluation the patient was noted ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5416,
+      "row_id": 69505,
+      "text": "Diagnosis: Alopecia areata.\nTreatment: Xeljanz 5MG (milligrams).\nThe insurer denied: Xeljanz 5MG (milligrams).\n\n.\n\nThe patient is a school-aged female with alopecia areata, treated with topical anthralin. The provider is requesting Xeljanz. The health plan denied coverage as the medication is not Food and Drug Administration (FDA) approved for this diagnosis.\n",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 918,
+      "row_id": 64989,
+      "text": "A 43-year-old female enrollee has requested acute inpatient hospitalization admission for treatment of her behavioral health condition. \n, the patient has been in outpatient treatment for over 5 years and was on Prozac and modafinil, and was noted to be compliant with her medication regimen. She denied suicidal ideation. She was not a danger to self or others, nor did she qualify as having a grave disability. The patient was anergic and ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3090,
+      "row_id": 67172,
+      "text": "A 64-year-old female enrollee has requested for continued weekly psychotherapy for treatment of her major depressive disorder. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3889,
+      "row_id": 67975,
+      "text": "A 26-year-old female enrollee has requested cryoablation for treatment of her fibroadenoma in the right breast.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 866,
+      "row_id": 64937,
+      "text": "A 64-year-old male enrollee requested authorization and coverage of a PET scan to determine whether the enrollee is continuing to improve or if additional therapy \ninstituted for the treatment of metastatic lung cancer.  The Health Plan denied the enrollees request indicating that the requested treatment is not medically necessary.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7361,
+      "row_id": 71467,
+      "text": "Diagnosis: Cerebrovascular accident; Hemiplegia; Dementia. \nTreatment: Personal Care Assistance (PCA) services. \n\nThe insurer denied coverage for personal care assistance (PCA), 70 hours per week. \nThis male patient has a medical history including cerebrovascular accident (CVA), left sided hemiplegia, hypertension, osteoarthritis, chronic pain, urinary incontinence, and dementia. \n\nHe receives personal care assistance (PCA) services of 8 hours a day, 6 days a week and 7 hours a day, 1 day a week (total of 55 hours a week). His advocate has requested an increase of PCA services to 10 hours per day, 7 days per week for a total of 70 hours per week, which was denied. \n\nThe \nthe patient was totally dependent or needed maximal assistance for most IADLs, except medication management (extensive assistance). The patient's ambulation is very limited, and he is dependent on others for wheelchair transport. All of his activities of daily living (ADLs) required maximal or extensive assistance. His partner reported that the patient had physical and occupational therapy since his CVA (a stroke), and though some improvement was noted, his overall mobility has declined.\n\nStroke ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 5771,
+      "row_id": 69862,
+      "text": "Diagnosis: Chest pain\n\nTreatment: Inpatient admission\n\nThe insurer denied coverage for inpatient admission. \nThis patient is a male who presented to the Emergency Department (ED) with complaints of chest pain, shortness of breath and headache. He stated that for the past 4-5 days prior to presentation, he had been having a cough with greenish sputum. He did not know if he had any temperature elevation and did complain of chest congestion and pressure in his head. He stated his daughter was recently sick and he thinks that he caught this infection from her. The family was overseas and returned after a month. He stated that he came to the hospital today because he started to experience substernal, non-radiating heaviness in the chest that started after he was involved in an argument. He stated that after having this argument, he started to get heaviness in his chest and it had been coming on and off since. He denied chills, abdominal pain, nausea and vomiting in the ED.  He was about to be discharged home, but then started getting a more severe headache and dizziness and was admitted to telemetry for further medical management. The patient did not appear to be in distress, but appeared to be depressed and crying because of the argument. He had a past medical history of an appendectomy over a decade ago.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9334,
+      "row_id": 73466,
+      "text": "Diagnosis: Orthopedic/Musculoskeletal/ Osteoarthritis. \nTreatment: Home Health Care. \n\nThe health plan denied the requested increase in personal care assistant hours. \nThe patient is a female with a past medical history of osteoarthritis, coronary artery disease, hypertension, hyperlipidemia, diabetes mellitus type 2, hearing loss, iron deficiency anemia, bladder incontinence, glaucoma, chronic obstructive pulmonary disease (COPD), and depression who had been assigned personal care assistant (PCA) services 6 hours/day, 7 days/week, to total 42 hours/week based on assessment tool performed, assessing the patient at total assistance with task of ordinary housework while maximum assistance with tasks of meal preparation and shopping. The patient was assessed at extensive assistance with tasks of managing finances, managing medication, stairs, transportation, bathing, dressing upper/lower body, walking, and locomotion while limited assistance with tasks of phone use, equipment management, personal hygiene, transfer toilet, toilet use, bed mobility, and eating. At \nThe patient had an injury with left hip fracture with subsequent documented decline in cognitive, physical, and medical status since this fall with fracture. The patient also has chronic progressive medical conditions as documented in the medical records.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 47,
+      "row_id": 64114,
+      "text": "A 28-year-old male enrollee has requested reimbursement for Foundation One gene test performed on 4/7/15. The Health Insurer has denied this request indicating that the services at issue were considered investigational for evaluation of the enrollee, who was diagnosed with malignant peripheral nerve sheath tumor (MPNST). \nThe test requested by the treating provider was performed to test the primary tumor for NF1. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 194,
+      "row_id": 64262,
+      "text": "A 29-year-old female enrollee has requested reimbursement for the polymerase chain reaction (PCR) testing for methylenetetrahydrofolate reductase (MTHFR) and molecular pathology testing performed on 5/26/16. The Health Insurer has denied this request indicating that the testing at issue was considered investigational for evaluation of the enrollees risk for recurrent pregnancy loss. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5950,
+      "row_id": 70041,
+      "text": "Diagnosis: Cardiac/Circulatory Problems/Chest Pain.\nTreatment: Inpatient Hospital.\nThe health plan denied the requested inpatient stay as not medically necessary. \nThis is a male with hypertension (HTN), diabetes mellitus (DM), hyperlipidemia (HL) with complaints of intermittent pressure like chest pain for 3 days prior to presentation. The patient was transferred from urgent care due to HTN and hyperglycemia. He was noted to have an elevated blood pressure at presentation. He complained of nausea and vomiting at presentation. His blood pressure was stable, in fact slightly hypertensive. There was no shortness of breath, diaphoresis, palpitations or volume overload noted. The rest of the physical exam was essentially unremarkable. Serial electrocardiogram (EKG) and cardiac enzymes were negative. He was started on Losartan and Amlodipine, Atorvastatin at home dose, and sliding scale insulin (SSI) for DM. Subsequently the patient left against medical advice. The patient was being scheduled for further evaluation of coronary artery disease (CAD) status including the possibility for stress versus (vs) cardiac catheterization. No malignant arrhythmias or congestive heart failure \nThe patient is a male with significant clinical risk factors and anginal presentation and subsequently needed further evaluation with a stress test vs cardiac catheterization. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7739,
+      "row_id": 71851,
+      "text": "Diagnosis: Dementia\nIssue under review: Increased personal care aide \nThis is an elderly female with a history of vascular dementia and anxiety. Due to these conditions, she requires assistance with the majority of her activities of daily living (ADLs). Per recent evaluation the patient requires 24/7 caregiver services for assistance with all of her major activities of daily living (bed mobility, transfers, ambulation, toileting, showering, feeding, dressing). ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2330,
+      "row_id": 66411,
+      "text": "A 52-year-old male enrollee has requested reimbursement for physical therapy (PT) for treatment of his before and after right knee surgery. \nThe patient had surgery for right ACL reconstruction and right MCL repair. He resumed PT postoperatively. His right knee range of motion (ROM) had decreased to 0 to 60 degrees, he was unable to do household chores and car transfers were difficult. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2759,
+      "row_id": 66841,
+      "text": "A 45-year-old female enrollee has requested authorization and coverage for Pradaxa 150mg for treatment of post cerebrovascular accident. \n.  This patient had a stroke and was diagnosed with meningioma three years later.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4745,
+      "row_id": 68832,
+      "text": "A 44-year-old male requested authorization and coverage of surgical removal of sebaceous cysts.  The health plan denied the enrollees request indicating that the requested procedure is not medically necessary.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 509,
+      "row_id": 64580,
+      "text": "The patient has requested authorization and coverage for bilateral breast magnetic resonance imaging (MRI). The Health Plan has denied the bilateral breast MRI as not medically necessary.A",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7180,
+      "row_id": 71286,
+      "text": "Diagnosis: Neutropenia. \nTreatment: Inpatient Stay. \n\nThe insurer denied the inpatient stay. \nThis case involves a man with a history of schizoaffective disorder, opiate use on maintenance therapy, and cannabis use who presented to the hospital with a report of neutropenia. The patient has been treated with clozapine for six months and has to undergo weekly blood work. Per the last outpatient testing, it was noted to have a decreased white blood cell count and was instructed to stop the clozapine. However, the patient continued to take the clozapine while awaiting a follow-up appointment and subsequently presented to the emergency department, primarily for complaints of a sore throat for two days with no fevers, cough, or shortness of breath. Vital signs on arrival included a normal temperature, heart rate of 79, blood pressure 132/77, and respirations of 19. Oxygen saturations were normal. On exam, the patient is in no apparent distress. The cardiopulmonary exam is unremarkable. The abdomen is soft nontender. The rest of the exam is described as normal. \n. The patient was experiencing a typical side effect reaction of this particular psychiatric medication. The patient was instructed to stop the medication, which he did not, and experienced neutropenia. The patient was completely asymptomatic with neutropenia and was directed to the hospital by his primary care physician because of an abnormal lab. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5619,
+      "row_id": 69710,
+      "text": "Diagnosis: Abdominal Pain\nTreatment: Inpatient admission\nThe insurer denied coverage for inpatient admission.\n\nThis patient reportedly was admitted to this inpatient hospital for alcohol detoxification treatment as they reportedly had withdrawal symptoms including tremors, diaphoresis, vomiting, elevated heart rate of 106, elevated blood pressure of 135/100, abdominal pain 9 out of 10, abdominal tenderness, and hypoxia. The patient reportedly had a Clinical Institute Withdrawal Assessment (CIWA) as high as 17 the next day. The patient reportedly had elevated liver function tests (LFTs) with an aspartate aminotransferase (AST) of 238, alanine aminotransferase (ALT) of 161, and lipase of 177. The patient reportedly was drinking 2 alcoholic beverages per day and 500 milliliters (ml) of whiskey per day. The patient reportedly had a medical history significant for untreated hepatitis due to prior heroin use. Also, there was suspicion of alcohol induced pancreatitis. The patient reportedly was in past outpatient alcohol rehabilitation treatment. The patient reportedly was treated with 2 detoxification medications including intravenous (IV) Phenobarbital 390 milligram (mg) and then oral Phenobarbital and also 7 mg of IV Ativan in addition to IV and oral analgesics. The patient reportedly was discharged after refusing the recommendation for continued inpatient alcohol detoxification treatment and then inpatient alcohol ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 930,
+      "row_id": 65001,
+      "text": "A forty-five year-old male is requesting norditropin (adult human growth hormone).  The submitted records include a single IGF-1 value of 171 ng/ml. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4976,
+      "row_id": 69063,
+      "text": "Diagnosis:  Attention deficit hyperactivity disorder \nTreatment:  Daytrana medication patch\nThe treatment with Daytrana \n.\n\nThe patient is a female with a diagnosis of attention deficit disorder, adult.  She has been treated by her nurse practitioner with Focalin.  A progress note reports that the patient wishes to switch back to Daytrana patches.  The patient reported that she felt like the Focalin did not work as well as Daytrana and that it wore off around 2 PM.  The patient had previously been treated with Daytrana patches, 30 mg, applied daily for nine hours.\n\nThe patient's health plan ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1082,
+      "row_id": 65154,
+      "text": "The enrollee is requesting authorization and coverage for an injection, Synvisc One, for the left knee. The enrollee has moderate left knee osteoarthritis. A magnetic resonance imaging (MRI) scan was ordered due to acute pain. The enrollee was status-post arthroscopic surgery and the documentation noted there was concern for another tear. The MRI results showed osteoarthritis with no new tears. His range of motion is restricted and painful. There is no effusion. There is medial femoral condyle tenderness. His patellar grind test is positive. There is no instability. The enrollee has received cortisone injections multiple times with good benefit in the beginning. However, they are no longer effective. The enrollee reported receiving less than one week of benefit from the last cortisone injection. He has received Synvisc One injections twice; one year ago and six months ago. The enrollee reported it had been beneficial. Now the pain has returned and the enrollees orthopedic surgeon is requesting approval of Synvisc One injections.\n. The documentation noted this enrollee had previously undergone multiple cortisone injections, as well as Synvisc ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7250,
+      "row_id": 71356,
+      "text": "Diagnosis: Venous Insufficiency (chronic) (Peripheral). \nTreatment: 36465 - Varithena - Right/Left (RT/LT) Injection Of Non-Compounded Foam Sclerosant With Ultrasound Compression Maneuvers To Guide Dispersion Of The Injectable, inclusive Of All Imaging Guidance And Monitoring; Single Incompetent Extremity Truncal Vein (e.g. great saphenous vein, accessory saphenous vein). \n\nThe insurer denied the 36465 - Varithena - RT/LT Injection Of Non-Compounded Foam Sclerosant With Ultrasound Compression Maneuvers To Guide Dispersion Of The Injectable, inclusive Of All Imaging Guidance And Monitoring; Single Incompetent Extremity Truncal Vein (e.g. great saphenous vein, accessory saphenous vein). \n\nThe \n. \n\nThe patient is a woman who presented with bilateral varicose vein symptoms. She had one episode of redness of the left lower leg. Reflux testing showed bilateral great saphenous vein (GSV) dilation and reflux and probably left leg superficial phlebitis. The provider proposed to do both radiofrequency ablation (RFA) and Varithena sclerosant therapy for both GSVs (great saphenous veins). The patient was approved for bilateral GSV (great saphenous vein) RFA (radiofrequency ablation), but Varithena therapy was denied. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 8670,
+      "row_id": 72796,
+      "text": "Diagnosis: Musculoskeletal/Orthopedic. \nTreatment: Surgical Services. \nThe insurer denied the Intracept Procedure. \nThe patient in question is a male with an eight-year history of low back pain. Prior microdiscectomy relieved radicular pain but failed to relieve axial low back pain. He has failed physical therapy (PT), lumbar epidural steroid injections (LESI) x 2 and nonsteroidal anti-inflammatory drugs (NSAIDs) over a period of greater than (>) 6 months. Magnetic resonance imaging (MRI) reveals Modic-t\ndegenerative endplate changes at lumbar (L)2, L3, L4, L5 and ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2691,
+      "row_id": 66773,
+      "text": "A 42-year-old female enrollee has requested the use of a continuous passive motion (CPM) device for the treatment of her condition.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3400,
+      "row_id": 67485,
+      "text": "This patient is a 43-year-old female with chronic active hepatitis C, genotype 1a who was treated with PEG Intron and ribavirin in 2004, and relapsed after the completion of therapy. She has no history of suicide or depression. The patients last liver panel revealed normal bilirubin, AST, ALT, total protein, albumin, total bilirubin, PT and INR. The HCV-PCR in December 2005 was 21,099,000 Iu/ml. Her liver ultrasound revealed mild hepatic steatosis without focal lesions.  When last evaluated by her hepatologist, the patient was doing well and showed no signs or symptoms of decompensated liver disease. She had no symptoms of mental confusion or forgetfulness. The patient has requested authorization for retreatment with Infergen and ribavirin therapy.  The Health Plan denied her request based upon a determination that the therapy is not medically necessary.T",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9145,
+      "row_id": 73276,
+      "text": "Diagnosis: Athetoid dystonic cerebral palsy GMFCS V; anoxic brain injury\nTreatment: Tetrabenazine (xenazine) 12.5 mg tablet\nThe insurer denied the Tetrabenazine (xenazine) 12.5 mg tablet.\n\n.\n\nThe patient is a male with history of athetoid dystonic cerebral palsy GMFCS (Gross Motor Function Classification System) V and history of anoxic brain injury. The patient was examined by the pediatric physiatrist. The patient's condition was addressed with a variety of medications, including, but not limited to, CBD (cannabidiol) oil, Sinemet, gabapentin. Hyperbaric oxygen therapy, stem cell transplant have been \nwith medications such as Onfi and Baclofen.  \n\nThe patient has been suggested variety of treatments for dystonia, including intrathecal baclofen pump.  He was started on a small dose of medication tetrabenazine (Xenazine) as an alternative treatment for dystonia. \n\nThe Health Plan denied coverage for the prescription of the ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 969,
+      "row_id": 65040,
+      "text": "An enrollee has requested authorization and coverage for trastuzumab (Herceptin) chemotherapy for treatment of the enrollees basal cell carcinoma.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 351,
+      "row_id": 64422,
+      "text": "patient is a 26-year-old male who sustained a traumatic spinal cord injury in a motor vehicle \naccident. On 7/14/22, the patient was transported by air ambulance from the hospital in San Diego \nto a specialized rehabilitation hospital in Englewood, Colorado. The Health Insurer has denied the \nservices at issue as not medically necessary for the treatment of the patients medical condition. \nIn this case, the patient sustained a traumatic spinal cord injury following a motor vehicle \naccident and reported no sensation or motor function in his bilateral lower extremities. After the \ninitial hospital in San Diego, California provided all the care it could, the patient was transported \nby air ambulance to the nearest specialized ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9269,
+      "row_id": 73401,
+      "text": "Diagnosis:  Skin Lesions.\nTreatment:  Inpatient Hospital Stay.\n\nThe insurer denied Inpatient Hospital Stay.\n\nThis is a female child with a medical history significant for eczema and Brugada syndrome, who presented to the emergency department (ED) for evaluation of worsening skin lesions. A week prior, she was in the park and sustained numerous mosquito bites (approximately twenty) with significant pruritus and scratching causing skin breakdown. She subsequently developed erythema and swelling on her arms and legs around the bites. She developed blisters with drainage on the left hand that were painful as well as a scabbed over rash on the right outer thigh. The left hand developed moderate swelling with increasing discomfort and the inability to bend her fingers fully. \nThe examination was significant for no acute distress, moist mucous membranes, clear lungs, regular heart rate and rhythm, benign abdomen, left hand with diffuse swelling worst to fingers three and four with a one centimeter (cm) pustular lesion or blister to each hand, decreased range of motion with attempted bending of her fingers, erythema tracking proximally up the hand, scattered lesions over the extremities worst to the left hand and right thigh and a large six cm crusted lesion with surrounding erythema to the right thigh, non-focal neurologic exam.\n\nShe was treated with a dose of linezolid and admitted for further management with continued intravenous (IV) antibiotics. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7932,
+      "row_id": 72044,
+      "text": "Diagnosis: Dementia\n\nTreatment: Personal Care Assistance Services (two-12 hour split shift services)\n\nThe insurer denied the Personal Care Assistance Services (two-12 hour split shift services). \n. \n\nThis is an elderly female patient who was status post hospitalization for duodenal ulcers, no active bleeding with a blood transfusion.  The patient was discharged to a skilled nursing facility for short term rehabilitation.  She has a medical history of severe dementia, depression, hypertension, chronic kidney disease stage IV, asthma, heart failure with reduced ejection fraction 27%, coronary artery disease, a history of C. difficile, bladder cancer, status post cystectomy with ileal conduit. There is documentation by a nurse practitioner who provides house call services to patient indicating that the patient has severe dementia with behavioral disturbance (including wandering). She is at high risk for falls due to gait instability; she should not be left alone.  It is her recommendation that the patient have 24-hour home attendant services.\n\nIt is noted that the UAS from mid-2019 differs \nAS from later in 2019. The later 2019 UAS indicates that the patient needs maximal assistance for toilet use and extensive assistance with most other ADLs.  House call notes from the patient's medical provider indicate that the patient has gait instability and is at risk for falls; needs to be repositioned in bed every two hours to prevent pressure ulcers and is at risk for aspiration and needs to be positioned in bed \nthe risk of aspiration. \n\nIt appears that the patient's daughter who lives in New York is the patient's primary informal caregiver.  It was noted in the mid-2019 UAS that the daughter cannot continue to provide support to her mother due to other family and job responsibilities ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8978,
+      "row_id": 73106,
+      "text": "Diagnosis: Urinary tract infection\nTreatment: Inpatient admission\n\nThe insurer denied coverage for inpatient admission. \nThe patient was an adult female admitted for nausea and vomiting. On examination, the patient had abdominal tenderness in the right upper quadrant and epigastric areas. Laboratory studies were remarkable for elevated venous potential of hydrogen (pH) at 7.44, hypokalemia at 3.4, thrombocytopenia at 173, elevated aspartate aminotransferase (AST) at 54, elevated alanine transaminase (ALT) at 41. White blood cell (WBC) count was 8.4. Urinalysis demonstrated 3+ proteinuria, blood, small leukocytes. Electrocardiogram (ECG) demonstrated sinus bradycardia. She was found to have urinary tract infection and was treated with antibiotics and intravenous (IV) fluid. Her condition improved and was discharged in stable condition.\n\nThe patient was hemodynamically stable, she was afebrile with normal oxygenation and negative cultures, did not have significant electrolytes disturbance or change in kidney function, did not \ning with dehydration. She was able to tolerate oral diet and did not require total parenteral nutrition and her work up was negative for acute ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9143,
+      "row_id": 73274,
+      "text": "Diagnosis: Myocardial Infarction\nTreatment: increase in personal care services from 40 hours to 84 hours per week.\nThe insurer denied an increase in personal care services from 40 hours to 84 hours per week.\n",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1535,
+      "row_id": 65611,
+      "text": "A 53-year-old female enrollee has requested sclerotherapy for treatment of her spider telangiectasis. \nThe patient is having 10/10 pain with burning and limitation of her walking distance. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9805,
+      "row_id": 73945,
+      "text": "The patient  was admitted for an acute inpatient level of care for worsening symptoms of depression and suicidal ideation, as well as self-harming behavior. The patient presented with a history of major depressive disorder. At the time of presentation, the patient was tearful with hopelessness, multiple failed trials of medications .The patient worsened with increasing symptoms of depression including hopelessness, helplessness and worthlessness. Diagnosis included major depressive disorder and severe deterioration in functioning that included suicidal ideation and self-harm. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4926,
+      "row_id": 69013,
+      "text": "An enrollee has requested methadone and Tylenol with codeine #4 for treatment of her migraine headaches. \n.  This patient has chronic migraine.  She has been receiving chronic opiate treatment for headache.  Per the medical records, she has had treatment with numerous preventives, and with current regimen reports improvement from Botox. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3001,
+      "row_id": 67083,
+      "text": "The patient has requested authorization and coverage for Monovisc injection in both knees. \nIn this case, the patient has a history of lasting benefit from viscosupplementation with Orthovisc injections of both knees in February 2019 that has been well documented. Physical therapy and home exercises \nand she has obtained relief from prior viscosupplementation injections in the ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 5007,
+      "row_id": 69094,
+      "text": "Diagnosis: Appendicitis\nTreatment: Inpatient hospital\n\nThe patient has hyperlipidemia and hypertension who presented to an Urgent Care Center with a one-day history of right lower quadrant abdominal pain and one episode of vomiting. The white blood cell count was 12 and a computed tomography (CT) scan was completed which showed non-perforated appendicitis. The patient was transferred to a hospital. The patient was started on Zosyn, and consented for an emergency laparoscopic appendectomy. An uncomplicated procedure was performed. Post-operative care was also uncomplicated. In the post-anesthesia care unit, a plan to discharge to home was noted.\n. The patient by CT had a non-perforated appendicitis. An uncomplicated procedure was performed. This was an uncomplicated appendectomy that was ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1720,
+      "row_id": 65796,
+      "text": "A 32-year-old female enrollee has requested acute inpatient treatment for her behavioral health condition. \nThe patients clinical notes showed no evidence that her illness required 24-hour supervision in an inpatient setting and there was no ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 8132,
+      "row_id": 72247,
+      "text": "Diagnosis: Pulpitis\nTreatment: root canal therapy (3310) for tooth #11.\nThe insurer denied root canal therapy (3310) for tooth #11.\n\n. \n\n\nThe patient presented  for evaluation and treatment of tooth number (#)11 with root canal treatment (3310). Provided for review are previous letters of appeal and denial, a narrative from her provider explaining radiographic bone levels and pulpal diagnosis of tooth #11, full mouth radiographic and single periapical images from unknown dates,",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9833,
+      "row_id": 73974,
+      "text": "Mental Health. \nInpatient hospital. \n\nDiagnosis: Suicide attempt. \nTreatment: Inpatient stay. \n\nThe insurer denied the inpatient stay. \nThe patient is a man with a history of hypertension, asthma, prior suicide attempt, and depression who was admitted to the hospital. He presented to the emergency department after a suicide attempt. He had taken multiple doses of pain medication and blood pressure medication. He was found to have an elevated alcohol level of 197. His son reported that he had been seen multiple times over the past 10 days for alcohol intoxication and a withdrawal seizure. He had also attacked his spouse and had her arrested. Labs showed white blood cell count (WBC) 8.2, toxicology showed alcohol 197, Troponin 0.01, lactate 3.2, pH 7.42, and aspartate aminotransferase (AST) 52. An electrocardiogram (EKG) showed normal sinus rhythm. Chest x-ray showed mild pulmonary parenchymal changes and no evidence of pneumonia. Vital signs showed temperature 37.1 Celsius, blood pressure 133/70, and respiratory rate 20. Oxygen saturation was 89%. The patient was admitted for alcohol withdrawal and suicide attempt. \n. The patient presented with alcohol intoxication in the setting of alcohol abuse and concerns for a suicide attempt. Concerns about suicide were resolved after the first day of his presentation and he was assessed by psychiatry as having competence to leave against medical advice.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4524,
+      "row_id": 68611,
+      "text": "A 61-year-old male enrollee has requested for Super-Dimensional Bronchoscopy/Electromagnetic Navigated Bronchoscopy for evaluation of his abnormal cell growth. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 17,
+      "row_id": 64084,
+      "text": "The patient is a 64-year-old male with hypogonadism manifested with low libido and low energy levels. His total testosterone was 208 in 2011. He was treated with Testopel pellets on 1/21/16 and 5/26/16. The patient is requesting reimbursement for Testopel implants provided on 1/21/16 and 5/26/16. The Health Insurer has denied this request as investigational. The Testopel",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1418,
+      "row_id": 65493,
+      "text": "Physician 1: The patient is a 74-year-old female who was apparently first diagnosed with adenoid-cystic carcinoma of the nasopharynx in 1999. She was initially treated with radiation therapy and a recurrence in 2001 was also treated with surgery and radiation therapy. She was noted in January of 2004 to have lung metastases. In December of 2004 she was noted to have recurrence in the neck. A biopsy of her disease again revealed adenoid-cystic carcinoma, which was EGFR positive. It is now recommended she be treated with radiation therapy to her neck, along with Erbitux. The patients clinician has requested authorization for treatment with Erbitux.  The Health Plan has denied the request citing the investigational nature of the medication in this clinical context.E",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1595,
+      "row_id": 65671,
+      "text": "The enrollees parent is requesting reimbursement  for ear tube placement without anesthesia. \nthat the enrollee has diagnoses of recurrent acute serous otitis media, bilateral chronic serous otitis media, and conductive hearing loss.  She has experienced recurrent ear infections, and middle ear effusions which are impacting her gross motor function and speech.  The otolaryngologist performed a baseline audiogram that revealed mild conductive hearing loss bilaterally.  The physician discussed the placement of ear tubes for this enrollee, as the chronic ear infections could result in further hearing loss. The enrollees mother did not wish to proceed with surgery at that time. A repeat audiogram revealed mild but rising conductive hearing loss, suggestive of middle ear pathology.  On the next visit with the otolaryngologist, one to two episodes of acute otitis media had occurred since the last visit. These were treated with antibiotics and homeopathic remedies. Examination showed mucoid fluid in the middle ear space bilaterally and decreased mobility on pneumatic otoscopy.  Based on audiogram results, exam findings, hearing loss, young age, day-c\nringotomy with ear tube placement.  The enrollees parents had safety concerns with use of anesthesia due to family history of serious adverse reactions to anesthesia. Thus, the enrollee was referred to an out-of-network otolaryngologist who performs the procedure without ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2936,
+      "row_id": 67018,
+      "text": "The parent of an enrollee has requested authorization and coverage for oral nutritional supplement, Neocate Junior.\nIn this patients case, the documentation indicates that his dysphagia and esophageal eosinophilia have resolved with avoidance of peanut, soy, and wheat.  Although, this patient continues to have slow growth and evidence of mild malnutrition based on his growth charts, he is able to take food with dairy and is noted to consume milk daily. He does not have dysphagia to solids. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4444,
+      "row_id": 68530,
+      "text": "An enrollee has requested reimbursement for Helicobacter pylori (H. pylori) serological antibody test (C\nthis provider noted that the patient is from Peru, which has an estimated 80% ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9640,
+      "row_id": 73779,
+      "text": "Diagnosis: Anemia. \nTreatment: Injectafer. \n\nThe insurer denied Injectafer. \nThe patient is a female with past medical history of iron deficiency anemia diagnosed with labs showing hemoglobin 11.5, hematocrit of 35.8, ferritin of 7, and iron 68. The patient was seen by her provider with the office note stating that the patient denied fatigue or anemia but the assessment and plan at the same visit noted the diagnosis of iron deficiency anemia with plan to repeat labs. \n. \n\nPer the patient and her primary care physician (PCP), the patient did meet medical necessity criteria for Injectafer IV infusion. The patient was not on dialysis. The patient had a noninflammatory condition of iron deficiency anemia. The patient was not able to tolerate oral iron due to side effects and had taken 4 weeks of oral iron prior to her infusion.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4209,
+      "row_id": 68295,
+      "text": "An enrollee has requested Stelara for treatment of her Crohns disease. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3516,
+      "row_id": 67601,
+      "text": "An enrollee has requested authorization and coverage for left knee makoplasty. The Health Plan has denied this request indicating that the requested services are investigational for the treatment of the enrollees left knee pain.F\nClinical examination findings have documented medial joint line tenderness, varus alignment, and pseudolaxity on varus/valgus stress. There is radiographic evidence of bone-on-bone articulation with periarticular osteophytes to the medial compartment, moderate to severe degenerative changes to the patellofemoral compartment, and mild to the lateral compartment. The patient has been recommended for a bicompartmental knee replacement using the mak",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2626,
+      "row_id": 66708,
+      "text": "An enrollee has requested authorization and coverage for mental health services, more frequently (weekly or bi-weekly) for treatment of the enrollees behavioral health condition.\nIn a letter from a treating provider, the notation indicates that the patient is receiving and utilizing CBT and supportive therapy while continuing to assess the patients need for increased sessions. The provider noted that this current plan was discussed with the patients parent. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7969,
+      "row_id": 72081,
+      "text": "Diagnosis: Mental health /high risk suicide  \nTreatment: Inpatient hospital. \nThe insurer denied the inpatient hospital stay. \ninvolves a patient with a history of chronic headaches after traumatic subarachnoid hemorrhage approximately three years before this episode. The patient, presented to the hospital by Emergency Medical Services (EMS), after overdosing on an unknown amount of amitriptyline and cyclobenzaprine.\n\n. This patient was brought into the hospital with a suicide attempt, taking an unknown amount of cyclic antidepressants as well as muscle relaxants. The   Glasgow Coma Scale was 7, and the patient  was intubated for airway protection in the field. the  over sedation persisted, and the patient  was managed in the intensive care unit, with serial EKGs, following the QTC, and QRS widening.\n\n, the patient was found to have metabolic acidosis, which required bicarbonate treatment. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2277,
+      "row_id": 66358,
+      "text": "An enrollee has requested authorization and coverage for an interlaminar/interspinous process stabilization/distraction device, without open decompression or fusion. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3904,
+      "row_id": 67990,
+      "text": "A 55-year-old female enrollee has requested a laparoscopic duodenal switch for the treatment of her morbid obesity. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6048,
+      "row_id": 70141,
+      "text": "Diagnosis: Abdominal Pain\nTreatment: Inpatient Hospital Stay.\nThe insurer denied Inpatient Hospital Stay.\n\nThe patient is a female with a medical history of a recent Cesarean section five weeks prior. She presented to the emergency department with nausea, vomiting, and abdominal pain for a week; she had a similar episode of vomiting the prior week and a similar episode prior to that. Her vital signs were unremarkable. The physical examination was notable for a soft, nondistended abdomen with normal tenderness, and clean Cesarean section scar. A computed tomography scan of the abdomen and pelvis showed a distended gallbladder with prominent common bile duct and intrahepatic bile ductal dilation, hepatomegaly, and hepatic steatosis. An ultrasound showed gallbladder wall thickening of 4.8 millimeters (mm) and common bile duct dilation of 13.5 mm, with sludge and stones in the gallbladder, but no pericholecystic fluid.\nShe was treated with intravenous fluids, famotidine, acetaminophen, metoclopramide, and oral Maalox. She was made nil per os and started on cefoxitin, ceftriaxone, and metronidazole. Magnetic resonance cholangiopancreatography did not show choledocholithiasis. She denied nausea and vomiting; her pain had improved and she was passing flatus. Lab results showed an unremarkable complete blood count and basic metabolic panel. She was discharged on with a plan for surgery follow-up to arrange for cholecystectomy. At ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1788,
+      "row_id": 65864,
+      "text": "A 25-year-old male enrollee has requested reimbursement for Chemical Dependency Residential Treatment Care (CDRTC) for the treatment of his condition. \nchronic and persistent polysubstance abuser who uses and abuses ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1643,
+      "row_id": 65719,
+      "text": "A 52-year-old female enrollee has requested a dermatologist referral for the treatment of her nail fungus. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1491,
+      "row_id": 65567,
+      "text": "An enrollee has requested authorization and coverage for radiation therapy to the schwannoma.T\nwhile the patient had MRI of the thoracic spine performed recently,\nthe patient has effectively self-referred in seeking Health Plan authorization and coverage for ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9693,
+      "row_id": 73832,
+      "text": "Diagnosis: Tonsillar Hypertrophy.\nTreatment: Inpatient Hospital Stay.\nThe insurer denied the Inpatient Hospital Stay.\n\nThe patient had sleep apnea and her exam revealed tonsillar hypertrophy. She had no other significant medical or surgical history. She underwent a tonsillectomy and adenoidectomy. There were no intraoperative complications. The patient was admitted to the hospital overnight. There were no peri-operative complications noted. She was discharged home the next day.\nThe inpatient stay was not medically necessary.\nThe patient had sleep disordered breathing. She had no underlying medical problems. She underwent an uncomplicated tonsillectomy and adenoidectomy. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9411,
+      "row_id": 73545,
+      "text": "Diagnosis: Giant unrepaired omphalocele.\nTreatment: Home Health Care For 24 Hours x 7 Days (LPN hours).\nThe insurer denied the Home Health Care For 24 Hours x 7 Days (LPN hours).\n\n.\n\nThe patient is a male child with complex medical history significant for giant unrepaired omphalocele with anticipated placement of tissue expanders, pulmonary hypoplasia with eventration of the right hemidiaphragm, severe pulmonary hypertension, chronic respiratory failure status post tracheostomy with ventilator dependence, and oral aversion/feeding intolerance with continuous transpyloric tube feedings. He has been weaning his pulmonary hypertension medications in anticipation of surgery. He has been able to wean mechanical ventilation to CPAP (continuous positive airway pressure) while awake and full mechanical ventilation during naps and nighttime. He does not tolerate nasogastric tube feedings because of his pulmonary hypertension, necessitating close attention to placement of his transpyloric nasoduodenal feeding tube. He is not a candidate for gastrostomy tube placement. His care team includes pediatric surgery, plastic surgery, otolaryngology, pulmonology, and gastroenterology. The anticipated surgical intervention is expected to result in prolonged recovery due to his medically fragile state. He is currently receiving speech and language therapy services for delays in speech and language acquisition.\n\nSkilled nursing needs ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3335,
+      "row_id": 67419,
+      "text": "The patient is a seven-year-old female with Type I Diabetes who previously achieved glycemic control through the use of an insulin pump. The record indicates that despite blood glucose testing eight to ten times daily, her hemoglobin A1c had risen from 6.5% in 2003 to 7.2% in August 2005. The DexCom system was prescribed to improve the patients glycemic control and was implemented in May of 2006. The patients provider reported better blood glucose control with the DexCom system and improved detection of hypoglycemic and hyperglycemic episodes. The parents request for reimbursement for the cost of the device was denied by the Health Plan citing a lack of medical necessity.T\nHer provider also reports she has had a number of hypoglycemic episodes (less than 60mg/dl) detected at night with the use of the DexCom system for the initial month. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2886,
+      "row_id": 66968,
+      "text": "A male enrollee requested 16 home health visits of skilled nursing for treatment of his medical condition. \n. The patient indicates in his application that he needs more nursing help, ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1847,
+      "row_id": 65924,
+      "text": "An enrollee has requested reimbursement for partial hospitalization program (PHP) services for treatment of the enrollees behavioral health condition.F\nthe case was examined using the Child and Adolescent Level of Care \nThe patient does not have a history of suicidal attempts or suicidal ideation. The patient does have episodes of physical aggression mostly in the context of limit setting. The patients functional status score is three (3), moderate functional impairment. The patient was initially admitted due to poor behavior and aggression. However, the notes state that the patient was gaining more confidence and demonstrating good flexibility and was attentive. His behavior had improved since admission to the PHP. The patients co-morbidity \n3), significant co-morbidity. The patient has intellectual disability, autism spectrum disorder, ADHD, and intermittent explosive disorder. The patient does not have any major medical problems. The patients recovery environmental stress \nmildly stressful environment. The patient has minor stressful experiences due to normative transition experiences. \nThe patients parents are supportive and engaged in his developmental needs.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3484,
+      "row_id": 67569,
+      "text": "A 58-year-old female enrollee has requested transcranial magnetic stimulation (TMS) treatments for her depression.\nIn this particular case, the patient was experiencing an acute major depressive episode that was causing significant functional impairment. She had been treated with standard therapies without substantial improvement. The patient had not exhausted available therapies.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8590,
+      "row_id": 72714,
+      "text": "Diagnosis: Acute hepatitis\n\nTreatment: Inpatient admission\n\nThe insurer denied coverage for inpatient admission. \nThis patient is a female with a past medical history significant for diabetes mellitus, hypothyroidism, liver disease, cholecystectomy, and post motor vehicle accident.  The patient presented to the Emergency Department (ED) with subjective complaints of right flank, right upper quadrant, and epigastric pain.  The patient complained of dark-colored urine.  The patient's pain was rated 10/10 and was noted to radiate to the back for two days with nausea and headache.  In the ED, the patient was placed nothing by mouth.  The patient's physical examination revealed tenderness in the right upper quadrant and epigastric area of the abdomen; there was no right/left costovertebral angle (CVA) tenderness, guarding, or rebound, and the patient had a negative Murphy's and McBurney's signs.\n\nThe patient had a segment of the right intrahepatic biliary tree that appeared dilated.  The patient was followed by a gastroenterologist during the hospital stay, and since no choledocholithiasis was present and there was a normal common bile duct, there was no indication for an endoscopic retrograde cholangiopancreatography (ERCP).  The patient's liver function tests trended downward and the patient was started on a diet.  The patient was discharged.\n\nThe patient presented with acute hepatitis, as indicated by laboratory studies including an ALT of 1125, AST of 597, alkaline phosphatase of 487 and total bilirubin was 2.1, with possible cholangitis, ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2713,
+      "row_id": 66795,
+      "text": "An enrollee is requesting authorization and coverage for a durable dental mouth guard. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1393,
+      "row_id": 65468,
+      "text": "An enrollee has requested surgical services on an emergent basis. \nthe patient presented with a well-documented clinical scenario of an infected implant that required emergency treatment. She was noted to have purulent fluid coming from her left breast, associated with an underlying prosthetic implant. The treating surgeon noted this fact with his initial evaluation and recommended a same day surgery to washout and remove the implant. His indication for surgery noted a left periprosthetic infection. \nthe patient had been experiencing symptoms for several days \nBased upon the submitted medical documentation, the patient had evidence of a significant infection associated with a breast implant and required immediate attention.  She was instructed that she had a significant infection and required immediate treatment. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4623,
+      "row_id": 68710,
+      "text": "A patient is requesting reimbursement and prospective authorization and coverage for residential treatment center services.\n. This patient was experiencing disordered eating behaviors that ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1111,
+      "row_id": 65184,
+      "text": "A 43-year-old male enrollee has requested transcranial magnetic stimulation (TMS)for treatment of his major depression, recurrent. \npatient has tried any type of psychotherapy.  He has several psychiatric diagnoses listed in the records provided.  His medication trials have caused intolerable side effects.  The patient feels his psychiatric symptoms were not improved during the above medication trials. However, his psychiatrist noted that the patient did have some relief of his depression. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 8071,
+      "row_id": 72184,
+      "text": "Diagnosis: Three-day history of passing black stools and one episode of vomiting blood\n\nTreatment: \nof variceal bleeding, and subsequently over the next 24-48 hrs), he had \nhis EGD and then safely discharged home with outpatient evaluation of the his gastric malignancy ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3370,
+      "row_id": 67455,
+      "text": "An enrollee has requested authorization and coverage for left knee replacement surgery. This patients evaluation revealed chondromalacia of patella but no degenerative changes in the medial or lateral compartments. The menisci are also intact. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 379,
+      "row_id": 64450,
+      "text": "A 35-year-old male enrollee has requested authorization and coverage for spine fusion extra segment. The Health Insurer has denied this request indicating that the requested services are considered investigational for treatment of the enrollees medical condition. The physician reviewer found the patient is a 35-year-old male with a history of low back pain.  On 1/07/15, the patient reported low back pain that radiated to the right lower extremity down to the foot associated with numbness and tingling.  He complained of right lower extremity weakness and was walking with a cane for stability.  The patient was also noted to have undergone L4-5 discectomy in 2013. On physical examination, it was noted the patient had muscular strength measured at 5/5 throughout the bilateral upper and lower extremities.  Sensory was intact to light touch to the bilateral upper and lower extremities.  Reflexes were symmetric at 2/2 and symmetrical bilaterally.  On 2/09/15, the patient reported low back pain radiating down the right lower extremity of approximately three months duration.  The records noted that epidural steroid injections provided no significant benefit and that the patient was currently participating in physical therapy program that was also not providing significant relief. On physical examination, the patients lumbar spine was non-tender to palpation.  There was no evidence of paraspinal muscle spasms.  The patients strength was 5/5 and equal bilaterally and sensation was intact.  Deep tendon reflexes were measured 2+ and symmetrical.  On 2/19/15, computed tomography (CT) scan of the lumbar spine revealed mild annular bulge at L4-5 without focal herniation, spinal stenosis or significant foraminal stenosis and right L5-S1 herniated disc to the right.  The provider reported that due to evidence of significant degenerative changes and signs of potential instability at L4-5, it was \nthat the L4-5 be included with the previously approved single level fusion at L5-S1.  The patient has requested coverage for spine fusion extra segment.  The Health Insurer has denied this request and reported that the requested services are \nal for the treatment of this patient. In this case, the superior ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1377,
+      "row_id": 65451,
+      "text": "The patient has requested authorization and coverage for Trulance. \nthat the patient has a diagnosis of irritable bowel syndrome with constipation and has failed multiple stimulant laxatives, osmotic laxatives, and fiber,",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6250,
+      "row_id": 70345,
+      "text": "Diagnosis: Asthma\nTreatment: Dulera\nThe insurer denied the Dulera.\n\nThis is a female patient with a medical diagnosis of asthma who is currently well controlled on Dulera. The patient has previously tried and failed Advair Diskus, Breo Ellipta and Symbicort. The provider is requesting the continuation of Dulera as the patient's asthma has been controlled with its use. \n.\n\nThe patient has previously tried and failed Advair Diskus, Breo Ellipta and Symbicort and they \n, Dulera.\n\nPer the clinical documentation, the patient has a diagnosis of asthma and is currently well controlled on Dulera. The patient has previously tried and failed Advair Diskus, Breo Ellipta and Symbicort. The provider is requesting the continuation of Dulera as the patient's asthma has been controlled with its use. \nthe patient is currently stabilized on the requested medication and ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3356,
+      "row_id": 67441,
+      "text": "An enrollee has requested authorization and coverage for an RTS300 FES Therapy System.Findings: In this case, the patient suffered a spinal cord injury. The patient has undergone therapies to strengthen and improve function. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 15,
+      "row_id": 64082,
+      "text": "A 70-year-old male enrollee has requested reimbursement for service code 97139, unlisted therapeutic procedure, performed on 4/20/20. The Health Insurer has denied this request and reported that the services at issue were investigational for the treatment of the enrolleeas medical condition. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 381,
+      "row_id": 64452,
+      "text": "An 18-year-old male enrollee has requested reimbursement for substance use residential treatment center services provided from 2/26/17 through 3/5/17 and intensive outpatient program (IOP) services provided from 3/6/17 through 3/29/17. The Health Insurer has denied this request indicating that the services at issue were not medically necessary for treatment of the enrollees behavioral health condition. \n, the patient was not in withdrawals. He was not a danger to himself or others. He was medically and psychiatrically stable.\nHe was cooperative. He had sober support in his mother. He was motivated, however throughout both the residential and IOP dates he had frequent group dates showing that he showed up late, was distracted, or had little to no participation. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3453,
+      "row_id": 67538,
+      "text": "An enrollee has requested authorization and coverage for a lymphocyte transformation test. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8146,
+      "row_id": 72262,
+      "text": "Diagnosis: Coffee ground emesis, anemia\nTreatment: Inpatient Hospital Stay\nThe insurer denied the Inpatient Hospital Stay.\n\nThis is a male patient with a medical history of hypertension, hyperlipidemia, and opioid abuse. He presented to the emergency department with coffee-ground emesis for two days and heartburn, fatigue, dizziness, weakness, dyspnea, and constipation. He had a similar episode a month prior. He was treated with intravenous fluids, Unasyn, pantoprazole, and folate. He was transfused with two units of packed red blood cells. He was advanced to a clear liquid diet.  He was tolerating a diet without emesis. An esophagogastroduodenoscopy showed esophagitis with ulceration, a small hiatal hernia, and gastritis. He was discharged. \n.\nThe patient presented with coffee-ground emesis and symptomatic anemia. However, he had a good response to blood transfusion, and there was no ongoing bleeding. The patient had close monitoring, which was warranted as bleeding \n6]. An esophagogastroduodenoscopy showed esophagitis and gastritis,\n. He was evaluated for abnormal imaging of the lungs and mediastinum, and to treat with empir",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5944,
+      "row_id": 70035,
+      "text": "Diagnosis:  Swallowing Difficulty\nTreatment:  Inpatient Hospital Admission\n\nThe insurer denied the inpatient hospital admission. \nThe patient is a female with a history of hypertension, asthma, multiple allergies, thyroid disease, swallowing difficulties, and anxiety. Late in the evening she presented to the emergency room with the sudden onset of a sense of throat swelling, scratchy throat, swallowing difficulties, and voice changes. The vital signs were normal, and she was awake and alert. Physical exam showed a raspy voice and \"mild fullness of the left oropharynx.\" There were no clinically relevant laboratory abnormalities. The soft tissue x-ray of the neck was unremarkable. The patient was treated in the emergency department (ED) with corticosteroids and antacids, which provided relief of her symptoms. The patient was admitted for further treatment and evaluation.\n\nUpon admission, the patient was treated with nebulizer treatments and oral acetaminophen as needed. The ear, nose, and throat (ENT) consultant evaluated the patient, and found only mild hoarseness with a normal epiglottis and good vocal cord mobility on laryngoscopy. It was concluded that her throat symptoms were most likely due to gastroesophageal reflux disease (GERD). A proton pump inhibitor (PPI) and reflux precautions were \n. A chest x-ray showed hyperinflated lungs without acute pulmonary pathology. The remainder of the stay was clinically uneventful, and the patient was discharged.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4968,
+      "row_id": 69055,
+      "text": "Diagnosis: Atopic dermatitis\nTreatment: Dupixent 300mg (milligrams)/2 ml (milliliters) Pen Injector\nThe insurer denied: Dupixent 300mg (milligrams)/2 ml (milliliters) Pen Injector\nThe \n.\n\nThis is an adult female patient with atopic dermatitis. She has 20% body surface area (BSA) coverage. She has treated with topical steroids including betamethasone, triamcinolone, and hydrocortisone as well as Eucrisa and Elidel. The provider is requesting Dupixent (dupilumab). The health plan requires use of a topical calcineurin inhibitor for at least six weeks within the last 180 days. The medication was also denied as the patient is on Stelara for Crohn's disease, and Dupixent is not covered when used with other biologics.\n",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3069,
+      "row_id": 67151,
+      "text": "An enrollee has requested reimbursement for 20 hours of physical therapy utilizing the Wurn Technique. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9840,
+      "row_id": 73981,
+      "text": "Diagnosis: Gastroesophageal Reflux Disease\n\nTreatment: Gastric procedure (procedure code 43245 - esophagogastroduodenoscopy [EGD]) in a hospital setting\n\nThe insurer denied coverage for gastric procedure (procedure code 43245 - esophagogastroduodenoscopy [EGD]) in a hospital setting\n\nThe denial \nThe patient had a previous gastric sleeve procedure and was having ongoing gastroesophageal reflux symptoms. The patient required having an endoscopy. The patient was diagnosed with a hiatus hernia. The patient tolerated the procedure well and no complications were reported. The insurance company has denied the procedure since it was done in a hospital setting. \nThe patient went for an indicated procedure which they believed was covered by insurance. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2268,
+      "row_id": 66349,
+      "text": "The patient has requested reimbursement and prospective authorization and coverage for intensive outpatient program (IOP) services.\n. The patient has been at some risk of harm (score 2) given her fluctuating passive and active suicidal ideation. Just within the past few days, the patient denied suicidal ideation or urges to self-harm. The patient has demonstrated moderate functional impairment (score 3) due to her inability to attend school or continue working due to her symptoms. The patient has minor comorbidities (score 2) with headaches and shoulder pain due to shoulder surgery. The patients recovery environment has been mildly stressful (score 2) as she lives with her parents, but is socially isolated from work and school. The patients recovery environment is supportive (score 2) as she lives with her parents who are supportive of her treatment goals. The patient has exhibited moderate response to treatment (score 3) as she has failed outpatient care and with several different providers. She is still at high risk of decompensation at a lower level of care. The patient has been constructive in treatment (score 2) as her providers report that she has been adherent with therapy and motivated for change. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 33,
+      "row_id": 64100,
+      "text": "The patient is a 38-year-old male who has a history of idiopathic thrombocytopenic purpura and a pulmonary embolus in November 2018 for which he was on apixaban anticoagulation. The patient has requested authorization and coverage for the RT300 FES Therapy System. The Health Insurer has denied this request and reported that the requested equipment is not medically necessary for the treatment of this patient. \nthat this patient had residual right-sided greater than left-sided weakness following multiple insults to the brain in mid-2019. He underwent extensive rehabilitation that included multidisciplinary therapies and made significant functional improvements. A functional electrical stimulation cycle ergometer was prescribed for home use.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3637,
+      "row_id": 67723,
+      "text": "The patient was a 73-year-old male with a history of prostate cancer who was admitted for acute care in July 2005. Upon admission the patient was critically ill with gram negative bacteremia, dehydration and hepatic encephalopathy. He was in 50% oxygen to maintain his oxygen status; he required intravenous antibiotics, intravenous hydration, and had a rising white blood cell count for a period of three days in July 2005. He was dependent with his activities of daily living. Although the patient had a DNR he had not agreed to hospice or discontinuation of life-sustaining treatment. The rise in the patients white blood cell count created a clinically unstable situation. The patient was recommended for a lower level of care in July 2005, which was prior to addressing the patients rising white blood cell count. The patient expired in late July 2005. The patients representative has requested reimbursement for the acute inpatient services the patient received for the three days in July 2005.As of July 2005, the patient remained clinically unstable. The patients elevated white blood cell count had not been stabilized and left a number of issues unresolved.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 5074,
+      "row_id": 69161,
+      "text": "Diagnosis: IVF with preimplantation genetic screening. \n \nTreatment: 89290 Biopsy, oocyte polar body or embryo blastomere, microtechnique (for pre-implantation genetic diagnosis); less than or equal to 5 embryos and 89291 Biopsy, oocyte polar body or embryo blastomere, microtechnique (for pre-implantation genetic diagnosis); greater than 5 embryos.  \n\nThe insurer denied the 89290 Biopsy, oocyte polar body or embryo blastomere, microtechnique (for pre-implantation \n); less than or equal to 5 embryos and 89291 Biopsy, oocyte polar body or embryo blastomere, \n#1: \n\nThis is a female patient G3P1 who previously received in vitro fertilization. She has a history of frozen embryo transfer twice without success. Her last attempt of frozen embryo transfer resulted in a biochemical pregnancy.  She would like to attempt another in vitro fertilization ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4881,
+      "row_id": 68968,
+      "text": "A 35-year-old male enrollee has requested anesthesia services for treatment of his ulcerative colitis. \nlonoscopy. The patient did not present with a significant history that would require monitored anesthesia care.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3295,
+      "row_id": 67379,
+      "text": "This patient is a 30-year-old female who has been diagnosed with acid reflux. In addition, the patient has trachea stenosis status post tracheotomy. The patient states due to the trachea stenosis she is unable to swallow pills. Therefore, her physician has recommended liquid Prevacid for treatment of her acid reflux. The Health Plan has denied this request indicating the patient has not tried and failed both Aciphex and Protonix.The Health ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7933,
+      "row_id": 72045,
+      "text": "Diagnosis: Long COVID-19\n\nTreatment: Gammunex-C (40 gram/ 400 milliliter [ml] vial, procedure code J1561)\n\nThe insurer denied coverage for Gammunex-C (40 gram/ 400 milliliter [ml] vial, procedure code J1561)\n\nThe \nto a patient needing review of intravenous immunoglobulin (IVIG) for treatment of long COVID symptoms.\n\nThe patient presented for follow-up related to cognitive difficulties. The patient has a long history of immunodeficiency. The patient has ongoing cognitive difficulties, brain fogging, headaches, and neuropathy. The patient's brain magnetic resonance imaging (MRI) showed subcortical white matter changes more consistent with small vessel disease and/or human immunodeficiency virus (HIV)-associated white matter changes. On neuropsychological testing, the patient had some problems with executive functions. Impression was possible long COVID versus HIV-associated neurological disorder. The patient notes since getting COVID, they have had to quit their job due to frequent gaps in memory. The recommendation from the patient's provider is for a trial of intravenous immunoglobulin (IVIG) since there have been several case reports with good effect. \n\nThe provider sent an undated letter of appeal due to denial of IVIG. The provider notes the IVIG \n-being. \n\nOn another undated letter, the provider sent a request for practice matched appeal for the recent denial of IVIG. The provider notes that IVIG has demonstrated immunomodulatory and anti-inflammatory properties ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4730,
+      "row_id": 68817,
+      "text": "The enrollee is requesting authorization and coverage for home wax bath kit/portable paraffin bath unit.  The enrollee has a past medical history of herniated intervertebral disc, status post discectomy, and was seen for joint pain that had been ongoing. The enrollee initially noticed the pain in her right middle finger at the distal interphalangeal (DIP) joints and thought it was due to trauma. The pain initially subsided, but it never went away and eventually progressed to her right wrist, as well, which felt very tender. She also felt tenderness at times in her left hand/wrist. Her physician ordered an x-ray, which was negative. Laboratory test results indicated antinuclear antibody (ANA) was positive, C-reactive protein (CRP) level was nine and erythrocyte sedimentation rate (ESR) was within normal limits. She was diagnosed with lupus and was further evaluated by a rheumatologist. The plan included paraffin wax treatment to increase tissue elasticity prior to manual therapy/therapeutic procedures to bilateral hands. A paraffin bath was prescribed.\n. This treatment was prescribed by the enrollees physician as indicated in an office visit note. There ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4215,
+      "row_id": 68301,
+      "text": "The parent of a 10-year-old female enrollee requested growth hormone medication Genotropin for treatment of the enrollees medical condition. \nhas extreme short stature likely due to GH deficiency. Her height is more than \nage and gender, and she has a normal height-to-weight ratio. She is not likely to catch up to a normal height and is already showing signs of central puberty, indicating a limited time window to intervene to improve her height until epiphyseal fusion. Although her growth factors were normal, her peak GH response on two standard provocative tests was ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 5300,
+      "row_id": 69387,
+      "text": "\nDiagnosis: shortness of breath\nTreatment: inpatient stay\nThe insurer denied the inpatient stay\nThe \nThe patient is a female with a medical history of hypertension, diabetes mellitus, peripheral vascular disease, chronic kidney disease stage 3, obstructive sleep apnea, history of stroke, and chronic obstructive pulmonary disease (COPD) who was admitted for an acute COPD exacerbation with symptoms of shortness of breath that began the day prior to admission She was treated with Duoneb nebulizers, magnesium sulfate and Solumedrol with an improvement in her condition within 24-hours. \n. This patient was admitted for an acute COPD exacerbation with symptoms of shortness of breath that began the day prior to admission. On admission, the patient was afebrile, hemodynamically stable, had a respiratory rate of 18 breaths per minute, an oxygen saturation of 98% on room air. She was not in any respiratory distress, had a normal pulmonary effort and normal breath sounds on auscultation of the chest. Her chest x-ray did not demonstrate evidence of an empyema/abscess/pneumonia/pleural effusion. She was treated with Duoneb nebulizers, magnesium sulfate and Solumedrol. Throughout the hospitalization, she was alert, awake and oriented, and did not have evidence on arterial blood gas for hypercapnia or hypoxemia. She had no reported cyanosis or increased work of breathing after observation, and she did not have any cardiac dysrhythmias.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1931,
+      "row_id": 66008,
+      "text": "A 38-year-old female enrollee has requested for emergency services required on an emergent basis. \nthat this patient had been experiencing intermittent abdominal pain for two days. She described it as mild in the Emergency Department. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5666,
+      "row_id": 69757,
+      "text": "Diagnosis: Chronic Obstructive Pulmonary Disease \nTreatment: Personal care services at 35 hours per week \n\nThe insurer is denied coverage for personal care services at 35 hours per week. \nThis is a female patient with extensive pulmonary disease and needs substantial assistance with daily activities. The patient had been receiving 35 hours of personal care services (PCS) per week. Following an assessment, the insurer determined that the patient needs only 16 hours per week to meet her daily personal care needs. The patient appealed the decision, which was denied. She is requesting an external appeal for approval to continue PCS 35 hours per week. \n\nThe patient's physician (pulmonologist) submitted letters in support of the patient's appeal describing the patient's respiratory condition. It was noted the patient has COPD, asthma (noted as severe) and obstructive sleep apnea. She needs bronchodilator therapy (inhalation) every 4 to 6 hours. She becomes severely short of breath with minimal exertion and is easily fatigued. She has difficulty with her daily activities and needs assistance. The UAS medication list includes multiple bronchodilators (inhalation and oral); corticosteroids (inhalation and oral). The physician also noted the patient has had multiple hospitalizations. \n\nThe patient needs extensive assistance with walking and toileting; therefore, she needs\nassistance throughout the day, as these activities \n2 or 3 hours per day. She needs maximal assistance with meal preparation.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2320,
+      "row_id": 66401,
+      "text": "The parent of an enrollee has requested authorization and coverage for immunotherapy (once per week for 52 weeks (two sets)).",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9668,
+      "row_id": 73807,
+      "text": "Diagnosis: Abdominal Pain, Nausea and Vomiting\nTreatment: Inpatient admission\nThe insurer denied the inpatient admission.\n\nThe patient is a female who had presented to the emergency department of the facility with the complaint of epigastric pain with emesis for 24 hours prior to presentation. The patient had a prior history of drug and alcohol abuse, migraines, pancreatitis, and hypertension as well as morbid obesity.\n\nThe patient had epigastric pain on evaluation and an anion gap acidosis. The provider perceived the patient was having dehydration. The white count was elevated at 23,000. Stranding around the kidney was felt to be consistent with acute pyelonephritis. The patient received IV (intravenous) fluids, IV (intravenous) antibiotics and supportive care. The patient was discharged in improved condition.\n",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7012,
+      "row_id": 71117,
+      "text": "Diagnosis: Chronic pain, depression, narcolepsy, opioid dependence, anxiety, hypothyroidism, radiculopathy, lumbar compression fracture, weakness, and insomnia\nTreatment: Increase Personal Care Services (PCS) 12 hours a day 7 Days per Week (Split Shift) for a Total of 168 Hours\nThe insurer denied: Increase Personal Care Services (PCS) 12 hours a day 7 Days per Week (Split Shift) for a Total of 168 Hours\n\nThis is an adult female. She has multiple conditions, including chronic pain, depression, narcolepsy, opioid dependence, anxiety, hypothyroidism, radiculopathy, lumbar compression fracture, weakness, and insomnia. She lives alone. Denial of increase personal care services (PCS) 12 hours a day 7 days per week (split shift) for a total of 168 hours is being appealed. The health plan approved 84 hours per week.\nThe patient's Uniform Assessment System Evaluation performed  several months ago shows minimally impaired cognition and functional status: total dependence with housework; maximal assistance with meal preparation, managing finances, shopping, bathing, lower body dressing, walking, locomotion, and toileting; extensive assistance with managing medications, personal hygiene, upper body dressing, bed mobility, and eating; and limited assistance with phone use. She has bowel and \nbladder incontinence. An appeal statement notes the patient is wheelchair bound. She has a persistent spinal infection after \n26 spinal surgeries. She has a history of falls. Due to the progressive nature of her disease, her ability to complete ADLs (activities of daily living) has declined, and her nighttime needs are more frequent. She awakens every two hours and needs assistance with toileting every three to four hours. A letter from the patient's provider notes the patient needs ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4519,
+      "row_id": 68606,
+      "text": "A 53-year-old female enrollee has requested for a spinal cord stimulator for her femoral nerve damage. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2553,
+      "row_id": 66635,
+      "text": "An enrollee has requested a sleep study for evaluation of her medical condition. \nThe diagnostic study in the patients record had a normal apnea-hypopnea index. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9378,
+      "row_id": 73512,
+      "text": "Diagnosis: Cardiac/Circulatory Problems.\nTreatment: Pharmacy/Prescription Drugs-Edarbi. \n\nThe health plan denied the formulary exception as the patient did not fail the formulary alternatives.\nThe patient has a history of hypertension and obesity. Previous treatment with multiple angiotensin receptor blockers (ARBs), including losartan, irbesartan, Olmesartan, telmisartan and valsartan was ineffective in controlling his blood pressure. He has been treated with Edarbi (azilsartan) 80 milligrams (mg) daily with good control. On Edarbi, his blood pressure was 130/80 millimeters of mercury (mmHg). \n\nThe patient has had previous trials of five formulary alternatives (losartan, irbesartan, telmisartan, Olmesartan and valsartan), all of which were ineffective. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1235,
+      "row_id": 65308,
+      "text": "An enrollee has requested reimbursement for the radiofrequency neurolysis. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 7803,
+      "row_id": 71915,
+      "text": "Diagnosis: Other - Shortness of Breath\nTreatment: Inpatient Admission\nThe health plan denied: Inpatient admission\nThe determination is: Overturned\n\nThe patient is a female who was admitted to the hospital for new onset diabetes and asthma exacerbation. She has a history of asthma and obesity. On presentation, the patient had dyspnea that woke her up from sleep. She has no history of hospital stays from asthma. She was having new onset polyuria and polydipsia. She was started on bronchodilators. The patient did not require oxygen. Labs noted a potassium of 5.7, a sodium of 131, a creatinine of 1.24, and a glucose of 708 on admission. These significantly improved on the day of discharge. The patient was started on insulin, and her blood sugar improved. The patient's condition improved and was stable at discharge.\nAt issue \n, the patient had severely elevated blood sugar and potassium level where she was at risk of abnormal heart rhythm and decompensation. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2506,
+      "row_id": 66588,
+      "text": "An enrollee has requested a cervical total disc replacement utilizing the Mobi-C artificial cervical disc for treatment of her disc degeneration with stenosis.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4387,
+      "row_id": 68473,
+      "text": "An enrollee has requested bortezomib injections for treatment of the enrollees medical condition. \ncoverage stating that bortezomib was approved for multiple myeloma and mantle cell lymphoma.  Primary amyloidosis due to immunoglobulin light chains and multiple myeloma are both plasma ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2255,
+      "row_id": 66336,
+      "text": "A 49-year-old female enrollee requested authorization and coverage of adjustable gastric (Lap-Band) surgery for the treatment of morbid obesity.  The health plan denied the enrollees request indicating that the requested surgery is considered experimental.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 785,
+      "row_id": 64856,
+      "text": "An enrollee has requested reimbursement for the genomic analysis for evaluation of the enrollees recurrent breast cancer.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3036,
+      "row_id": 67118,
+      "text": "A 43-year-old female enrollee has requested ambulance services for treatment of her lower abdominal/pelvic pain. \nThe patients pain was of gradual onset, had been going on for 5 days, was not associated with abnormal vital signs, was not associated with abnormal physical findings as recorded by the paramedics, and was only ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3781,
+      "row_id": 67867,
+      "text": "A thirty-seven year-old female in the 29th week of pregnancy with antiphospholipid antibody syndrome is requesting reimbursement and prospective authorization for IVIG therapy.R",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 476,
+      "row_id": 64547,
+      "text": "The parent of a two-year-old male enrollee has requested a circumcision for treatment of the enrollees medical condition. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1416,
+      "row_id": 65491,
+      "text": "A 64-year-old female enrollee has requested for acellular dermal allograft for treatment of her capsular contracture. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 115,
+      "row_id": 64182,
+      "text": "The patient is a 44-year-old female who has had bilateral breast cancer. In addition, she has also had non-Hodgkins lymphoma and mucoepidermoid cancer. She has a strong family history of cancer, with a sister with lymphoma, sister with thyroid cancer and a paternal grandmother with uterine cancer. There are other members of the family with thyroid cancer. In November 2016, her blood was submitted for the MyRisk genetic susceptibility panel.  The patient has requested reimbursement for gene testing performed on 11/28/16.  The Health Insurer has denied this request and reported that the services at issue were investigational for the evaluation of this patient. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7149,
+      "row_id": 71255,
+      "text": "Diagnosis: Malocclusion\nTreatment: Braces and monthly visits\nThe insurer denied coverage for braces and monthly visits.\n\nUpon review of the submitted documentation including lateral cephalometric radiograph, panoramic radiograph, montage of extraoral and intraoral clinical images, dental treatment noted as well as insurer correspondence, it appears that this patient presented for evaluation for orthodontic care. The orthodontist identified an anterior crossbite. The orthodontist has completed the Handicapping Labio-Lingual Deviation (HLD) index as required and has chosen the automatically qualifying condition of crossbite of individual anterior teeth when clinical attachment loss and recession of the gingival margin are present. \n\nUpon review of the \ndocumentation, it is evident that the patient exhibits a significant malocclusion.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3961,
+      "row_id": 68047,
+      "text": "A 32-year-old female enrollee has requested a consultation for bariatric surgery (gastric sleeve) for treatment of her diabetes. \nthe patient is a 32-year-old female with long standing type 1 diabetes and several diabetic complications including retinopathy and nephropathy. She also has class I obesity with a body mass index (BMI) of 34. The patient has requested a consultation to undergo a sleeve gastrectomy. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 9538,
+      "row_id": 73672,
+      "text": "Diagnosis: Back Pain and Numbness\nTreatment: Inpatient admission\nThe insurer denied the inpatient admission\n\npatient is a male with neck and left scapular pain after a recent trauma. Exam reveals no weakness. Patient was started on IV (intravenous) decadron and opioids. MRI (magnetic resonance imaging) showed multilevel cervical stenosis. \n.\nThe patient had severe radicular pain that required IV (intravenous) decadron and imaging studies and possible therapeutic intervention. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1107,
+      "row_id": 65180,
+      "text": "An enrollee has requested reimbursement for computed tomography (CT) coronary angiography.F",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2223,
+      "row_id": 66303,
+      "text": "An enrollee has requested Prometheus Anser IFX testing (serum infliximab and antibodies to infliximab) for evaluation of his medical condition. \nbeen concern that he was developing a lupus-like syndrome from his anti-tumor nec",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 202,
+      "row_id": 64270,
+      "text": "A 41-year-old male enrollee has requested reimbursement for chiropractic treatment provided from 3/30/15 through 11/30/15. The Health Insurer has denied this request indicating that the services at issue were not medically necessary for treatment of the enrollees chronic pain. \nThis patient has had an excessive amount of chiropractic care with no objective improvement. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 314,
+      "row_id": 64384,
+      "text": "A 56-year-old female enrollee has requested reimbursement for the three-dimensional (3D) mammogram (breast tomosynthesis) provided on 1/9/17. The Health Insurer has denied this request indicating that the service at issue is considered investigational for evaluation of the enrollees risk of breast cancer. \nIn this case, the patient has breasts that have been described as heterogeneously dense. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 837,
+      "row_id": 64908,
+      "text": "An enrollee has requested clostridial collagenase histolyticum (Xiaflex) for treatment of his medical condition.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2449,
+      "row_id": 66530,
+      "text": "The patient has requested authorization and coverage for magnetic resonance imaging (MRI) for evaluation of right knee pain. \noral trochlear dysplasia, abnormal patellar location, bipartite patella,",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6416,
+      "row_id": 70513,
+      "text": "Diagnosis: Crohn's Disease\nTreatment: Stelara 90mg (every 4 weeks)\nThe insurer denied the Stelara 90mg (every 4 weeks).\n\nThe patient is a female with moderate to severe Crohn's disease (CD). She had been on Stelara 90 mg (milligrams) every 8 weeks, and colonoscopy revealed active disease. Stelara was increased to 90 mg (milligrams) every 4 weeks with good results. Her provider is requesting to continue Stelara at 90 mg (milligrams) every 4 weeks.\n",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 818,
+      "row_id": 64889,
+      "text": "The patient has requested authorization and coverage for bilateral radiofrequency ablation of the perforator veins. This patient is status post bilateral greater saphenous vein and small saphenous vein ablations in September 2020. The patients provider has recommended bilateral radiofrequency ablation of the perforator veins. \nthe patient continues to have function limiting symptoms despite bilateral greater saphenous and small saphenous vein ablations. A duplex examination of the right leg noted that the patients persistent symptoms are mild. The refl",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4386,
+      "row_id": 68472,
+      "text": "A 64-year-old female enrollee requested peripheral bone density testing for medical evaluation of her osteopenia. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5718,
+      "row_id": 69809,
+      "text": "Diagnosis:  Chronic Cluster Headache.\nTreatment:  Emgality (300 milligrams dose) 100 milligrams/milliliters SC SOSY.\n\nThe insurer is denied coverage for Emgality (300 milligrams dose) 100\nmilligrams/milliliters SC SOSY.  The denial \n. \n\nThis is a male patient who has been diagnosed with cluster headache.  It was reported that the patient had suffered from headaches, since a young adult.  The patient was seen for a follow-up appointment regarding chronic cluster headache.  The patient reported not feeling better since the prior visit and did report a new cluster cycle that started several weeks prior to presentation.  The patient reported having a dozen headache cluster attacks in the last few weeks.  The patient was utilizing Imitrex and oxygen therapy with excellent relief and remained on verapamil for prevention.  A physical examination was performed; no significant abnormalities were noted.\n\nThe documentation indicated the patient was counseled on headache management, and it was recommended that he attempt Emgality for prevention of cluster headaches.  He was also recommended to continue verapamil and abortive therapy with Imitrex.\n",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8168,
+      "row_id": 72284,
+      "text": "This is a male with signs/symptoms of hypogonadism. The treating physician states the patient has had two morning specimens of testosterone that were below 300, that he has normal follicle-stimulating hormone (FSH), luteinizing hormone (LH) and Prolactin levels.  The patient has failed a course of topical testosterone replacement and has been subsequently managed with intramuscular injections of testosterone undecanoate. \nthe physician, the patient has been on Aveed, 750 mg every 10 weeks and his testosterone level has increased to the 500 range along with symptomatic improvement. \n.  Per the physician's notes, the patient has had a desired result, and an appropriate increase in testosterone level.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1117,
+      "row_id": 65190,
+      "text": "The patient has requested authorization and coverage for a tricycle (Liberty Trike, 750-watt folding scooter/tricycle). \nthe patient has a mobility related deficit requiring the requested tricycle. \nis able to safely navigate the requested tricycle in the van in which he lives to complete MRADLs.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1171,
+      "row_id": 65244,
+      "text": "The enrollee has requested authorization and coverage for the medication, H.P Acthar Gel. The enrollee has a history of steroid induced diabetes mellitus type 2, and systemic lupus erythematosus (SLE). Her nephrologist is requesting approval of HP Acthar Gel due to worsening proteinuria, now in the nephrotic range.  She has had previous unsuccessful treatments including steroids, CellCept, Plaquenil, and cyclosporine. Her physician indicates a renal biopsy showed immunoglobulin A (IgA) nephropathy. Current treatments are not managing her symptoms so her physician has prescribed Acthar with a goal of managing proteinuria with nephrotic syndrome. A kidney biopsy done showed focal segmental glomerulosclerosis associated with lgA nephropathy and/or prior lupus nephritis. \nOnly the corticoid monotherapy with prednisone group showed a reduction in proteinuria at twelve months. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1770,
+      "row_id": 65846,
+      "text": "A 26-year-old female enrollee has requested for emergency services. \n. This patient had symptoms of an earache, congestion, and a sore on her lip for one week. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2308,
+      "row_id": 66389,
+      "text": "A 55-year-old male enrollee has requested a computerized tomography (CT) of the pelvis for an evaluation of his abdominal and chest pain. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3691,
+      "row_id": 67777,
+      "text": "The parent of an 18-year-old male enrollee has requested continuing emergency services for treatment of the enrollee's medical condition. \nindicates the patient was advised to seek post-exposure prophylaxis (PEP) for environmental exposure to bats by the visiting states health department. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2133,
+      "row_id": 66212,
+      "text": "A 31-year-old transgender female enrollee has requested  facial laser hair removal for treatment of her gender identity disorder.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4944,
+      "row_id": 69031,
+      "text": "This is a patient with atopic dermatitis (affected areas are the hands and fingers), treated with over-the-counter (OTC) moisturizers, betamethasone, and, per the provider, Eucrisa and Tacrolimus have been used, as well. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5756,
+      "row_id": 69847,
+      "text": "Diagnosis: End Stage Renal Disease\nTreatment: Personal Care Aide Level 2: 12 hours per day - 7 day(s) per week - a total of 84 hours per week.\nThe insurer denied: Personal Care Aide Level 2: 12 hours per day - 7 day(s) per week - a total of 84 hours per week.\n\n.\n\nThe patient is a female with medical history notable for end stage renal disease on dialysis. The patient was approved for 6 hours per day, 7 days per week (42 hours per week) of level 2 personal care services. The patient and her care team requested an increase to 12 hours per day, 7 days per week (84 hours per week) and this request was partially denied by the health plan; the plan did approve an \nThe patient has difficulty with completing numerous Instrumental activities of daily living (IADLs) and ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8412,
+      "row_id": 72533,
+      "text": "Diagnosis: Abdominal pain, nausea, and emesis\nTreatment: Inpatient admission\nThe insurer denied the inpatient admission.\n\nThe patient was a female who was noted to be underweight. The patient presented to the hospital's emergency department with a history of recurrent Clostridium (C) difficile colitis. The patient noted abdominal pain, nausea, and emesis despite an outpatient regimen of oral vancomycin. \n\nThe patient was hyperglycemic and had elevated lactic acid, leukocytosis, elevated inflammatory markers, and a long segment of bowel wall thickening on abdominal computed tomography (CT) scan. The patient was admitted to an acute level of service and underwent an unremarkable colonoscopy. The patient received six doses of intravenous (IV) morphine as an observation level care patient and six more once admitted. She received IV fluids and supportive care and was discharged on the same oral vancomycin after 48 hours.\n\nThe patient had recurrent Clostridium (C) difficile and abdominal pain, yet she did not evidence a change in mental status,",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4811,
+      "row_id": 68898,
+      "text": "The patient has requested authorization and coverage for Euflexxa injections for the left knee. \n. He has tried and failed cortisone injections, platelet-rich plasma injections, and physical therapy.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8246,
+      "row_id": 72363,
+      "text": "Diagnosis:  Breast Cancer.\nTreatment:  Bioimpedance spectroscopy.\nThe insurer denied Bioimpedance spectroscopy. \nThe patient has a history of right breast cancer status post (s/p) mastectomy.\n",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 3176,
+      "row_id": 67259,
+      "text": "An enrollee has requested authorization and coverage for a procedure to repair cartilage to the ankle, juvenile cartilage transplant (DeNovo) for treatment of the enrollees osteochondral lesion. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7491,
+      "row_id": 71599,
+      "text": "Diagnosis: Multilevel Lumbar Spinal Stenosis, Laminectomy Syndrome\n\nTreatment: Increase in Personal Care Services, Level 2 to 12 hours per day, 7 days per week, total 84 hours per week\n\nThe insurer denied the increase in Personal Care Services, Level 2 to 12 hours per day, 7 days per week, total 84 hours per week. \nThis is a female patient who was status post-laminectomy syndrome, multilevel lumbar spinal stenosis, diffuse lumbar degenerative disc disease with generalized osteoarthritis. It was reported that the patient had fallen and resulted in severe worsening of pre-existing low back pain. The patient has an aide 7 hours per day, 7 days per week. The patient has medical necessity for an aide 12 hours per day. Request is made to increase aide hours to 12 hours per day, 7 days per week. Her medical history includes coronary heart disease, hypertension, hypercholesterolemia, hypothyroidism, GERD, anxiety, osteoarthritis, osteoporosis, intervertebral disc displacement lumbosacral region, spinal stenosis sacral and sacrococcygeal region, chronic pain, dizziness, difficulty walking, tremor, urge incontinence, constipation\nIt was reported that the patient lives alone in an apartment and requires assistance for most daily activities. It appears that a substantial cause of her functional impairment is associated with symptoms related to arthritis, degenerative disc disease, spinal stenosis; and exacerbated by a fall. \n\nThe patient needed assistance with most ADLs and IADLs as reported from the UAS report from 2019. As a result of the fall and increased back pain described by her physician, ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8469,
+      "row_id": 72591,
+      "text": "Mental Health\nMental Health: Outpatient\n\nDiagnosis: Pervasive Developmental Disorder \nTreatment: Outpatient mental health visits with sixty-minute extended sessions. \nThe insurer denied Outpatient mental health visits with sixty-minute extended sessions. \n.\n\nThe patient was in treatment with multimodal psychotherapy for management of a pervasive developmental disorder (autism spectrum disorder); traumatic brain injury with associated symptoms of unspecified anxiety disorder; attention deficit hyperactivity disorder; non-verbal learning disorder; and, recurrent episodes of major depressive disorder. The extended psychotherapy (c\n. The patient has reportedly made progress with regard to functioning but continues to display problems with executive function (organizing, sequencing, problem solving and decision making), communication-especially with regard to social cues and norms, \nhim at risk for episodes of depression or mood disturbance. The patient has relationship problems and other functional impairments that limit his ability to function socially and occupationally.\nThe patient was seen on an ongoing basis from 07/10/2018-04/18/2019 with multimodal psychotherapy with ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 2993,
+      "row_id": 67075,
+      "text": "An enrollee has requested reimbursement for occipital nerve blocks for treatment of the enrollees chronic migraines. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5321,
+      "row_id": 69408,
+      "text": "This is a female with no past medical history who presents with umbilical abdominal pain x 1 day. She states the pain started gradually earlier in the afternoon prior to eating. Pain went away and then the patient ate White Castle and Beefaroni and the pain started again shortly after. Pain is constant since then moving slightly to the right lower quadrant (RLQ). Pain is worse when jumping on right foot, better when lying down on stomach. Patient had Motrin prior to arrival to the emergency department (ED). She had one episode on non-bloody non bilious emesis prior to coming to the ED and 1 while arriving to the ED. The patient denies recent travel, sick contacts, changes in urination, dysuria or hematuria.\n\n. This patient presented with 1 day history of abdominal pain and a few episodes of emesis. She was never described as experiencing PO intolerance. CT scan done in the ER ruled out appendicitis and was more suggestive of enteritis. There were no signs of significant dehydration on exam. Vital signs were stable. She had essentially normal labs and was nontoxic appearing with no fevers. \n. The patient did not have any further emesis after admission to the hospital. Her findings suggested she would \nrs. She was described as pain free and in no distress at the time of admission. Her mother signed her out AMA less than 24 hours after admission. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 8199,
+      "row_id": 72315,
+      "text": "Diagnosis: Low back pain. \nTreatment: Current procedural terminology (CPT) code 62380 [endoscopic decompression of spinal cord, nerve root, including laminotomy, partial facetectomy, foraminotomy, discectomy and/or excision of herniated intervertebral disc, 1 interspace, lumbar], CPT code 22526 [percutaneous intradiscal electrothermal annuloplasty, unilateral \nprofessional time]. \nThe insurer denied coverage for current procedural terminology (CPT) code 62380 [endoscopic decompression of spinal cord, nerve root, including laminotomy, partial facetectomy,\ncision of herniated intervertebral disc, 1 interspace, lumbar], CPT code 22526 [percutaneous intradiscal \nhas chronic low back pain (cLBP). The patient's pain medications include Mobic and Tizanidine. The patient underwent Bilateral endoscopic discectomy at L (lumbar) 2-L3 and L4-L5, intradiscal electrothermal therapy (IDET), annuloplasty and then transforaminal epidural steroid injections. \n\nMekhail et al ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 449,
+      "row_id": 64520,
+      "text": "A 31-year-old male enrollee has requested authorization and coverage for a referral to a podiatrist for treatment of his plantar fasciitis. The patient has been treated by his primary care provider (PCP) with heel pads, over-the-counter arches, oral NSAID, ice, and rest, all with minimal relief of his symptoms. Review of the submitted records indicates the patients PCP has requested a referral to a podiatrist for further care, including custom orthotics. The Health Plan has denied this request indicating the patient can be appropriately managed by his PCP.The patients condition warrants a referral to a podiatrist.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 8908,
+      "row_id": 73036,
+      "text": "Diagnosis: Seizure\nTreatment: Inpatient admission\nThe insurer denied: Inpatient admission\n\n.\n\nThe patient is a teenage female. She presented to the emergency department (ED) after a paroxysmal episode. Medical records note that the patient was helping her mom clean at home when she suddenly became dizzy and lightheaded, her vision went black, and she fell into mom's arms shaking. She denied loss of consciousness (LOC), reporting she could hear what was around her, but she could not speak. There was no precipitating injury, though she did report a headache that day. After the event she reportedly could not speak for 30 minutes. She has a history of a similar episode at age five that was due to hypoglycemia.\nAt presentation, the patient was afebrile with normal vital signs. Her physical examination also did not show any abnormalities. Laboratory workup, including complete blood count (CBC), \nelectrolytes, liver function studies (LFTs), and finger stick glucose, was normal. Electrocardiogram (ECG) was normal. She was diagnosed with a syncopal episode versus seizure with post-ictal phase and admitted to the inpatient pediatric team. Pediatric neurology and pediatric cardiology were consulted. The patient was placed on a continuous cardiac monitor. The health plan denied coverage of the inpatient ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1512,
+      "row_id": 65588,
+      "text": "A 36-year-old male enrollee has requested Zolinza 100mg for treatment of his glioblastoma multiforme. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3117,
+      "row_id": 67199,
+      "text": "The patient has requested reimbursement for weekly psychotherapy sessions. The records provided for review document that the patient presented to her provider with significant depression, increased crying spells, debilitating anxiety with regard to work, and resultant overall decreased function at home and at work. She described feelings of inadequacy and guilt over taking care of herself, which manifested after many years of suppression. The patient reported a family history of mental illness and resistance to use of medication. Despite her history, the patient agreed to a trial of Wellbutrin. The patients dosage was later increased with good benefit. By March 2020, the provider noted that the patient demonstrated significant recovery from disabling depression and the patient was considering returning to work. Dunl",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6541,
+      "row_id": 70639,
+      "text": "Diagnosis: Peyronies disease\nTreatment: Xiaflex\nThe insurer denied Xiaflex.\n\nThe patient is a man with Peyronies disease (PD). He has a palpable plaque. His deflection is 30 degrees. He has intact erectile function but cannot satisfactorily achieve vaginal penetration. The problem has been present for one year. Xiaflex was recommended. \n.\n\nThe patient has symptomatic Peyronies disease with a palpable penile plaque, 30 degree bend, intact erectile function. The problem has been present for one year or more.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1437,
+      "row_id": 65512,
+      "text": "An enrollee has requested authorization and coverage for use of Mako robotic system (CPT 27447) for a right knee arthroplasty procedure.",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2962,
+      "row_id": 67044,
+      "text": "A 64-year-old female enrollee has requested coverage for Abraxane for treatment of her breast cancer. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3161,
+      "row_id": 67244,
+      "text": "An enrollee has requested authorization and coverage for Botox injections for treatment of the enrollees chronic migraine. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2151,
+      "row_id": 66230,
+      "text": "A 40-year-old male enrollee has requested orally administered Lamisil 250mg for treatment of his onychomycosis. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2523,
+      "row_id": 66605,
+      "text": "A 25-year-old female enrollee has requested residential treatment services for treatment of her alcohol dependence. \npatient has a long history of substance abuse problems.  She has been to numerous treatment centers for a variety of substance and psychiatric issues. She had serious difficulty maintaining her sobriety in the past. \nwas at moderate risk of harm, her functional status was seriously impaired, and she had significant co-morbidities.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7708,
+      "row_id": 71819,
+      "text": "Diagnosis: Possible Seizure.\nTreatment: Inpatient Hospital Admission.\nThe insurer denied: Inpatient Hospital Admission.\n",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 1573,
+      "row_id": 65649,
+      "text": "An enrollee has requested reimbursement and prospective authorization and coverage for residential treatment center services. \n. During her stay, the patient was noted to be cooperative in treatment. She was engaged in family and individual therapy and was noted to have some issues with difficulty interacting with peers. Throughout the first portion of her stay, the patient described suicidal ideation. The progress notes do not indicate that the patient made any suicide attempts or self-harm attempts during her stay. During her stay, the patient gained more insight into her behaviors and it appears that she made significant progress. In this patients case, residential treatment was initially medically necessary because she was endorsing suicidal ideation on a frequent basis. However, this suicidal ideation resolved, and the patient was documented to have shown improved coping skills. After the resolution of her suicidal ideation, the patient could have transitioned to a less restrictive setting.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 4384,
+      "row_id": 68470,
+      "text": "The patient is a seven-year-old female with cystic fibrosis who is status post jejunal atresia with resulting short gut syndrome, malabsorption and failure to thrive. Presently, she is showing good weight gain on nocturnal Pediatric Vivonex feedings via gastrostomy tube. The patients mother is requesting authorization and coverage for this nutritional product. The Health Plan denied her request based upon a determination that Pediatric Vivonex is not medically \nThe patient in this case is a child with chronic disease, congenital in origin, which has resulted in malabsorption and failure to thr",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 7334,
+      "row_id": 71440,
+      "text": "Diagnosis: Cervical spondylitis myelopathy, cervical radiculopathy due to degenerative joint disease, cervical stenosis.\nTreatment: Inpatient admission.\n\nThe insurer denied coverage for inpatient admission.\n\n.\n\nThe patient is a female with a history of chronic neck and bilateral arm pain and hypertension, non-compliant with medications. She had a history of dizziness with associated motion sickness, nausea, vomiting, lightheadedness, photophobia and occasional right sided headache that was treated with medication in Vietnam but none in the US (United States). She presented for an elective anterior cervical discectomy and fusion C [cervical]4-6 for diagnoses of cervical spondylitic myelopathy, cervical stenosis, cervical radiculopathy and spine cord signal change.\n\nThe patient had surgery with postoperative nausea that required intravenous medication with relief. Ortho stated a blood pressure of 138/84, vomiting with pain medications overnight. Does not open eyes since surgery. Poor exam due to patient effort, C5-T [thoracic]1. Blood pressure every four hours. Her blood pressure was 128/88 and Ortho stated her nausea was better controlled, pain controlled, off IV [intravenous] pain medicines. Poor exam due to patient effort C5-T1. Blood pressure three times a day.\n\nThere is no inpatient need as the medical records show she was stable, and no other treatment was needed on that date. Physical therapy records were \nthat she had a significant change in functional ability to ambulate. Her pain was controlled, she had no nausea, and her blood pressure was slightly elevated. She had ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 5194,
+      "row_id": 69281,
+      "text": "Diagnosis: Right Knee Arthritis \n \nTreatment: Medication-Hyaluronic acid injections\n\nThe insurer denied coverage for the Hyaluronic acid injections. \nThis is a female patient with a history of right knee arthritis and other underlying medical conditions.  She had received treatment for her knee which did not provide benefit, including exercise, Celebrex, arthroscopic surgery and Euflexxa. She reported improvement after the injections.  She was evaluated by her physician who recommended additional injections of Hyaluronan. She had documented medical problems which excluded reconstructive surgery as a current option. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4041,
+      "row_id": 68127,
+      "text": "An enrollee has requested authorization and coverage for mastoplexy and fat grafting. The Health Plan has denied this request indicating that the requested services are not medically necessary and are not reconstructive in nature for treatment of the enrollees medical condition.T\nThe patient is documented to have undergone medically necessary bilateral mastectomies followed by typical breast reconstruction. Based on the most recent evaluation, the patient has evidence of complications and deformities related to her medically necessary breast reconstruction. The patient has evidence of common complications associated with reconstructive breast surgery. \nThe patients bilateral mastectomies produced a severely abnormal appearance of the chest and breasts. The patient is documented to have continued breast deformities.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 1238,
+      "row_id": 65311,
+      "text": "The patient is a 58-year-old male with a history of snoring, muscular weakness and constant fatigue. He also has some history of coronary artery disease, having had stints placed in the past. Because of his symptoms he was referred to and evaluated by a physician who appears to be a pulmonologist specializing in sleep disorders. His primary care provider referred him to this physician. An overnight oximetry was performed in November 2003 that indicated 407 desaturation events to have occurred during approximately a 10-hour period. Based on this result the patient was prescribed a therapeutic trial of CPAP even before polysomnography was performed. \n. The patient indicates he has been using a CPAP device with great success and relief of his symptoms. He has requested reimbursement for use of the CPAP device. The Health Plan has denied coverage on the basis there was no polysomnography demonstrating medical necessity for CPAP.B",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 4395,
+      "row_id": 68481,
+      "text": "An enrollee has requested authorization and coverage for occipital nerve block injection for treatment of her chronic migraine. \nThe patient presents with a diagnosis of chronic migraine and occipital neuralgia. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 9099,
+      "row_id": 73230,
+      "text": "Diagnosis: Closed Unstable Plafond Fracture\nTreatment: Inpatient Admission\nThe insurer denied coverage for inpatient admission.\n\nThe patient is a male with a history of kidney stones who presented to the emergency room (ER) with complaints of a left ankle injury after falling. Imaging revealed a left tibial plafond fracture. The patient was admitted, and an external fixator was placed. There were no complications. The patient was later discharged. \nG. \n\nThe medical records show a diagnosis of a closed unstable plafond fracture. The injury was treated with a closed reduction and external fixator. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 2805,
+      "row_id": 66887,
+      "text": "The patient has requested reimbursement and prospective authorization and coverage for residential treatment center (RTC) mental health services. \n. The patient is at moderate risk of harm. The records document suicidal ideation during her days prior to discharge. The patient did not have an active plan, but she does have a history of a suicide attempt. Thoughts of suicide have been intermittent throughout her stay. She did report that she would go home and kill herself if discharged although did not have an active plan. The patient has demonstrated moderate functional impairment. She has few relationships and her mother is her main support. She has problems completing schoolwork, she is not employed, and her difficulties with hygiene led to her being placed on a showering plan. The patient presents with significant comorbidity with a history of OCD and an eating disorder with food restrictions that have resulted in unstable vital signs. These behaviors occurred at the beginning of her stay in RTC and have a moderate likelihood of recurring. The patients recovery environment is mildly stressful. The patient has limited support within her recovery environment. She has few supports aside from her mother. The patient has required multiple hospitalizations, including one for overdose. She has demonstrated poor response to treatment. The patient has been obstructive to treatment. She has intermittently refused to come to groups and meals, especially during the days approaching her discharge. She was distrusting and hostile at times towards staff and her providers. ",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 568,
+      "row_id": 64639,
+      "text": "Physician 1The patient is a 60-year-old female who was diagnosed with stage IV ovarian cancer in October 2003. The patient presented with a malignant pleural effusion and subsequently at laparotomy was found to have carcinomatosis. The patient completed six cycles of chemotherapy and has been followed with CA-125, CT scans, and PET scans.As of 10/14/04, the patients CA-125 increased to 47.6, which is elevated. A CT scan performed on 9/9/04 showed increased right hydronephrosis and a borderline enlarged left axillary lymph node. A PET scan in June 2004 showed right hydronephrosis with no other abnormal areas of increased activity. The initial PET scan in October 2003 showed increased activity to the right thorax and right pelvis corresponding to malignant disease.The patients oncologist has requested a follow-up PET scan to assess for recurrent disease and help determine the need for further chemotherapy. The Health Plan has denied coverage for the requested PET scan on the basis it is considered investigational.",
+      "decision": "Overturned"
+    },
+    {
+      "test_index": 6678,
+      "row_id": 70778,
+      "text": "Diagnosis: Heartburn\nTreatment: Esophagogastroduodenoscopy\nThe insurer denied Esophagogastroduodenoscopy. \nThe patient is a female. She presented with increasingly frequent and severe persistent heartburn; she was not on any medical therapy. Esophagogastroduodenoscopy showed a small area of nodular mucosa at the gastroesophageal junction, a small sessile polyp in the gastric fundus, mild erosions in the gastric body, mild gastritis in the gastric antrum, and normal duodenum; biopsies showed mild chronic inactive carditis in the gastroesophageal junction, mild chronic inactive gastritis, fundic gland polyp, and reactive duodenal changes. ",
+      "decision": "Upheld"
+    },
+    {
+      "test_index": 3299,
+      "row_id": 67383,
+      "text": "A female enrollee has requested authorization and coverage for removal of bilateral breast implants with bilateral mastopexy (breast lift) for treatment of the enrollee who has had a history of left breast pain. \n, the patient appears to have a possible complication from a cosmetic procedure, in which her volume of augmentation was excessive. She has undergone physical therapy, but appears to continue to complain of pain. ",
+      "decision": "Upheld"
+    }
+  ]
+}

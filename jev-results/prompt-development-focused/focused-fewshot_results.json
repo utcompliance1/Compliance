@@ -1,0 +1,53 @@
+{
+  "resolved_models": [
+    "jev-1.13.0"
+  ],
+  "n": 100,
+  "attempted": 100,
+  "scored": 100,
+  "failed": 0,
+  "unattempted": 0,
+  "correct": 69,
+  "coverage": 1.0,
+  "accuracy": 0.69,
+  "accuracy_95pct_wilson": [
+    0.5937394428051057,
+    0.7722030278762395
+  ],
+  "accuracy_all_requested": 0.69,
+  "balanced_accuracy": 0.69,
+  "majority_class_baseline": 0.5,
+  "confusion_matrix": {
+    "Overturned": {
+      "Overturned": 42,
+      "Upheld": 8
+    },
+    "Upheld": {
+      "Overturned": 23,
+      "Upheld": 27
+    }
+  },
+  "per_class": {
+    "Overturned": {
+      "precision": 0.6461538461538462,
+      "recall": 0.84,
+      "f1": 0.7304347826086957,
+      "support": 50
+    },
+    "Upheld": {
+      "precision": 0.7714285714285715,
+      "recall": 0.54,
+      "f1": 0.6352941176470588,
+      "support": 50
+    }
+  },
+  "elapsed_seconds": 18.877095583011396,
+  "latency_seconds": {
+    "p50": 0.17761443750350736,
+    "p95": 0.2891131872122059
+  },
+  "total_input_tokens": 121767,
+  "total_output_tokens": 3730,
+  "estimated_cost_usd": 0.005114214000000001,
+  "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+}

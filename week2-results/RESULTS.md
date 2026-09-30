@@ -101,4 +101,12 @@ test rows.
   qualitative review
 
 ## Jev exploration
-*(pending)*
+The initial zero-shot Jev pilot scored **66.0% (132/200)** on 200 balanced cases
+from the cleaned test split, with 100% API coverage. Evaluation took 28.3 seconds
+and cost an estimated $0.004225. This smaller pilot is not a matched comparison
+with the 4,000-case results above. See [Jev results and methodology](../jev-results/RESULTS.md).
+
+The later focused-criteria prompt scored **69.5% (695/1,000)** on the first 1,000
+test rows, extracted from a larger run stopped at the user's request. The prompt
+was selected on separate training-split development data. This prefix sample is
+also distinct from the canonical 4,000-case benchmark above.

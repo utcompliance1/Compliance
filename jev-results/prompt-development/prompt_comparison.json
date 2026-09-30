@@ -1,0 +1,116 @@
+{
+  "created_at_utc": "2026-09-30T03:43:17.383728+00:00",
+  "selected_prompt": "basic",
+  "selection_rule": "Highest dev accuracy with complete coverage; ties favor basic (shorter).",
+  "sample_sha256": "f8dd36838e543eae0f70cb9d3e2d442066db553097764b92b26dc9c6ab08eb6f",
+  "split": "train",
+  "n": 100,
+  "results": {
+    "basic": {
+      "resolved_models": [
+        "jev-1.13.0"
+      ],
+      "n": 100,
+      "attempted": 100,
+      "scored": 100,
+      "failed": 0,
+      "unattempted": 0,
+      "correct": 68,
+      "coverage": 1.0,
+      "accuracy": 0.68,
+      "accuracy_95pct_wilson": [
+        0.5833738138954762,
+        0.7633085267500092
+      ],
+      "accuracy_all_requested": 0.68,
+      "balanced_accuracy": 0.68,
+      "majority_class_baseline": 0.5,
+      "confusion_matrix": {
+        "Overturned": {
+          "Overturned": 40,
+          "Upheld": 10
+        },
+        "Upheld": {
+          "Overturned": 22,
+          "Upheld": 28
+        }
+      },
+      "per_class": {
+        "Overturned": {
+          "precision": 0.6451612903225806,
+          "recall": 0.8,
+          "f1": 0.7142857142857143,
+          "support": 50
+        },
+        "Upheld": {
+          "precision": 0.7368421052631579,
+          "recall": 0.56,
+          "f1": 0.6363636363636364,
+          "support": 50
+        }
+      },
+      "elapsed_seconds": 16.90839329198934,
+      "latency_seconds": {
+        "p50": 0.15938289598852862,
+        "p95": 0.24248562740394844
+      },
+      "total_input_tokens": 50367,
+      "total_output_tokens": 3724,
+      "estimated_cost_usd": 0.0021154140000000004,
+      "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+    },
+    "structured": {
+      "resolved_models": [
+        "jev-1.13.0"
+      ],
+      "n": 100,
+      "attempted": 100,
+      "scored": 100,
+      "failed": 0,
+      "unattempted": 0,
+      "correct": 66,
+      "coverage": 1.0,
+      "accuracy": 0.66,
+      "accuracy_95pct_wilson": [
+        0.5627772885472462,
+        0.7453847920265184
+      ],
+      "accuracy_all_requested": 0.66,
+      "balanced_accuracy": 0.6599999999999999,
+      "majority_class_baseline": 0.5,
+      "confusion_matrix": {
+        "Overturned": {
+          "Overturned": 41,
+          "Upheld": 9
+        },
+        "Upheld": {
+          "Overturned": 25,
+          "Upheld": 25
+        }
+      },
+      "per_class": {
+        "Overturned": {
+          "precision": 0.6212121212121212,
+          "recall": 0.82,
+          "f1": 0.7068965517241379,
+          "support": 50
+        },
+        "Upheld": {
+          "precision": 0.7352941176470589,
+          "recall": 0.5,
+          "f1": 0.5952380952380952,
+          "support": 50
+        }
+      },
+      "elapsed_seconds": 16.677922250004485,
+      "latency_seconds": {
+        "p50": 0.15469193749595433,
+        "p95": 0.21685572677961318
+      },
+      "total_input_tokens": 108167,
+      "total_output_tokens": 3732,
+      "estimated_cost_usd": 0.004543014000000001,
+      "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+    }
+  }
+}

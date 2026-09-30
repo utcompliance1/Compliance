@@ -1,0 +1,223 @@
+{
+  "frozen_at_utc": "2026-09-30T03:46:25.507799+00:00",
+  "development_split": "train",
+  "n": 100,
+  "sample_sha256": "f8dd36838e543eae0f70cb9d3e2d442066db553097764b92b26dc9c6ab08eb6f",
+  "selected_prompt": "focused",
+  "selection_rule": "Highest complete dev accuracy; ties prefer first candidate in basic, structured, focused, focused-fewshot order.",
+  "results": {
+    "basic": {
+      "resolved_models": [
+        "jev-1.13.0"
+      ],
+      "n": 100,
+      "attempted": 100,
+      "scored": 100,
+      "failed": 0,
+      "unattempted": 0,
+      "correct": 68,
+      "coverage": 1.0,
+      "accuracy": 0.68,
+      "accuracy_95pct_wilson": [
+        0.5833738138954762,
+        0.7633085267500092
+      ],
+      "accuracy_all_requested": 0.68,
+      "balanced_accuracy": 0.68,
+      "majority_class_baseline": 0.5,
+      "confusion_matrix": {
+        "Overturned": {
+          "Overturned": 40,
+          "Upheld": 10
+        },
+        "Upheld": {
+          "Overturned": 22,
+          "Upheld": 28
+        }
+      },
+      "per_class": {
+        "Overturned": {
+          "precision": 0.6451612903225806,
+          "recall": 0.8,
+          "f1": 0.7142857142857143,
+          "support": 50
+        },
+        "Upheld": {
+          "precision": 0.7368421052631579,
+          "recall": 0.56,
+          "f1": 0.6363636363636364,
+          "support": 50
+        }
+      },
+      "elapsed_seconds": 16.90839329198934,
+      "latency_seconds": {
+        "p50": 0.15938289598852862,
+        "p95": 0.24248562740394844
+      },
+      "total_input_tokens": 50367,
+      "total_output_tokens": 3724,
+      "estimated_cost_usd": 0.0021154140000000004,
+      "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+    },
+    "structured": {
+      "resolved_models": [
+        "jev-1.13.0"
+      ],
+      "n": 100,
+      "attempted": 100,
+      "scored": 100,
+      "failed": 0,
+      "unattempted": 0,
+      "correct": 66,
+      "coverage": 1.0,
+      "accuracy": 0.66,
+      "accuracy_95pct_wilson": [
+        0.5627772885472462,
+        0.7453847920265184
+      ],
+      "accuracy_all_requested": 0.66,
+      "balanced_accuracy": 0.6599999999999999,
+      "majority_class_baseline": 0.5,
+      "confusion_matrix": {
+        "Overturned": {
+          "Overturned": 41,
+          "Upheld": 9
+        },
+        "Upheld": {
+          "Overturned": 25,
+          "Upheld": 25
+        }
+      },
+      "per_class": {
+        "Overturned": {
+          "precision": 0.6212121212121212,
+          "recall": 0.82,
+          "f1": 0.7068965517241379,
+          "support": 50
+        },
+        "Upheld": {
+          "precision": 0.7352941176470589,
+          "recall": 0.5,
+          "f1": 0.5952380952380952,
+          "support": 50
+        }
+      },
+      "elapsed_seconds": 16.677922250004485,
+      "latency_seconds": {
+        "p50": 0.15469193749595433,
+        "p95": 0.21685572677961318
+      },
+      "total_input_tokens": 108167,
+      "total_output_tokens": 3732,
+      "estimated_cost_usd": 0.004543014000000001,
+      "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+    },
+    "focused": {
+      "resolved_models": [
+        "jev-1.13.0"
+      ],
+      "n": 100,
+      "attempted": 100,
+      "scored": 100,
+      "failed": 0,
+      "unattempted": 0,
+      "correct": 69,
+      "coverage": 1.0,
+      "accuracy": 0.69,
+      "accuracy_95pct_wilson": [
+        0.5937394428051057,
+        0.7722030278762395
+      ],
+      "accuracy_all_requested": 0.69,
+      "balanced_accuracy": 0.69,
+      "majority_class_baseline": 0.5,
+      "confusion_matrix": {
+        "Overturned": {
+          "Overturned": 39,
+          "Upheld": 11
+        },
+        "Upheld": {
+          "Overturned": 20,
+          "Upheld": 30
+        }
+      },
+      "per_class": {
+        "Overturned": {
+          "precision": 0.6610169491525424,
+          "recall": 0.78,
+          "f1": 0.7155963302752294,
+          "support": 50
+        },
+        "Upheld": {
+          "precision": 0.7317073170731707,
+          "recall": 0.6,
+          "f1": 0.6593406593406593,
+          "support": 50
+        }
+      },
+      "elapsed_seconds": 15.880009042011807,
+      "latency_seconds": {
+        "p50": 0.15211633349827025,
+        "p95": 0.21915363089210585
+      },
+      "total_input_tokens": 67467,
+      "total_output_tokens": 3718,
+      "estimated_cost_usd": 0.0028336140000000004,
+      "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+    },
+    "focused-fewshot": {
+      "resolved_models": [
+        "jev-1.13.0"
+      ],
+      "n": 100,
+      "attempted": 100,
+      "scored": 100,
+      "failed": 0,
+      "unattempted": 0,
+      "correct": 69,
+      "coverage": 1.0,
+      "accuracy": 0.69,
+      "accuracy_95pct_wilson": [
+        0.5937394428051057,
+        0.7722030278762395
+      ],
+      "accuracy_all_requested": 0.69,
+      "balanced_accuracy": 0.69,
+      "majority_class_baseline": 0.5,
+      "confusion_matrix": {
+        "Overturned": {
+          "Overturned": 42,
+          "Upheld": 8
+        },
+        "Upheld": {
+          "Overturned": 23,
+          "Upheld": 27
+        }
+      },
+      "per_class": {
+        "Overturned": {
+          "precision": 0.6461538461538462,
+          "recall": 0.84,
+          "f1": 0.7304347826086957,
+          "support": 50
+        },
+        "Upheld": {
+          "precision": 0.7714285714285715,
+          "recall": 0.54,
+          "f1": 0.6352941176470588,
+          "support": 50
+        }
+      },
+      "elapsed_seconds": 18.877095583011396,
+      "latency_seconds": {
+        "p50": 0.17761443750350736,
+        "p95": 0.2891131872122059
+      },
+      "total_input_tokens": 121767,
+      "total_output_tokens": 3730,
+      "estimated_cost_usd": 0.005114214000000001,
+      "cost_note": "Estimate from returned usage; failed calls without usage may add cost."
+    }
+  },
+  "note": "Selected before full-test evaluation; both development rounds retained."
+}
