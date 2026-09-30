@@ -1,5 +1,7 @@
 # Jev baseline results
 
+For all 6,915 completed cases, see [overall metrics and confidence statistics](CONFIDENCE_STATS.md).
+
 ## Current result: 1,000 cases with focused criteria
 
 **Accuracy: 69.5% (695/1,000)**. All 1,000 cases returned valid decisions.

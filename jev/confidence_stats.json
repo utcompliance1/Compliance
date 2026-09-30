@@ -1,0 +1,182 @@
+{
+  "model": [
+    "jev-1.13.0"
+  ],
+  "prompt": "focused",
+  "dataset": "utcompliance1/imr-appeals-cleaned",
+  "revision": "0abb1e862c71e2b0558b560fceedab3d528759f7",
+  "source_run_status": "interrupted",
+  "source_run_utc": "2026-09-30T03:51:15.594281+00:00",
+  "source_predictions_sha256": "f6966acc8405b556fd0855928e6907471680fea97bc96d3f6cf00762d2b1e5e0",
+  "cases": 6915,
+  "correct": 4757,
+  "incorrect": 2158,
+  "accuracy": 0.6879248011569052,
+  "accuracy_95pct_wilson": [
+    0.6769022545747166,
+    0.6987386696274972
+  ],
+  "balanced_accuracy": 0.6883684616927414,
+  "class_counts": {
+    "Upheld": 3698,
+    "Overturned": 3217
+  },
+  "majority_baseline_evaluated_cases": 0.5347794649313088,
+  "confidence_ranges": [
+    {
+      "range": "0.00 ≤ c < 0.25",
+      "cases": 1152,
+      "share_of_cases": 0.1665943600867679,
+      "correct": 581,
+      "incorrect": 571,
+      "accuracy": 0.5043402777777778,
+      "accuracy_95pct_wilson": [
+        0.4755019587513309,
+        0.5331497468296429
+      ],
+      "share_of_errors": 0.2645968489341983
+    },
+    {
+      "range": "0.25 ≤ c < 0.50",
+      "cases": 1232,
+      "share_of_cases": 0.17816341287057122,
+      "correct": 783,
+      "incorrect": 449,
+      "accuracy": 0.635551948051948,
+      "accuracy_95pct_wilson": [
+        0.6082948607258222,
+        0.6619663427773527
+      ],
+      "share_of_errors": 0.20806302131603335
+    },
+    {
+      "range": "0.50 ≤ c < 0.75",
+      "cases": 1786,
+      "share_of_cases": 0.25827910339840926,
+      "correct": 1170,
+      "incorrect": 616,
+      "accuracy": 0.6550951847704367,
+      "accuracy_95pct_wilson": [
+        0.6327385108154202,
+        0.6767861106362609
+      ],
+      "share_of_errors": 0.28544949026876737
+    },
+    {
+      "range": "0.75 ≤ c ≤ 1.00",
+      "cases": 2745,
+      "share_of_cases": 0.3969631236442516,
+      "correct": 2223,
+      "incorrect": 522,
+      "accuracy": 0.8098360655737705,
+      "accuracy_95pct_wilson": [
+        0.7947264917795192,
+        0.8240796581865695
+      ],
+      "share_of_errors": 0.24189063948100092
+    }
+  ],
+  "cumulative_thresholds": [
+    {
+      "minimum_confidence": 0,
+      "cases": 6915,
+      "share_of_cases": 1.0,
+      "correct": 4757,
+      "incorrect": 2158,
+      "accuracy": 0.6879248011569052,
+      "accuracy_95pct_wilson": [
+        0.6769022545747166,
+        0.6987386696274972
+      ],
+      "share_of_errors": 1.0
+    },
+    {
+      "minimum_confidence": 0.25,
+      "cases": 5763,
+      "share_of_cases": 0.8334056399132321,
+      "correct": 4176,
+      "incorrect": 1587,
+      "accuracy": 0.7246225923997918,
+      "accuracy_95pct_wilson": [
+        0.7129427939134639,
+        0.7360031357583124
+      ],
+      "share_of_errors": 0.7354031510658017
+    },
+    {
+      "minimum_confidence": 0.5,
+      "cases": 4531,
+      "share_of_cases": 0.6552422270426609,
+      "correct": 3393,
+      "incorrect": 1138,
+      "accuracy": 0.7488413153829176,
+      "accuracy_95pct_wilson": [
+        0.736006533754415,
+        0.7612545106452324
+      ],
+      "share_of_errors": 0.5273401297497683
+    },
+    {
+      "minimum_confidence": 0.75,
+      "cases": 2745,
+      "share_of_cases": 0.3969631236442516,
+      "correct": 2223,
+      "incorrect": 522,
+      "accuracy": 0.8098360655737705,
+      "accuracy_95pct_wilson": [
+        0.7947264917795192,
+        0.8240796581865695
+      ],
+      "share_of_errors": 0.24189063948100092
+    },
+    {
+      "minimum_confidence": 0.9,
+      "cases": 1331,
+      "share_of_cases": 0.19248011569052784,
+      "correct": 1158,
+      "incorrect": 173,
+      "accuracy": 0.8700225394440271,
+      "accuracy_95pct_wilson": [
+        0.8508864393095199,
+        0.8870289089822749
+      ],
+      "share_of_errors": 0.08016682113067655
+    }
+  ],
+  "confusion_matrix": {
+    "Overturned": {
+      "Overturned": 2235,
+      "Upheld": 982
+    },
+    "Upheld": {
+      "Overturned": 1176,
+      "Upheld": 2522
+    }
+  },
+  "per_class": {
+    "Overturned": {
+      "precision": 0.6552330694810906,
+      "recall": 0.6947466583773703,
+      "f1": 0.6744115872057936,
+      "support": 3217
+    },
+    "Upheld": {
+      "precision": 0.7197488584474886,
+      "recall": 0.6819902650081124,
+      "f1": 0.7003610108303249,
+      "support": 3698
+    }
+  },
+  "elapsed_seconds": 268.86401025002124,
+  "latency_seconds": {
+    "p50": 0.14562362499418668,
+    "p95": 0.21884391679486723
+  },
+  "total_input_tokens": 4504782,
+  "total_output_tokens": 255762,
+  "estimated_cost_usd": 0.189200844,
+  "requested_cases": 9846,
+  "unattempted_cases": 2931,
+  "dataset_coverage": 0.702315661182206,
+  "failed_requests": 0
+}

@@ -9,6 +9,9 @@ The focused prompt achieved **69.5% accuracy on 1,000 cases** extracted from an
 interrupted larger run. The original 200-case basic prompt scored 66.0% on a
 different sample. See [measured results and sampling details](RESULTS.md).
 
+See [overall accuracy, confidence ranges, and coverage](CONFIDENCE_STATS.md)
+for statistics across all 6,915 cases completed before the larger run stopped.
+
 ## Setup and run
 
 From the repository root:
