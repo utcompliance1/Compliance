@@ -1,6 +1,6 @@
 """Select a prompt on train-split development cases, keeping test cases fixed.
 
-Run: python jev-results/compare_prompts.py --n 100
+Run: python jev/compare_prompts.py --n 100
 """
 
 import argparse
@@ -10,10 +10,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from datasets import load_dataset
-from dotenv import load_dotenv
 from typesafe_sdk import RetryPolicy, TypeSafeClient
 
-from baseline_eval_jev import DATASET, MODEL, REVISION, ROOT, evaluate, make_sample, sample_hash, write_json
+from baseline_eval_jev import DATASET, MODEL, REVISION, JEV_DIR, evaluate, load_local_env, make_sample, sample_hash, write_json
 from prompts import PROMPTS
 
 
@@ -26,11 +25,11 @@ def main():
     parser.add_argument("--n", type=int, default=100)
     parser.add_argument("--seed", type=int, default=17)
     parser.add_argument("--prompts", nargs="+", choices=PROMPTS, default=["basic", "structured"])
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "jev-results" / "prompt-development")
+    parser.add_argument("--output-dir", type=Path, default=JEV_DIR / "prompt-development")
     args = parser.parse_args()
     if args.n < 2 or args.n % 2:
         parser.error("--n must be an even integer >= 2")
-    load_dotenv(ROOT / ".env", override=False)
+    load_local_env()
     api_key = os.environ.get("TYPESAFE_API_KEY", "").strip()
     if not api_key:
         parser.error("Set TYPESAFE_API_KEY locally.")

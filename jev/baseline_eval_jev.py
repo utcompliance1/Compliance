@@ -1,8 +1,8 @@
 """Small, zero-shot Jev baseline on the cleaned IMR appeals test split.
 
 Run from the repository root:
-    python jev-results/baseline_eval_jev.py --n 200
-    python jev-results/baseline_eval_jev.py --n 100 --dry-run
+    python jev/baseline_eval_jev.py --n 200
+    python jev/baseline_eval_jev.py --n 100 --dry-run
 """
 
 import argparse
@@ -22,7 +22,8 @@ from dotenv import load_dotenv
 from typesafe_sdk import RetryPolicy, TypeSafeClient, TypeSafeError
 from prompts import DEFAULT_PROMPT, PROMPTS
 
-ROOT = Path(__file__).resolve().parents[1]
+JEV_DIR = Path(__file__).resolve().parent
+ROOT = JEV_DIR.parent
 DATASET = "utcompliance1/imr-appeals-cleaned"
 # Pin the dataset and model so later releases do not silently change the run.
 REVISION = "0abb1e862c71e2b0558b560fceedab3d528759f7"
@@ -30,6 +31,12 @@ MODEL = "jev-1.13.0"
 LABELS = ("Overturned", "Upheld")
 INPUT_PRICE_PER_MILLION = 0.042  # https://docs.typesafe.ai/models
 QUESTIONS = PROMPTS[DEFAULT_PROMPT]
+
+
+def load_local_env():
+    """Prefer jev/.env; retain compatibility with the original root .env."""
+    load_dotenv(JEV_DIR / ".env", override=False)
+    load_dotenv(ROOT / ".env", override=False)
 
 
 def make_sample(dataframe, n, seed=42, index_field="test_index"):
@@ -231,7 +238,7 @@ def main(argv=None):
                         help="Versioned instructions and criteria (default: %(default)s)")
     parser.add_argument("--workers", type=int, default=1, help="Concurrent API calls (default: 1)")
     parser.add_argument("--revision", default=REVISION, help="Hugging Face dataset commit")
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "jev-results" / "output")
+    parser.add_argument("--output-dir", type=Path, default=JEV_DIR / "output")
     parser.add_argument("--dry-run", action="store_true", help="Prepare sample without making API calls")
     args = parser.parse_args(argv)
     questions = PROMPTS[args.prompt]
@@ -239,10 +246,10 @@ def main(argv=None):
         parser.error("--n must be an even integer >= 2")
     if args.workers < 1:
         parser.error("--workers must be >= 1")
-    load_dotenv(ROOT / ".env", override=False)
+    load_local_env()
     api_key = os.environ.get("TYPESAFE_API_KEY", "").strip()
     if not args.dry_run and not api_key:
-        parser.error("Set TYPESAFE_API_KEY in your environment or the repository's .env. Use --dry-run to prepare data without a key.")
+        parser.error("Set TYPESAFE_API_KEY in your environment or jev/.env. Use --dry-run to prepare data without a key.")
     output_dir = args.output_dir.resolve()
     results_path = output_dir / "baseline_results_jev.json"
     predictions_path = output_dir / "jev_predictions.jsonl"

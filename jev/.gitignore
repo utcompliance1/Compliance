@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+# Preserve the larger interrupted run locally; its summary is committed.
+/full-test-focused/jev_predictions.jsonl
+/full-test-focused/jev_sample.json

@@ -1,0 +1,4 @@
+datasets
+pandas
+python-dotenv
+typesafe-sdk==0.7.2

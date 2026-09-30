@@ -14,19 +14,19 @@ different sample. See [measured results and sampling details](RESULTS.md).
 From the repository root:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-# Edit .env: TYPESAFE_API_KEY=<your TypeSafe key>
-python jev-results/baseline_eval_jev.py --n 200
+python3 -m venv jev/.venv
+source jev/.venv/bin/activate
+pip install -r jev/requirements.txt
+cp jev/.env.example jev/.env
+# Edit jev/.env: TYPESAFE_API_KEY=<your TypeSafe key>
+python jev/baseline_eval_jev.py --n 200
 ```
 
 For every case in the cleaned held-out test split, with its natural class balance:
 
 ```bash
-python jev-results/baseline_eval_jev.py --full-test --prompt focused --workers 4 \
-  --output-dir jev-results/full-test-focused
+python jev/baseline_eval_jev.py --full-test --prompt focused --workers 4 \
+  --output-dir jev/full-test-focused
 ```
 
 `--full-test` and `--n` are mutually exclusive. The full split has 9,846 cases
@@ -35,19 +35,20 @@ the balanced pilot's 50%. Four workers make concurrent calls through the same
 SDK connection pool. The first call runs alone to validate the integration.
 
 Create a key in the [TypeSafe console](https://console.typesafe.ai/). Environment
-variables take precedence over the repository's `.env`. The key is never saved
-in results; `.env` and `.venv` are excluded from Git.
+variables take precedence over `jev/.env`. A root `.env` is also supported for
+compatibility with the original run. The key is never saved in results;
+`jev/.env` and `jev/.venv` are excluded from Git.
 
 For a 100-case run or an additional run, use a separate directory:
 
 ```bash
-python jev-results/baseline_eval_jev.py --n 100 --output-dir jev-results/run-100
+python jev/baseline_eval_jev.py --n 100 --output-dir jev/run-100
 ```
 
 To download the data and inspect the sample without calling Jev:
 
 ```bash
-python jev-results/baseline_eval_jev.py --n 200 --dry-run
+python jev/baseline_eval_jev.py --n 200 --dry-run
 ```
 
 ## Methodology
@@ -102,7 +103,7 @@ Every case still gets one of the same two labels, including ambiguous cases.
 To compare the fixed basic and structured prompts on a development sample:
 
 ```bash
-python jev-results/compare_prompts.py --n 100
+python jev/compare_prompts.py --n 100
 ```
 
 Development uses 100 balanced **training-split** cases, seed 17, after excluding
@@ -135,16 +136,16 @@ predictions, with no new API calls. This saved prefix is distinct from the
 runner's balanced random `--n 1000` sampling.
 
 ```bash
-python jev-results/compare_prompts.py --n 100 --prompts focused focused-fewshot \
-  --output-dir jev-results/prompt-development-focused
+python jev/compare_prompts.py --n 100 --prompts focused focused-fewshot \
+  --output-dir jev/prompt-development-focused
 ```
 
 The comparison script refuses to reuse an output directory. Use
-`--output-dir jev-results/dev-rerun` for an additional development experiment.
+`--output-dir jev/dev-rerun` for an additional development experiment.
 
 ## Outputs
 
-Default destination: `jev-results/output/`.
+Default destination: `jev/output/`.
 
 | File | Contents |
 | --- | --- |
@@ -162,7 +163,7 @@ SDK retries handle transient failures with backoff.
 ## Verification
 
 ```bash
-python -m unittest discover -s jev-results -p 'test_*.py' -v
+python -m unittest discover -s jev -p 'test_*.py' -v
 ```
 
 These offline checks exercise the real SDK with a simulated HTTP response, verify

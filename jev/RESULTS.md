@@ -50,8 +50,8 @@ No separate wall time was measured for the extracted subset.
 To run a new **balanced random** 1,000-case sample instead of this saved prefix:
 
 ```bash
-.venv/bin/python jev-results/baseline_eval_jev.py --n 1000 --prompt focused \
-  --workers 4 --output-dir jev-results/random-1000
+jev/.venv/bin/python jev/baseline_eval_jev.py --n 1000 --prompt focused \
+  --workers 4 --output-dir jev/random-1000
 ```
 
 No additional run was started after the request to stop.
@@ -133,8 +133,8 @@ All 200 pilot row IDs were verified to belong to the earlier canonical
 - [Setup and methodology](README.md)
 
 ```bash
-.venv/bin/python jev-results/baseline_eval_jev.py --n 200 --prompt basic \
-  --output-dir jev-results/rerun-200
+jev/.venv/bin/python jev/baseline_eval_jev.py --n 200 --prompt basic \
+  --output-dir jev/rerun-200
 ```
 
 The sample is deterministic; live model answers can vary across runs. Code,
