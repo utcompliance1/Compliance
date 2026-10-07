@@ -76,10 +76,10 @@ be recomputed exactly from `test_predictions.csv` before it is quoted.
 ## Comparison with the LLM baselines (balanced 4,000 rows)
 | Model | Accuracy |
 |---|---|
-| DistilBERT, validation-selected (new) | 74.52% [73.15, 75.85] |
-| DistilBERT, test-selected (old, rescored) | 74.60% [73.23, 75.92] |
+| DistilBERT, validation-selected (new) | 74.52% |
+| DistilBERT, test-selected (old, rescored) | 74.60% |
 | gpt-5 (few-shot) | 73.1% (about [71.7, 74.4]) |
-| gpt-5-nano (few-shot) | 60.6% (3,980 scored, 20 unparsed) |
+| gpt-5-nano (few-shot) | 60.6% |
 
 DistilBERT is about 1.4 points ahead of gpt-5, but the intervals overlap and the gpt-5 run
 saved only aggregate accuracy, not per-row predictions. **No claim of a difference from
