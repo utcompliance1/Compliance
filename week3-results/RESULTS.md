@@ -58,8 +58,8 @@ lower layers, higher dropout) were not needed.
 
 | Subset | n | Validation-selected (new) | Test-selected (old, rescored) | Majority baseline |
 |---|---|---|---|---|
-| Full test, all rows | 9,846 | **75.43%** [74.57, 76.27] | 75.21% [74.35, 76.05] | 53.90% |
-| Balanced 4,000, all rows | 4,000 | 74.52% [73.15, 75.85] | 74.60% [73.23, 75.92] | 50.00% |
+| Full test, all rows | 9,846 | **75.43%** | 75.21% | 53.90% |
+| Balanced 4,000, all rows | 4,000 | 74.52% | 74.60% | 50.00% |
 
 The old model was rescored at its original 256-token setting. Last week it was reported at
 **74.65%** on the balanced sample. That figure is **test-selected** and is kept here only for
