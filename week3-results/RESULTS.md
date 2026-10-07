@@ -55,7 +55,6 @@ Validation loss did not rise inside the first epoch, so the second-pass options 
 lower layers, higher dropout) were not needed.
 
 ## Test results (single evaluation, after the checkpoint was frozen)
-Wilson 95% intervals. "No shortcut" excludes the 115 test rows described above.
 
 | Subset | n | Validation-selected (new) | Test-selected (old, rescored) | Majority baseline |
 |---|---|---|---|---|
