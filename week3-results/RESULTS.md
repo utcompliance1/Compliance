@@ -60,9 +60,7 @@ Wilson 95% intervals. "No shortcut" excludes the 115 test rows described above.
 | Subset | n | Validation-selected (new) | Test-selected (old, rescored) | Majority baseline |
 |---|---|---|---|---|
 | Full test, all rows | 9,846 | **75.43%** [74.57, 76.27] | 75.21% [74.35, 76.05] | 53.90% |
-| Full test, no shortcut rows | 9,731 | 75.19% [74.32, 76.04] | 74.97% [74.10, 75.82] | 53.79% |
 | Balanced 4,000, all rows | 4,000 | 74.52% [73.15, 75.85] | 74.60% [73.23, 75.92] | 50.00% |
-| Balanced 4,000, no shortcut rows | 3,959 | 74.31% [72.93, 75.65] | 74.39% [73.00, 75.72] | 50.11% |
 
 The old model was rescored at its original 256-token setting. Last week it was reported at
 **74.65%** on the balanced sample. That figure is **test-selected** and is kept here only for
