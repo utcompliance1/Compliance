@@ -52,7 +52,9 @@ def footer(fig, text):
 
 def save(fig, name):
     fig.savefig(OUT / f"{name}.png", dpi=180)
-    fig.savefig(OUT / f"{name}.svg")
+    svg = OUT / f"{name}.svg"
+    fig.savefig(svg)
+    svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
     plt.close(fig)
 
 
