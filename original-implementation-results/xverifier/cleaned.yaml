@@ -1,0 +1,34 @@
+study: imr-gpt5-cleaned-limited
+seeds:
+- 42
+- 123
+- 456
+- 789
+- 1024
+frame:
+  path: rows/cleaned.npz
+  sha256:
+    path: afb001190c9bf5d95cb702a47c312853456660950ba8fd1d9beb43c9be3aa001
+split:
+  mode: draw
+  calibration_fraction: 0.274
+  evaluation_fraction: 0.082
+estimator:
+  probe:
+    family: linear
+    C: 1.0
+    max_components: 256
+    min_rows_per_verdict: 40
+  calibration:
+    method: venn_abers
+    cross_fit_folds: 5
+flip:
+  threshold: 0.5
+decide:
+  error_levels:
+  - 0.25
+  - 0.2
+  - 0.15
+  - 0.1
+  - 0.05
+  confidence: 0.95

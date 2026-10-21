@@ -27,3 +27,7 @@ python baseline_eval.py
   selected for completeness (no truncation) and explicit denial rationale.
 - Models are queried with `reasoning_effort="minimal"` and evaluated with
   `temperature` at its default (gpt-5-family models do not support overriding it).
+
+## Original xverifier implementation
+
+[Limited GPT-5 results on cleaned and uncleaned inputs](original-implementation-results/xverifier/RESULTS.md), with original per-seed outputs, saved predictions, and reproduction scripts.

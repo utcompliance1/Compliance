@@ -1,0 +1,32 @@
+{
+  "uncleaned": {
+    "rows": 4884,
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      1024
+    ],
+    "disjoint_groups_and_exact_text_per_role": true,
+    "native_operating_points_recomputed_from_saved_predictions": true
+  },
+  "cleaned": {
+    "rows": 3592,
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      1024
+    ],
+    "disjoint_groups_and_exact_text_per_role": true,
+    "native_operating_points_recomputed_from_saved_predictions": true
+  },
+  "upstream_commit": "241fcf3e068771fd23522b582f72e4e87d07fce8",
+  "upstream_tracked_source_unchanged": true,
+  "upstream_tests": {
+    "passed": 78
+  },
+  "filtered_rows_are_subset": true
+}

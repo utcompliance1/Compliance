@@ -1,0 +1,253 @@
+{
+  "candidates": [
+    {
+      "budget": 0.00357142857142857,
+      "cutoff": 0.523489932885906,
+      "decided": 1252,
+      "errors": 407,
+      "scan_index": 0,
+      "upper_bound": 0.3617649040086215
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5272727272727272,
+      "decided": 1251,
+      "errors": 407,
+      "scan_index": 1,
+      "upper_bound": 0.36204609003940547
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5416666666666667,
+      "decided": 1226,
+      "errors": 391,
+      "scan_index": 2,
+      "upper_bound": 0.355852963517657
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5691371226453894,
+      "decided": 1161,
+      "errors": 348,
+      "scan_index": 3,
+      "upper_bound": 0.337185425251856
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5889194584645082,
+      "decided": 1097,
+      "errors": 323,
+      "scan_index": 4,
+      "upper_bound": 0.3328309831472055
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6402877697841726,
+      "decided": 1015,
+      "errors": 277,
+      "scan_index": 5,
+      "upper_bound": 0.3121152474518549
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6617647058823529,
+      "decided": 940,
+      "errors": 251,
+      "scan_index": 6,
+      "upper_bound": 0.3075934168813973
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6774193548387097,
+      "decided": 690,
+      "errors": 147,
+      "scan_index": 7,
+      "upper_bound": 0.25778914074135484
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.7400881057268722,
+      "decided": 626,
+      "errors": 125,
+      "scan_index": 8,
+      "upper_bound": 0.24587996291730227
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.7679558011049724,
+      "decided": 491,
+      "errors": 87,
+      "scan_index": 9,
+      "upper_bound": 0.2279017324672234
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8228782287822878,
+      "decided": 313,
+      "errors": 56,
+      "scan_index": 10,
+      "upper_bound": 0.2439582081662532
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8283828382838285,
+      "decided": 268,
+      "errors": 47,
+      "scan_index": 11,
+      "upper_bound": 0.2458257790085103
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8461538461538461,
+      "decided": 147,
+      "errors": 25,
+      "scan_index": 12,
+      "upper_bound": 0.26798427500809463
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8619424054206661,
+      "decided": 69,
+      "errors": 6,
+      "scan_index": 13,
+      "upper_bound": 0.21762125832297777
+    }
+  ],
+  "code_sha256": "64257808b7024e39ef9a9617814294b781dd83069eb403e81179f6add918dfe0",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.13.0",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "experiment_sha256": "b251c5da8410ac703ddea5dceb8948994965c390e7c0b6161645df2745a82d40",
+  "fallback_rows": {
+    "calibration": 0,
+    "test": 0,
+    "train": 0
+  },
+  "operating_points": [
+    {
+      "budget": 0.0035714285714285718,
+      "calibration_decided": 626,
+      "calibration_errors": 125,
+      "calibration_rows": 1252,
+      "cutoff": 0.7400881057268722,
+      "decided": 202,
+      "error_level": 0.25,
+      "error_rate": 0.16831683168316833,
+      "errors": 34,
+      "minimum_clean": 20,
+      "reason": null,
+      "review_all": false,
+      "rows": 384,
+      "scan_index": 8,
+      "upper_bound": 0.24587996291730227
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.2,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 26,
+      "reason": "R",
+      "review_all": true,
+      "rows": 384,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.15,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 35,
+      "reason": "R",
+      "review_all": true,
+      "rows": 384,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.1,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 54,
+      "reason": "R",
+      "review_all": true,
+      "rows": 384,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.05,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 110,
+      "reason": "R",
+      "review_all": true,
+      "rows": 384,
+      "scan_index": null,
+      "upper_bound": null
+    }
+  ],
+  "pca_dim": 256,
+  "row_sha256": {
+    "path": "6ea47fc03d73e1976cffdfe307eaea5b86f869ffb2233b58dd2fd0adf586cf06"
+  },
+  "rows": {
+    "calibration": 1252,
+    "test": 384,
+    "train": 3248
+  },
+  "seed": 123,
+  "settings": {
+    "calibration": {
+      "cross_fit_folds": 5,
+      "method": "venn_abers"
+    },
+    "calibration_fraction": 0.274,
+    "confidence": 0.95,
+    "error_budget": 0.05,
+    "error_levels": [
+      0.25,
+      0.2,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "evaluation_fraction": 0.082,
+    "mode": "draw",
+    "probe": {
+      "C": 1.0,
+      "family": "linear",
+      "max_components": 256,
+      "min_rows_per_verdict": 40
+    },
+    "threshold": 0.5
+  },
+  "study": "imr-gpt5-uncleaned-limited",
+  "unscored_out_of_fold": 0
+}

@@ -1,0 +1,253 @@
+{
+  "candidates": [
+    {
+      "budget": 0.00357142857142857,
+      "cutoff": 0.5141388174807198,
+      "decided": 983,
+      "errors": 269,
+      "scan_index": 0,
+      "upper_bound": 0.31354766127414146
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5497801231310466,
+      "decided": 976,
+      "errors": 264,
+      "scan_index": 1,
+      "upper_bound": 0.31041416951551104
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5660377358490566,
+      "decided": 974,
+      "errors": 264,
+      "scan_index": 2,
+      "upper_bound": 0.3110338023920173
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6026058631921823,
+      "decided": 943,
+      "errors": 250,
+      "scan_index": 3,
+      "upper_bound": 0.3055387156125885
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6026058631921826,
+      "decided": 943,
+      "errors": 250,
+      "scan_index": 4,
+      "upper_bound": 0.3055387156125885
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6296296296296297,
+      "decided": 775,
+      "errors": 183,
+      "scan_index": 5,
+      "upper_bound": 0.27950995085260927
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6438356164383562,
+      "decided": 757,
+      "errors": 174,
+      "scan_index": 6,
+      "upper_bound": 0.2734341939137474
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.7115384615384616,
+      "decided": 609,
+      "errors": 122,
+      "scan_index": 7,
+      "upper_bound": 0.24725929325345772
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.739766081871345,
+      "decided": 517,
+      "errors": 100,
+      "scan_index": 8,
+      "upper_bound": 0.2441113694832884
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.7451295440851576,
+      "decided": 415,
+      "errors": 77,
+      "scan_index": 9,
+      "upper_bound": 0.24190270603440667
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.7954545454545455,
+      "decided": 335,
+      "errors": 49,
+      "scan_index": 10,
+      "upper_bound": 0.2051301145038745
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8085106382978724,
+      "decided": 276,
+      "errors": 41,
+      "scan_index": 11,
+      "upper_bound": 0.21447772202385296
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.842635849520531,
+      "decided": 138,
+      "errors": 16,
+      "scan_index": 12,
+      "upper_bound": 0.2074197886574901
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8614190687361418,
+      "decided": 47,
+      "errors": 4,
+      "scan_index": 13,
+      "upper_bound": 0.25231294042168817
+    }
+  ],
+  "code_sha256": "64257808b7024e39ef9a9617814294b781dd83069eb403e81179f6add918dfe0",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.13.0",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "experiment_sha256": "ac41548a1e622d9d899af85421b8455a5163e5baf4cbb7e5b94c45122ef33377",
+  "fallback_rows": {
+    "calibration": 0,
+    "test": 0,
+    "train": 0
+  },
+  "operating_points": [
+    {
+      "budget": 0.0035714285714285718,
+      "calibration_decided": 609,
+      "calibration_errors": 122,
+      "calibration_rows": 983,
+      "cutoff": 0.7115384615384616,
+      "decided": 192,
+      "error_level": 0.25,
+      "error_rate": 0.25,
+      "errors": 48,
+      "minimum_clean": 20,
+      "reason": null,
+      "review_all": false,
+      "rows": 293,
+      "scan_index": 7,
+      "upper_bound": 0.24725929325345772
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.2,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 26,
+      "reason": "R",
+      "review_all": true,
+      "rows": 293,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.15,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 35,
+      "reason": "R",
+      "review_all": true,
+      "rows": 293,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.1,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 54,
+      "reason": "R",
+      "review_all": true,
+      "rows": 293,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.05,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 110,
+      "reason": "R",
+      "review_all": true,
+      "rows": 293,
+      "scan_index": null,
+      "upper_bound": null
+    }
+  ],
+  "pca_dim": 231,
+  "row_sha256": {
+    "path": "afb001190c9bf5d95cb702a47c312853456660950ba8fd1d9beb43c9be3aa001"
+  },
+  "rows": {
+    "calibration": 983,
+    "test": 293,
+    "train": 2316
+  },
+  "seed": 456,
+  "settings": {
+    "calibration": {
+      "cross_fit_folds": 5,
+      "method": "venn_abers"
+    },
+    "calibration_fraction": 0.274,
+    "confidence": 0.95,
+    "error_budget": 0.05,
+    "error_levels": [
+      0.25,
+      0.2,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "evaluation_fraction": 0.082,
+    "mode": "draw",
+    "probe": {
+      "C": 1.0,
+      "family": "linear",
+      "max_components": 256,
+      "min_rows_per_verdict": 40
+    },
+    "threshold": 0.5
+  },
+  "study": "imr-gpt5-cleaned-limited",
+  "unscored_out_of_fold": 0
+}

@@ -1,0 +1,24 @@
+{
+  "raw_dataset": "Persius/imr-appeals",
+  "raw_revision": "c68b70e0faf74cd2b5731ea02ad7ba7d99a11b8b",
+  "clean_dataset": "utcompliance1/imr-appeals-cleaned",
+  "clean_revision": "0abb1e862c71e2b0558b560fceedab3d528759f7",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_input": "text",
+  "embedding_normalized": true,
+  "embedding_max_seq_length": 256,
+  "row_alignment_verified": true,
+  "rows": {
+    "train": 64067,
+    "test": 9920
+  },
+  "clean_rows": {
+    "test": 9846,
+    "train": 60096,
+    "quarantined": 1276,
+    "dropped_exact_duplicates": 2769
+  },
+  "embedding_sha256": "6aa7fe7eee6e7bd26f788df1370669ee7d5cef1ec454c38720d82a1bcf42fc52",
+  "cases_sha256": "613e74da89ca81e95fb5fec969744829a28e977a1026d7999b15eb2e6b379af2"
+}

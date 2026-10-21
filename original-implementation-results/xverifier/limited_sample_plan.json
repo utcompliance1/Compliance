@@ -1,0 +1,17 @@
+{
+  "status": "complete_limited_run",
+  "frozen_at_utc": "2026-10-21T05:07:07.522558+00:00",
+  "sampling": "All GPT predictions saved before user stopped full collection; eligible cases joined by exact text SHA-256, sorted by original row_id. Completion/prefix sample, not a random population sample. No further API calls.",
+  "prediction_cache_sha256": "b6efdf3618ac899eab420f690d0e7c30f2ea2b2b9f7afc07ef64b853709f135a",
+  "unique_api_predictions": 3727,
+  "unparsed_unique_predictions": 0,
+  "source_splits": {
+    "train": 4884
+  },
+  "api_usage": {
+    "input_tokens": 2101110,
+    "output_tokens": 46844,
+    "cost_estimate_usd_at_prior_baseline_rates": 3.0948275,
+    "note": "Estimate using prior baseline rates; excludes integration check and interrupted requests not saved in cache. Not an invoice."
+  }
+}

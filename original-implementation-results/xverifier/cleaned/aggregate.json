@@ -1,0 +1,68 @@
+{
+  "code_sha256": "64257808b7024e39ef9a9617814294b781dd83069eb403e81179f6add918dfe0",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.13.0",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "error_levels": {
+    "0.05": {
+      "coverage_mean": 0.0,
+      "coverage_std": 0.0,
+      "error_level": 0.05,
+      "error_rate_mean": null,
+      "error_rate_std": null,
+      "n_certified": 0,
+      "n_seeds": 5
+    },
+    "0.10": {
+      "coverage_mean": 0.0,
+      "coverage_std": 0.0,
+      "error_level": 0.1,
+      "error_rate_mean": null,
+      "error_rate_std": null,
+      "n_certified": 0,
+      "n_seeds": 5
+    },
+    "0.15": {
+      "coverage_mean": 0.0,
+      "coverage_std": 0.0,
+      "error_level": 0.15,
+      "error_rate_mean": null,
+      "error_rate_std": null,
+      "n_certified": 0,
+      "n_seeds": 5
+    },
+    "0.20": {
+      "coverage_mean": 0.05374149659863946,
+      "coverage_std": 0.12016963960713156,
+      "error_level": 0.2,
+      "error_rate_mean": 0.24050632911392406,
+      "error_rate_std": null,
+      "n_certified": 1,
+      "n_seeds": 5
+    },
+    "0.25": {
+      "coverage_mean": 0.3600191642573614,
+      "coverage_std": 0.34599176240717844,
+      "error_level": 0.25,
+      "error_rate_mean": 0.22044810551919558,
+      "error_rate_std": 0.0827453450025066,
+      "n_certified": 3,
+      "n_seeds": 5
+    }
+  },
+  "experiment_sha256": "ac41548a1e622d9d899af85421b8455a5163e5baf4cbb7e5b94c45122ef33377",
+  "row_sha256": {
+    "path": "afb001190c9bf5d95cb702a47c312853456660950ba8fd1d9beb43c9be3aa001"
+  },
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "study": "imr-gpt5-cleaned-limited"
+}
