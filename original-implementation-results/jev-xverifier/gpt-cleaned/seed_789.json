@@ -1,0 +1,261 @@
+{
+  "candidates": [
+    {
+      "budget": 0.003333333333333333,
+      "cutoff": 0.5,
+      "decided": 983,
+      "errors": 270,
+      "scan_index": 0,
+      "upper_bound": 0.31494742967446704
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.5233644859813085,
+      "decided": 965,
+      "errors": 257,
+      "scan_index": 1,
+      "upper_bound": 0.3066594112142758
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.5299055613850997,
+      "decided": 960,
+      "errors": 254,
+      "scan_index": 2,
+      "upper_bound": 0.30495999930907003
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.5384615384615384,
+      "decided": 919,
+      "errors": 235,
+      "scan_index": 3,
+      "upper_bound": 0.2966380761923047
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.5833333333333334,
+      "decided": 861,
+      "errors": 200,
+      "scan_index": 4,
+      "upper_bound": 0.27349273809350655
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.5833333333333335,
+      "decided": 861,
+      "errors": 200,
+      "scan_index": 5,
+      "upper_bound": 0.27349273809350655
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.6359223300970874,
+      "decided": 774,
+      "errors": 167,
+      "scan_index": 6,
+      "upper_bound": 0.25839633645843024
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.669811320754717,
+      "decided": 705,
+      "errors": 151,
+      "scan_index": 7,
+      "upper_bound": 0.2588799539609516
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.689655172413793,
+      "decided": 586,
+      "errors": 114,
+      "scan_index": 8,
+      "upper_bound": 0.24242946793972167
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.7263843648208469,
+      "decided": 537,
+      "errors": 98,
+      "scan_index": 9,
+      "upper_bound": 0.23169224489076187
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.7500784054082308,
+      "decided": 416,
+      "errors": 68,
+      "scan_index": 10,
+      "upper_bound": 0.21804444187309988
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.7592592592592593,
+      "decided": 315,
+      "errors": 46,
+      "scan_index": 11,
+      "upper_bound": 0.20746669243332716
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.7918749199026015,
+      "decided": 209,
+      "errors": 27,
+      "scan_index": 12,
+      "upper_bound": 0.20385987562328312
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.8099352051835853,
+      "decided": 99,
+      "errors": 13,
+      "scan_index": 13,
+      "upper_bound": 0.24774169291601048
+    },
+    {
+      "budget": 0.0033333333333333335,
+      "cutoff": 0.8848484848484849,
+      "decided": 69,
+      "errors": 11,
+      "scan_index": 14,
+      "upper_bound": 0.3104828983470881
+    }
+  ],
+  "code_sha256": "64257808b7024e39ef9a9617814294b781dd83069eb403e81179f6add918dfe0",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.13.0",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "experiment_sha256": "1652073b3ca6c0807dedcef58d38b86c8ef69fefccb364a40acee42b0aa6b2f1",
+  "fallback_rows": {
+    "calibration": 0,
+    "test": 0,
+    "train": 0
+  },
+  "operating_points": [
+    {
+      "budget": 0.0033333333333333335,
+      "calibration_decided": 586,
+      "calibration_errors": 114,
+      "calibration_rows": 983,
+      "cutoff": 0.689655172413793,
+      "decided": 165,
+      "error_level": 0.25,
+      "error_rate": 0.20606060606060606,
+      "errors": 34,
+      "minimum_clean": 20,
+      "reason": null,
+      "review_all": false,
+      "rows": 294,
+      "scan_index": 8,
+      "upper_bound": 0.24242946793972167
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.2,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 26,
+      "reason": "R",
+      "review_all": true,
+      "rows": 294,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.15,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 36,
+      "reason": "R",
+      "review_all": true,
+      "rows": 294,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.1,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 55,
+      "reason": "R",
+      "review_all": true,
+      "rows": 294,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.05,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 112,
+      "reason": "R",
+      "review_all": true,
+      "rows": 294,
+      "scan_index": null,
+      "upper_bound": null
+    }
+  ],
+  "pca_dim": 231,
+  "row_sha256": {
+    "path": "b246129ca5728d565a21ddff0bf855f4c86bdba700b9162722fa45f5d48d715b"
+  },
+  "rows": {
+    "calibration": 983,
+    "test": 294,
+    "train": 2311
+  },
+  "seed": 789,
+  "settings": {
+    "calibration": {
+      "cross_fit_folds": 5,
+      "method": "venn_abers"
+    },
+    "calibration_fraction": 0.274,
+    "confidence": 0.95,
+    "error_budget": 0.05,
+    "error_levels": [
+      0.25,
+      0.2,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "evaluation_fraction": 0.082,
+    "mode": "draw",
+    "probe": {
+      "C": 1.0,
+      "family": "linear",
+      "max_components": 256,
+      "min_rows_per_verdict": 40
+    },
+    "threshold": 0.5
+  },
+  "study": "matched-gpt-cleaned",
+  "unscored_out_of_fold": 0
+}

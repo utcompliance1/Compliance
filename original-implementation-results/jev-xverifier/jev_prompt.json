@@ -1,0 +1,14 @@
+{
+  "decision": {
+    "type": "choice",
+    "instructions": {
+      "question": "Was the health insurer's coverage denial UPHELD or OVERTURNED in independent medical review?",
+      "focus": "Predict the review outcome for the current case. Assess whether the particular requested treatment, test, drug, or care setting is medically necessary and supported for the described condition. Consider clinical severity, functional needs, prior treatment response, reasonable alternatives, and the denial rationale.",
+      "cautions": "The insurer's initial denial is not the review outcome. Do not assume missing facts are negative findings or invent patient history or coverage restrictions. Serious illness alone does not justify every intervention. Failed alternatives alone do not establish benefit of an investigational treatment."
+    },
+    "criteria": {
+      "Upheld": "Review agrees with the denial: the specific requested care is not medically necessary or appropriately supported for this case, its setting or intensity is not warranted, or evidence supports the stated investigational or coverage rationale.",
+      "Overturned": "Review disagrees with the denial: the requested care is justified by the patient's clinical needs, prior treatment history, and evidence of benefit for this indication, or those facts undermine the stated denial rationale."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "frozen_at_utc": "2026-10-21T22:21:23.998721+00:00",
+  "model": "jev-1.13.0",
+  "prompt": "focused",
+  "prompt_sha256": "21279d03fe89d0f1701da3f492152f95dada191e5169e8c95c01ade282950dec",
+  "upstream_commit": "241fcf3e068771fd23522b582f72e4e87d07fce8",
+  "source_gpt_sample_sha256": "2b475aa18b9d3cd5bee368b15766baa4e764a99006be005313d3d251e9336767",
+  "sample_policy": "Prior limited GPT pool; exclude both Jev prompt-development rounds, normalized text overlaps, and whole near-duplicate groups. Existing GPT exclusions remain inherited. Same rows, representations, groups and per-dataset splits for GPT and Jev.",
+  "source_rows": 4884,
+  "eligible_rows": 4878,
+  "excluded_jev_development_overlap_rows": [
+    858,
+    1354,
+    1408,
+    1744,
+    3149,
+    4119
+  ],
+  "unique_texts": 3723,
+  "cleaned_rows": 3588,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "calibration_fraction": 0.274,
+  "evaluation_fraction": 0.082,
+  "error_levels": [
+    0.25,
+    0.2,
+    0.15,
+    0.1,
+    0.05
+  ],
+  "confidence": 0.95,
+  "input": "text only; never full_text, labels or row metadata",
+  "scope": "Limited nonrandom completion/prefix sample from source train; new group-held-out verifier evaluation slices, not canonical test. No full run."
+}

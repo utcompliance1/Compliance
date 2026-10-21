@@ -1,0 +1,4 @@
+rows/
+__pycache__/
+*.pyc
+.venv/

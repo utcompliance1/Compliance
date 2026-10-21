@@ -1,0 +1,13 @@
+{
+  "row_id_embedding_join_verified": true,
+  "gpt_jev_roles_identical_within_dataset": true,
+  "group_and_exact_text_roles_disjoint": true,
+  "complete_jev_prediction_coverage": true,
+  "native_upstream_runner_used": true,
+  "upstream_commit": "241fcf3e068771fd23522b582f72e4e87d07fce8",
+  "sample_sha256": "4c4f7b2a6f3cef08a73f110665218473d1303640ea512dfc94fbec1f4cebe82a",
+  "jev_cache_sha256": "916699ec00ebd74a47c0a0f87e33df2708032e125b3e45ef5dc86ca0061b8123",
+  "native_counts_recomputed_from_saved_predictions": true,
+  "accuracy_recomputed_from_saved_predictions": true,
+  "upstream_tracked_source_unchanged": true
+}

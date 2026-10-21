@@ -31,3 +31,5 @@ python baseline_eval.py
 ## Original xverifier implementation
 
 [Limited GPT-5 results on cleaned and uncleaned inputs](original-implementation-results/xverifier/RESULTS.md), with original per-seed outputs, saved predictions, and reproduction scripts.
+
+[Matched Jev and GPT-5 xverifier pilot with presentation plots](original-implementation-results/jev-xverifier/RESULTS.md).

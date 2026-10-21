@@ -1,0 +1,253 @@
+{
+  "candidates": [
+    {
+      "budget": 0.00357142857142857,
+      "cutoff": 0.5028142589118199,
+      "decided": 1337,
+      "errors": 350,
+      "scan_index": 0,
+      "upper_bound": 0.29538399965752826
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5312499999999999,
+      "decided": 1332,
+      "errors": 346,
+      "scan_index": 1,
+      "upper_bound": 0.29335606929862584
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5405699244678417,
+      "decided": 1294,
+      "errors": 328,
+      "scan_index": 2,
+      "upper_bound": 0.28734659261155454
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5423076923076924,
+      "decided": 1262,
+      "errors": 309,
+      "scan_index": 3,
+      "upper_bound": 0.2788201656125309
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.5961538461538461,
+      "decided": 1130,
+      "errors": 250,
+      "scan_index": 4,
+      "upper_bound": 0.25614265950663334
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6279733587059942,
+      "decided": 1055,
+      "errors": 225,
+      "scan_index": 5,
+      "upper_bound": 0.24904228804565307
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.6334405144694533,
+      "decided": 980,
+      "errors": 199,
+      "scan_index": 6,
+      "upper_bound": 0.23967504288202016
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.668421052631579,
+      "decided": 812,
+      "errors": 143,
+      "scan_index": 7,
+      "upper_bound": 0.21472082695243006
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.713235294117647,
+      "decided": 652,
+      "errors": 98,
+      "scan_index": 8,
+      "upper_bound": 0.1914876040193622
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.7848101265822784,
+      "decided": 510,
+      "errors": 68,
+      "scan_index": 9,
+      "upper_bound": 0.17853869909966683
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.802547770700637,
+      "decided": 419,
+      "errors": 52,
+      "scan_index": 10,
+      "upper_bound": 0.17330730960530963
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8200514138817481,
+      "decided": 307,
+      "errors": 38,
+      "scan_index": 11,
+      "upper_bound": 0.1823611828590465
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8528138528138527,
+      "decided": 153,
+      "errors": 22,
+      "scan_index": 12,
+      "upper_bound": 0.23523314563555642
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "cutoff": 0.8822495606326889,
+      "decided": 100,
+      "errors": 14,
+      "scan_index": 13,
+      "upper_bound": 0.25654376036191157
+    }
+  ],
+  "code_sha256": "64257808b7024e39ef9a9617814294b781dd83069eb403e81179f6add918dfe0",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.13.0",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "experiment_sha256": "77ab5a80902fc44756c3749cc7cf99ecd770bcc267182d1f7151ac0ac954d700",
+  "fallback_rows": {
+    "calibration": 0,
+    "test": 0,
+    "train": 0
+  },
+  "operating_points": [
+    {
+      "budget": 0.0035714285714285718,
+      "calibration_decided": 1055,
+      "calibration_errors": 225,
+      "calibration_rows": 1337,
+      "cutoff": 0.6279733587059942,
+      "decided": 301,
+      "error_level": 0.25,
+      "error_rate": 0.2956810631229236,
+      "errors": 89,
+      "minimum_clean": 20,
+      "reason": null,
+      "review_all": false,
+      "rows": 370,
+      "scan_index": 5,
+      "upper_bound": 0.24904228804565307
+    },
+    {
+      "budget": 0.0035714285714285718,
+      "calibration_decided": 652,
+      "calibration_errors": 98,
+      "calibration_rows": 1337,
+      "cutoff": 0.713235294117647,
+      "decided": 184,
+      "error_level": 0.2,
+      "error_rate": 0.22826086956521738,
+      "errors": 42,
+      "minimum_clean": 26,
+      "reason": null,
+      "review_all": false,
+      "rows": 370,
+      "scan_index": 8,
+      "upper_bound": 0.1914876040193622
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.15,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 35,
+      "reason": "R",
+      "review_all": true,
+      "rows": 370,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.1,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 54,
+      "reason": "R",
+      "review_all": true,
+      "rows": 370,
+      "scan_index": null,
+      "upper_bound": null
+    },
+    {
+      "budget": null,
+      "calibration_decided": null,
+      "calibration_errors": null,
+      "calibration_rows": null,
+      "cutoff": null,
+      "decided": 0,
+      "error_level": 0.05,
+      "error_rate": null,
+      "errors": null,
+      "minimum_clean": 110,
+      "reason": "R",
+      "review_all": true,
+      "rows": 370,
+      "scan_index": null,
+      "upper_bound": null
+    }
+  ],
+  "pca_dim": 256,
+  "row_sha256": {
+    "path": "e5b210d1c5d26467b4867d5dd0e62aaab669a998cd9a64fd6eb7d6a8c3b9bfbd"
+  },
+  "rows": {
+    "calibration": 1337,
+    "test": 370,
+    "train": 3171
+  },
+  "seed": 456,
+  "settings": {
+    "calibration": {
+      "cross_fit_folds": 5,
+      "method": "venn_abers"
+    },
+    "calibration_fraction": 0.274,
+    "confidence": 0.95,
+    "error_budget": 0.05,
+    "error_levels": [
+      0.25,
+      0.2,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "evaluation_fraction": 0.082,
+    "mode": "draw",
+    "probe": {
+      "C": 1.0,
+      "family": "linear",
+      "max_components": 256,
+      "min_rows_per_verdict": 40
+    },
+    "threshold": 0.5
+  },
+  "study": "matched-jev-uncleaned",
+  "unscored_out_of_fold": 0
+}
