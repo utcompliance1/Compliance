@@ -1,5 +1,8 @@
 # IMR Appeals LLM Baseline
 
+Start with [Baselines: results and comparisons](Baselines/README.md) for an
+overview and detailed Jev, GPT, and DistilBERT results.
+
 LLM baseline for predicting IMR (Independent Medical Review) appeal outcomes
 (`Upheld` vs `Overturned`) from case descriptions, using the
 [Persius/imr-appeals](https://huggingface.co/datasets/Persius/imr-appeals) dataset.
