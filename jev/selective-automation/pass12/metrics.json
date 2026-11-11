@@ -1,0 +1,58 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 85,
+    "human_review": 915,
+    "acceptance": 0.085,
+    "correct": 74,
+    "errors": 11,
+    "accuracy": 0.8705882352941177,
+    "wilson95": [
+      0.7829519105661322,
+      0.9261764720187473
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 8,
+        "correct": 8
+      },
+      "Overturned": {
+        "accepted": 77,
+        "correct": 66
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 91,
+    "human_review": 509,
+    "acceptance": 0.15166666666666667,
+    "correct": 71,
+    "errors": 20,
+    "accuracy": 0.7802197802197802,
+    "wilson95": [
+      0.6847607621793044,
+      0.8529787521023122
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 8,
+        "correct": 8
+      },
+      "Overturned": {
+        "accepted": 83,
+        "correct": 63
+      }
+    }
+  },
+  "configuration": "Newer JEV model with atomic evidence questions",
+  "selected_pass": null,
+  "calibration_target_met": false,
+  "new_case_requests": 1600,
+  "successful_responses": 1600,
+  "prompt_sha256": "57c38e5f8087b982221e458c8a41daf97b2fae429aac29b1f624cf7aba0b27a7",
+  "rule_sha256": "b236ae00053f23a5583c8610380da1969122051fbec009e4e7962da876974497",
+  "evaluation_role": "shared development evaluation"
+}

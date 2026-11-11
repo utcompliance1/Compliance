@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-11-11T21:39:59.106072+00:00",
+  "threshold": 0.8,
+  "calibration_target_met": false,
+  "score_mode": "gated",
+  "gates": [
+    "sufficient",
+    "grounded"
+  ],
+  "fallback": "HumanReview"
+}

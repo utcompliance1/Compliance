@@ -112,6 +112,8 @@ def batch(client,rows,cfg,path):
 
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--pass-number',type=int,choices=range(4,14),required=True);args=ap.parse_args();n=args.pass_number
+
+ if n==13: raise SystemExit('Trial13 moved to distilbert/selective-automation/run_trial.py following user update')
  plan=setup();folder=HERE/f'pass{n}';folder.mkdir(exist_ok=True)
  assert not (folder/'metrics.json').exists(),'Completed trial cannot be overwritten'
  allrows={r['row_id']:r for r in json.loads((ROOT/'jev/full-test-focused/jev_sample.json').read_text())['sample']}
