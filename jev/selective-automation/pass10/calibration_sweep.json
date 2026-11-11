@@ -1,0 +1,377 @@
+[
+  {
+    "threshold": 0,
+    "total": 1000,
+    "accepted": 391,
+    "human_review": 609,
+    "acceptance": 0.391,
+    "correct": 306,
+    "errors": 85,
+    "accuracy": 0.782608695652174,
+    "wilson95": [
+      0.7390817513882798,
+      0.820636573683457
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 111,
+        "correct": 99
+      },
+      "Overturned": {
+        "accepted": 280,
+        "correct": 207
+      }
+    }
+  },
+  {
+    "threshold": 0.5,
+    "total": 1000,
+    "accepted": 377,
+    "human_review": 623,
+    "acceptance": 0.377,
+    "correct": 297,
+    "errors": 80,
+    "accuracy": 0.7877984084880637,
+    "wilson95": [
+      0.743729292012922,
+      0.826061614344694
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 104,
+        "correct": 95
+      },
+      "Overturned": {
+        "accepted": 273,
+        "correct": 202
+      }
+    }
+  },
+  {
+    "threshold": 0.6,
+    "total": 1000,
+    "accepted": 302,
+    "human_review": 698,
+    "acceptance": 0.302,
+    "correct": 245,
+    "errors": 57,
+    "accuracy": 0.8112582781456954,
+    "wilson95": [
+      0.7633204403095237,
+      0.8513771246475506
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 86,
+        "correct": 82
+      },
+      "Overturned": {
+        "accepted": 216,
+        "correct": 163
+      }
+    }
+  },
+  {
+    "threshold": 0.65,
+    "total": 1000,
+    "accepted": 262,
+    "human_review": 738,
+    "acceptance": 0.262,
+    "correct": 216,
+    "errors": 46,
+    "accuracy": 0.8244274809160306,
+    "wilson95": [
+      0.7737655790103491,
+      0.8657133072180866
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 77,
+        "correct": 75
+      },
+      "Overturned": {
+        "accepted": 185,
+        "correct": 141
+      }
+    }
+  },
+  {
+    "threshold": 0.7,
+    "total": 1000,
+    "accepted": 230,
+    "human_review": 770,
+    "acceptance": 0.23,
+    "correct": 191,
+    "errors": 39,
+    "accuracy": 0.8304347826086956,
+    "wilson95": [
+      0.7766052220138716,
+      0.8734078285656287
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 69,
+        "correct": 67
+      },
+      "Overturned": {
+        "accepted": 161,
+        "correct": 124
+      }
+    }
+  },
+  {
+    "threshold": 0.75,
+    "total": 1000,
+    "accepted": 198,
+    "human_review": 802,
+    "acceptance": 0.198,
+    "correct": 169,
+    "errors": 29,
+    "accuracy": 0.8535353535353535,
+    "wilson95": [
+      0.7975674011063304,
+      0.896046293612201
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 61,
+        "correct": 59
+      },
+      "Overturned": {
+        "accepted": 137,
+        "correct": 110
+      }
+    }
+  },
+  {
+    "threshold": 0.8,
+    "total": 1000,
+    "accepted": 155,
+    "human_review": 845,
+    "acceptance": 0.155,
+    "correct": 137,
+    "errors": 18,
+    "accuracy": 0.8838709677419355,
+    "wilson95": [
+      0.823906677570482,
+      0.9252680082042908
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 49,
+        "correct": 47
+      },
+      "Overturned": {
+        "accepted": 106,
+        "correct": 90
+      }
+    }
+  },
+  {
+    "threshold": 0.825,
+    "total": 1000,
+    "accepted": 135,
+    "human_review": 865,
+    "acceptance": 0.135,
+    "correct": 119,
+    "errors": 16,
+    "accuracy": 0.8814814814814815,
+    "wilson95": [
+      0.8161368263401508,
+      0.9257165139724043
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 42,
+        "correct": 41
+      },
+      "Overturned": {
+        "accepted": 93,
+        "correct": 78
+      }
+    }
+  },
+  {
+    "threshold": 0.85,
+    "total": 1000,
+    "accepted": 122,
+    "human_review": 878,
+    "acceptance": 0.122,
+    "correct": 106,
+    "errors": 16,
+    "accuracy": 0.8688524590163934,
+    "wilson95": [
+      0.7975497130263897,
+      0.9176358930800762
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 40,
+        "correct": 39
+      },
+      "Overturned": {
+        "accepted": 82,
+        "correct": 67
+      }
+    }
+  },
+  {
+    "threshold": 0.875,
+    "total": 1000,
+    "accepted": 96,
+    "human_review": 904,
+    "acceptance": 0.096,
+    "correct": 88,
+    "errors": 8,
+    "accuracy": 0.9166666666666666,
+    "wilson95": [
+      0.8441009676029043,
+      0.9571693758490329
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 33,
+        "correct": 33
+      },
+      "Overturned": {
+        "accepted": 63,
+        "correct": 55
+      }
+    }
+  },
+  {
+    "threshold": 0.9,
+    "total": 1000,
+    "accepted": 78,
+    "human_review": 922,
+    "acceptance": 0.078,
+    "correct": 74,
+    "errors": 4,
+    "accuracy": 0.9487179487179487,
+    "wilson95": [
+      0.8754332345270551,
+      0.9798789875261039
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 27,
+        "correct": 27
+      },
+      "Overturned": {
+        "accepted": 51,
+        "correct": 47
+      }
+    }
+  },
+  {
+    "threshold": 0.925,
+    "total": 1000,
+    "accepted": 57,
+    "human_review": 943,
+    "acceptance": 0.057,
+    "correct": 54,
+    "errors": 3,
+    "accuracy": 0.9473684210526315,
+    "wilson95": [
+      0.8563044960283646,
+      0.9819397043663383
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 21,
+        "correct": 21
+      },
+      "Overturned": {
+        "accepted": 36,
+        "correct": 33
+      }
+    }
+  },
+  {
+    "threshold": 0.95,
+    "total": 1000,
+    "accepted": 45,
+    "human_review": 955,
+    "acceptance": 0.045,
+    "correct": 43,
+    "errors": 2,
+    "accuracy": 0.9555555555555556,
+    "wilson95": [
+      0.8517248923056439,
+      0.9877258732932802
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 18,
+        "correct": 18
+      },
+      "Overturned": {
+        "accepted": 27,
+        "correct": 25
+      }
+    }
+  },
+  {
+    "threshold": 0.975,
+    "total": 1000,
+    "accepted": 23,
+    "human_review": 977,
+    "acceptance": 0.023,
+    "correct": 23,
+    "errors": 0,
+    "accuracy": 1.0,
+    "wilson95": [
+      0.8568833815495731,
+      1.0
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 12,
+        "correct": 12
+      },
+      "Overturned": {
+        "accepted": 11,
+        "correct": 11
+      }
+    }
+  },
+  {
+    "threshold": 0.99,
+    "total": 1000,
+    "accepted": 10,
+    "human_review": 990,
+    "acceptance": 0.01,
+    "correct": 10,
+    "errors": 0,
+    "accuracy": 1.0,
+    "wilson95": [
+      0.7224672001371107,
+      0.9999999999999999
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 5,
+        "correct": 5
+      },
+      "Overturned": {
+        "accepted": 5,
+        "correct": 5
+      }
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 78,
+    "human_review": 922,
+    "acceptance": 0.078,
+    "correct": 74,
+    "errors": 4,
+    "accuracy": 0.9487179487179487,
+    "wilson95": [
+      0.8754332345270551,
+      0.9798789875261039
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 27,
+        "correct": 27
+      },
+      "Overturned": {
+        "accepted": 51,
+        "correct": 47
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 79,
+    "human_review": 521,
+    "acceptance": 0.13166666666666665,
+    "correct": 66,
+    "errors": 13,
+    "accuracy": 0.8354430379746836,
+    "wilson95": [
+      0.738543347728053,
+      0.9012329279977964
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 18,
+        "correct": 17
+      },
+      "Overturned": {
+        "accepted": 61,
+        "correct": 49
+      }
+    }
+  },
+  "configuration": "Agreement of outcome and clinical-necessity questions",
+  "selected_pass": null,
+  "calibration_target_met": true,
+  "new_case_requests": 1600,
+  "successful_responses": 1600,
+  "prompt_sha256": "47f9c23c7917cb264816f23aa1e5f04f18a4a876383a916e0a7e21cd499ca51f",
+  "rule_sha256": "f56ce034848309c0dc2b4afdd503b781982748c921d73ba35d724bbbf4088b61",
+  "evaluation_role": "shared development evaluation"
+}
