@@ -1,0 +1,76 @@
+{
+  "discovery": {
+    "total": 4115,
+    "accepted": 502,
+    "human_review": 3613,
+    "acceptance": 0.12199270959902794,
+    "correct": 448,
+    "errors": 54,
+    "accuracy": 0.8924302788844621,
+    "wilson95": [
+      0.8622855377429643,
+      0.9166146356800713
+    ],
+    "wilson_one_sided95_lower": 0.867544186295516,
+    "per_predicted_label": {
+      "Upheld": {
+        "accepted": 356,
+        "correct": 312
+      },
+      "Overturned": {
+        "accepted": 146,
+        "correct": 136
+      }
+    }
+  },
+  "calibration": {
+    "total": 1000,
+    "accepted": 128,
+    "human_review": 872,
+    "acceptance": 0.128,
+    "correct": 116,
+    "errors": 12,
+    "accuracy": 0.90625,
+    "wilson95": [
+      0.8432700274269215,
+      0.945556195600853
+    ],
+    "wilson_one_sided95_lower": 0.8550697277695345,
+    "per_predicted_label": {
+      "Upheld": {
+        "accepted": 93,
+        "correct": 84
+      },
+      "Overturned": {
+        "accepted": 35,
+        "correct": 32
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 60,
+    "human_review": 540,
+    "acceptance": 0.1,
+    "correct": 53,
+    "errors": 7,
+    "accuracy": 0.8833333333333333,
+    "wilson95": [
+      0.7782121197582914,
+      0.9423227935994396
+    ],
+    "wilson_one_sided95_lower": 0.7980909188912355,
+    "per_predicted_label": {
+      "Upheld": {
+        "accepted": 41,
+        "correct": 34
+      },
+      "Overturned": {
+        "accepted": 19,
+        "correct": 19
+      }
+    }
+  },
+  "rule_sha256": "5574a44f2c945134f7a885ec7e9351264c26e7e82c6fd943806fd59f600602ec",
+  "new_api_calls": 0
+}
