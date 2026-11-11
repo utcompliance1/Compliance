@@ -1,0 +1,11 @@
+{
+  "assessment": {
+    "type": "choice",
+    "instructions": "Assess ONLY appeals for inpatient, hospital, psychiatric residential, detoxification, partial hospital, or intensive outpatient care. Match the patient condition to the requested dates and intensity. Explicit clinical stability, no acute danger/withdrawal, preserved functioning and a feasible lower setting support sustaining denial. Persistent acute danger, severe impairment or documented failure of lower settings can support overturning. A diagnosis alone is insufficient. Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+    "criteria": {
+      "Upheld": "Requested intensive setting is unnecessary: explicit findings show stability or needs manageable at lower intensity.",
+      "Overturned": "Requested intensive setting is necessary: explicit findings show acute danger, severe impairment or failed lower care requiring this intensity.",
+      "Unresolved": "Not an intensity-of-care appeal, or clinical findings are insufficient, conflicting, or do not establish the required setting."
+    }
+  }
+}

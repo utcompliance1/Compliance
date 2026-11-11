@@ -1,0 +1,58 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 60,
+    "human_review": 940,
+    "acceptance": 0.06,
+    "correct": 57,
+    "errors": 3,
+    "accuracy": 0.95,
+    "wilson95": [
+      0.8629948352365147,
+      0.9828504978356043
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 39,
+        "correct": 37
+      },
+      "Overturned": {
+        "accepted": 21,
+        "correct": 20
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 86,
+    "human_review": 514,
+    "acceptance": 0.14333333333333334,
+    "correct": 83,
+    "errors": 3,
+    "accuracy": 0.9651162790697675,
+    "wilson95": [
+      0.9023912889743924,
+      0.9880662019225916
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 65,
+        "correct": 65
+      },
+      "Overturned": {
+        "accepted": 21,
+        "correct": 18
+      }
+    }
+  },
+  "configuration": "Intensity-of-care specialist",
+  "selected_pass": null,
+  "calibration_target_met": true,
+  "new_case_requests": 1600,
+  "successful_responses": 1600,
+  "prompt_sha256": "f70847f59ab288c12e547b114435cb46f59e39d2f82adacfc044c55b864dbfb6",
+  "rule_sha256": "53410bf36dbc93f112c245630aea331ad8a395009a5225cc14c2e20fedac1ae9",
+  "evaluation_role": "shared development evaluation"
+}
