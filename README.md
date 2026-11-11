@@ -40,4 +40,4 @@ python baseline_eval.py
 
 ## Latest selective automation result
 
-The DistilBERT + JEV intensity-of-care specialist accepted **45.1%** of 1,200 reserved historical cases at **92.8% accuracy among accepted cases**, exceeding the 25% / 90% target. [Meeting-ready best run](jev/selective-automation/best%20run/README.md) contains the summary, exact rule, prompt, results and per-case evidence. [Full trial report](distilbert/selective-automation/pass13/README.md) explains calibration, confirmation and limitations.
+The DistilBERT + JEV intensity-of-care specialist accepted **45.1%** of 1,200 reserved historical cases at **92.8% accuracy among accepted cases**, exceeding the 25% / 90% target. [Best run](jev/selective-automation/best%20run/README.md) contains the summary, exact rule, prompt, results and per-case evidence. [Full trial report](distilbert/selective-automation/pass13/README.md) explains calibration, confirmation and limitations.

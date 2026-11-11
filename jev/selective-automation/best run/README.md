@@ -1,10 +1,10 @@
-# Best run — meeting brief
+# Best run: DistilBERT + JEV selective automation
 
-**We found a selective automation rule that exceeds the target: 45.1% acceptance at 92.8% accuracy among accepted cases.**
+This run achieved **45.1% acceptance and 92.8% accuracy among accepted cases**, exceeding the 25% acceptance and 90% accuracy targets.
 
-The target was **25%+ acceptance and 90%+ accuracy**. The result below is from **1,200 reserved historical cases**, separate from the 1,000 cases used to choose the final rule.
+Evaluation used **1,200 reserved historical cases**, separate from the 1,000 calibration cases used to select the final rule.
 
-## Results to present
+## Results
 
 | Measure | Result |
 | --- | ---: |
@@ -17,7 +17,7 @@ The target was **25%+ acceptance and 90%+ accuracy**. The result below is from *
 
 Accuracy is measured against the **recorded IMR outcome**, not against another model. These are simulated routing decisions; no real claims were automatically adjudicated.
 
-## What changed
+## Method
 
 A general JEV confidence cutoff was not enough. The most useful new JEV question focuses on **whether the documented clinical facts justify the requested intensity of care**:
 
@@ -27,7 +27,7 @@ A general JEV confidence cutoff was not enough. The most useful new JEV question
 
 DistilBERT supplies the broader outcome prediction. This combination expands the accepted subset beyond the narrow JEV specialist alone.
 
-## Exact frozen rule
+## Acceptance criteria
 
 1. If JEV's intensity-of-care question chooses **Upheld** or **Overturned** with selected-outcome probability **≥0.875**, use that outcome.
 2. Otherwise, if DistilBERT's selected-outcome probability is **≥0.90**, use its outcome.
@@ -41,17 +41,13 @@ The JEV specialist takes precedence when eligible, including when the models dis
 | DistilBERT fallback | 380 | 351 | 92.4% |
 | **Combined** | **541** | **502** | **92.8%** |
 
-## One-minute explanation
-
-> “We changed what we ask JEV instead of only tightening a generic confidence threshold. JEV identifies a narrow group where explicit clinical facts resolve the required level of care. We combine that specialist with high-confidence DistilBERT predictions and defer the rest. On 1,200 reserved historical cases, the frozen rule accepted 45% of tasks and was correct on 93% of those accepted. The remaining 55% went to human review.”
-
-## Important scope
+## Limitations
 
 This is **retrospective dataset evidence, not a production accuracy guarantee**. DistilBERT outputs were already saved; the final trial made 1,200 new JEV calls. The DistilBERT checkpoint was selected using training/validation data. Calibration chose the hybrid rule; confirmation outcomes did not change it.
 
 The dataset includes clinical-review-style narrative and some descriptions that explicitly state an outcome. Removing the 19 literal-outcome shortcut cases still gives **44.2% acceptance and 92.5% accuracy** (483/522 correct), although the interval becomes **89.95%–94.49%**. Near-duplicate dependence and differences from incoming appeals remain limitations. Human-review accuracy was not measured. The patterns are predictive associations, not proven clinical causes.
 
-## Supporting files
+## Files
 
 - [Full experiment report](full_trial_report.md)
 - [Exact JEV question](jev_prompt.json)
@@ -60,4 +56,14 @@ The dataset includes clinical-review-style narrative and some descriptions that 
 - [All 1,200 routing decisions](evaluation_decisions.csv)
 - [Source references and file hashes](provenance.json)
 
-This folder is the latest best run from **trial 13**, the final one of ten additional authorized trials. Earlier successful and unsuccessful trials remain in the repository. Independent audit code is in `distilbert/selective-automation/verify.py`.
+This folder is the latest best run from **trial 13**, the final one of ten additional authorized trials. Earlier successful and unsuccessful trials remain in the repository.
+
+## Verification
+
+From the repository root:
+
+```bash
+.venv/bin/python distilbert/selective-automation/verify.py
+```
+
+The audit independently reconstructs all 1,200 routing decisions and checks source hashes, dataset joins, split separation, and calibration-only rule selection.

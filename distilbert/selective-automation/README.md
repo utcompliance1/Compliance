@@ -3,7 +3,7 @@
 **Best result: 45.1% acceptance and 92.8% accuracy among accepted cases on 1,200 reserved cases.**
 
 - [Full trial report](pass13/README.md)
-- [Meeting-ready best run](../../jev/selective-automation/best%20run/README.md)
+- [Best run](../../jev/selective-automation/best%20run/README.md)
 - [Frozen policy](selected_policy.json)
 - `run_trial.py`: calibration and evaluation runner (completed outputs protected)
 - `verify.py`: independent reconstruction of all 1,200 held-out routing decisions
