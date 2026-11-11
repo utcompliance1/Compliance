@@ -1,0 +1,58 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 81,
+    "human_review": 919,
+    "acceptance": 0.081,
+    "correct": 76,
+    "errors": 5,
+    "accuracy": 0.9382716049382716,
+    "wilson95": [
+      0.8635075236315787,
+      0.9733474879029708
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 36,
+        "correct": 35
+      },
+      "Overturned": {
+        "accepted": 45,
+        "correct": 41
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 47,
+    "human_review": 553,
+    "acceptance": 0.07833333333333334,
+    "correct": 44,
+    "errors": 3,
+    "accuracy": 0.9361702127659575,
+    "wilson95": [
+      0.8283738581687556,
+      0.9780546147945668
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 18,
+        "correct": 18
+      },
+      "Overturned": {
+        "accepted": 29,
+        "correct": 26
+      }
+    }
+  },
+  "configuration": "Concise evidence adjudication with unresolved option",
+  "selected_pass": null,
+  "calibration_target_met": true,
+  "new_case_requests": 1600,
+  "successful_responses": 1600,
+  "prompt_sha256": "74684d4b0cb8e051b0d846eefc24000d5751a508d7f22babd06658d18980a37b",
+  "rule_sha256": "81efa30820b02543878eec5457eb95cee9e22319c57a96653486350d760c4362",
+  "evaluation_role": "shared development evaluation"
+}

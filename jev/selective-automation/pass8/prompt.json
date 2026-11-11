@@ -1,0 +1,11 @@
+{
+  "assessment": {
+    "type": "choice",
+    "instructions": "Which final independent review outcome is supported by the explicit clinical evidence? Stable patients without the need for requested intensity favor Upheld; documented unmet need and failure of suitable alternatives favor Overturned. Select Unresolved when the text does not distinguish the two. Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+    "criteria": {
+      "Upheld": "Explicit clinical facts support sustaining the denial of this particular requested service.",
+      "Overturned": "Explicit clinical facts support reversing the denial for this particular requested service.",
+      "Unresolved": "The clinical facts do not resolve the dispute without important assumptions."
+    }
+  }
+}
