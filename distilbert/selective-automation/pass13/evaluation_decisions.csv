@@ -1,0 +1,1201 @@
+row_id,distilbert_prediction,distilbert_probability,jev_prediction,jev_score,prediction,prediction_source,route,true,has_shortcut
+72666,Overturned,0.6218567,,0.0,,Human,human,Upheld,False
+71970,Overturned,0.5602827,,0.0,,Human,human,Overturned,False
+73588,Upheld,0.7246267,,0.0,,Human,human,Upheld,False
+72193,Upheld,0.95791227,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71675,Overturned,0.8022459,,0.0,,Human,human,Upheld,False
+71474,Upheld,0.99544394,Upheld,0.68,Upheld,DistilBERT,automate,Upheld,False
+71951,Overturned,0.5203173,,0.0,,Human,human,Upheld,False
+71120,Upheld,0.50914854,,0.0,,Human,human,Overturned,False
+71831,Overturned,0.74844426,,0.0,,Human,human,Overturned,False
+71673,Upheld,0.9935993,Upheld,0.97,Upheld,JEV specialist,automate,Upheld,False
+73938,Overturned,0.98947024,,0.0,Overturned,DistilBERT,automate,Overturned,True
+72995,Upheld,0.9928786,Upheld,0.81,Upheld,DistilBERT,automate,Upheld,False
+73353,Upheld,0.96253246,Upheld,0.61,Upheld,DistilBERT,automate,Upheld,False
+71499,Upheld,0.9950563,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+71281,Upheld,0.63522243,,0.0,,Human,human,Upheld,False
+72826,Upheld,0.91321325,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72231,Upheld,0.6806133,,0.0,,Human,human,Upheld,False
+71779,Upheld,0.69368047,,0.0,,Human,human,Overturned,False
+72707,Upheld,0.562582,,0.0,,Human,human,Overturned,False
+72381,Overturned,0.7867867,Overturned,0.79,,Human,human,Overturned,False
+71629,Overturned,0.97856975,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+71692,Upheld,0.8631034,,0.0,,Human,human,Upheld,False
+73205,Upheld,0.7524676,,0.0,,Human,human,Upheld,False
+71665,Overturned,0.8715842,,0.0,,Human,human,Upheld,False
+72994,Upheld,0.8166259,,0.0,,Human,human,Upheld,False
+71567,Overturned,0.95995015,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71506,Overturned,0.9390248,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73095,Upheld,0.9723622,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73368,Overturned,0.9040592,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71072,Upheld,0.9947084,Upheld,0.64,Upheld,DistilBERT,automate,Upheld,False
+73793,Upheld,0.82775855,,0.0,,Human,human,Upheld,False
+71731,Upheld,0.98792297,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71797,Upheld,0.5219738,,0.0,,Human,human,Overturned,False
+73159,Overturned,0.676887,Overturned,0.57,,Human,human,Upheld,False
+72017,Upheld,0.5167812,,0.0,,Human,human,Upheld,False
+73973,Upheld,0.5826395,,0.0,,Human,human,Upheld,False
+73308,Upheld,0.93564117,,0.0,Upheld,DistilBERT,automate,Overturned,False
+73540,Upheld,0.5540181,Upheld,0.61,,Human,human,Overturned,False
+71761,Upheld,0.6980208,,0.0,,Human,human,Overturned,False
+71217,Overturned,0.8819712,Upheld,0.96,Upheld,JEV specialist,automate,Overturned,False
+73655,Upheld,0.92262185,Upheld,0.55,Upheld,DistilBERT,automate,Upheld,False
+71730,Upheld,0.80348235,,0.0,,Human,human,Overturned,False
+72209,Upheld,0.7902877,,0.0,,Human,human,Upheld,False
+71208,Overturned,0.7368269,,0.0,,Human,human,Upheld,False
+71990,Overturned,0.69191384,,0.0,,Human,human,Upheld,False
+71957,Upheld,0.9942697,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+73774,Overturned,0.97675806,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71021,Overturned,0.9228308,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72389,Upheld,0.9765801,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73626,Overturned,0.9396923,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+73506,Upheld,0.9945095,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,True
+72217,Overturned,0.6531269,Overturned,0.69,,Human,human,Overturned,False
+72770,Upheld,0.51591146,,0.0,,Human,human,Upheld,False
+71496,Upheld,0.5120502,,0.0,,Human,human,Overturned,False
+72255,Overturned,0.5517247,,0.0,,Human,human,Overturned,False
+71637,Upheld,0.8030966,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+73449,Upheld,0.8958876,,0.0,,Human,human,Overturned,False
+71908,Upheld,0.5103554,,0.0,,Human,human,Upheld,False
+71309,Overturned,0.6419837,,0.0,,Human,human,Overturned,False
+71495,Overturned,0.9848401,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+72836,Upheld,0.9956262,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+71293,Overturned,0.8230441,Upheld,0.59,,Human,human,Overturned,False
+71751,Upheld,0.9967333,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+72589,Overturned,0.590307,,0.0,,Human,human,Upheld,False
+71294,Upheld,0.5792219,,0.0,,Human,human,Overturned,False
+73808,Overturned,0.8382168,,0.0,,Human,human,Upheld,False
+73078,Overturned,0.98535615,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73686,Upheld,0.98749614,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+73812,Upheld,0.9284088,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73380,Overturned,0.9032942,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72700,Overturned,0.66377795,,0.0,,Human,human,Overturned,False
+73884,Upheld,0.99444515,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+73440,Upheld,0.9915707,Upheld,0.89,Upheld,JEV specialist,automate,Upheld,False
+72117,Overturned,0.7135813,,0.0,,Human,human,Upheld,False
+72739,Overturned,0.91321325,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72213,Upheld,0.6999214,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+73758,Upheld,0.98617804,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72668,Overturned,0.8581252,,0.0,,Human,human,Overturned,False
+72249,Overturned,0.9097468,Overturned,0.93,Overturned,JEV specialist,automate,Overturned,False
+72333,Overturned,0.7175565,,0.0,,Human,human,Upheld,False
+71415,Upheld,0.990892,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+72106,Overturned,0.8284536,,0.0,,Human,human,Upheld,False
+73279,Upheld,0.99324185,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73332,Upheld,0.9943031,Upheld,0.83,Upheld,DistilBERT,automate,Upheld,True
+72848,Overturned,0.6732454,,0.0,,Human,human,Upheld,False
+71722,Upheld,0.70125294,,0.0,,Human,human,Upheld,False
+73879,Upheld,0.94810647,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71604,Upheld,0.5883571,,0.0,,Human,human,Overturned,False
+71628,Upheld,0.68516004,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+72904,Upheld,0.9948803,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+72970,Overturned,0.6955966,,0.0,,Human,human,Upheld,False
+73956,Upheld,0.55864304,,0.0,,Human,human,Upheld,False
+73703,Upheld,0.99407744,Overturned,0.8,Upheld,DistilBERT,automate,Upheld,False
+73375,Overturned,0.72637707,,0.0,,Human,human,Overturned,False
+71887,Overturned,0.57113135,Overturned,0.41,,Human,human,Overturned,False
+72842,Overturned,0.9736196,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73083,Upheld,0.9952632,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+71596,Overturned,0.7337858,,0.0,,Human,human,Overturned,False
+71895,Upheld,0.9934865,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+71664,Upheld,0.62755185,Upheld,0.55,,Human,human,Upheld,False
+71092,Overturned,0.74706274,,0.0,,Human,human,Upheld,False
+73160,Overturned,0.6712012,,0.0,,Human,human,Overturned,False
+72221,Upheld,0.52261335,Overturned,0.46,,Human,human,Upheld,False
+73727,Overturned,0.5575743,,0.0,,Human,human,Overturned,False
+71275,Overturned,0.9325147,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71313,Overturned,0.9812928,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73492,Upheld,0.7615385,,0.0,,Human,human,Upheld,False
+73176,Overturned,0.7777222,,0.0,,Human,human,Upheld,False
+72806,Overturned,0.6872103,Overturned,0.95,Overturned,JEV specialist,automate,Overturned,False
+72966,Upheld,0.98238933,Upheld,0.41,Upheld,DistilBERT,automate,Upheld,False
+72191,Upheld,0.7090191,,0.0,,Human,human,Overturned,False
+73196,Overturned,0.5981362,,0.0,,Human,human,Overturned,False
+72054,Overturned,0.9078038,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72270,Overturned,0.8231153,,0.0,,Human,human,Overturned,False
+72382,Overturned,0.92736334,,0.0,Overturned,DistilBERT,automate,Upheld,False
+73663,Overturned,0.86344916,,0.0,,Human,human,Overturned,False
+73301,Upheld,0.9103862,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73649,Upheld,0.6489114,,0.0,,Human,human,Overturned,False
+71601,Upheld,0.98680264,Upheld,0.79,Upheld,DistilBERT,automate,Upheld,False
+72406,Upheld,0.96069443,Upheld,0.53,Upheld,DistilBERT,automate,Upheld,False
+71648,Upheld,0.7316821,,0.0,,Human,human,Upheld,False
+72203,Overturned,0.87663436,,0.0,,Human,human,Overturned,False
+71863,Upheld,0.99629277,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+73136,Upheld,0.9867517,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+73762,Upheld,0.95995015,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+73688,Upheld,0.9576358,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+71401,Overturned,0.97991896,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71753,Overturned,0.98242307,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72289,Upheld,0.9923193,Upheld,0.65,Upheld,DistilBERT,automate,Upheld,False
+71574,Overturned,0.9859364,Overturned,0.46,Overturned,DistilBERT,automate,Overturned,False
+72895,Overturned,0.7032948,,0.0,,Human,human,Overturned,False
+72665,Upheld,0.9862046,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72701,Upheld,0.99053264,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72730,Overturned,0.6406359,,0.0,,Human,human,Overturned,False
+73371,Upheld,0.982117,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73330,Overturned,0.59963167,,0.0,,Human,human,Overturned,False
+72621,Overturned,0.9774355,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71111,Upheld,0.9449439,Upheld,0.46,Upheld,DistilBERT,automate,Overturned,False
+73976,Overturned,0.551453,,0.0,,Human,human,Overturned,False
+71061,Overturned,0.95460516,Overturned,0.95,Overturned,JEV specialist,automate,Overturned,False
+73893,Upheld,0.8507789,,0.0,,Human,human,Upheld,False
+72301,Overturned,0.7783125,,0.0,,Human,human,Upheld,False
+72911,Upheld,0.6771005,,0.0,,Human,human,Upheld,False
+71106,Upheld,0.7895584,,0.0,,Human,human,Upheld,False
+72794,Upheld,0.5994265,,0.0,,Human,human,Upheld,False
+72946,Upheld,0.8495972,,0.0,,Human,human,Upheld,False
+73348,Overturned,0.9193534,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72990,Overturned,0.86748546,,0.0,,Human,human,Overturned,False
+72399,Overturned,0.8957965,,0.0,,Human,human,Overturned,False
+73189,Overturned,0.55261517,,0.0,,Human,human,Upheld,False
+71771,Upheld,0.56708646,,0.0,,Human,human,Overturned,False
+71170,Upheld,0.7002803,,0.0,,Human,human,Overturned,False
+72263,Upheld,0.96995664,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72408,Upheld,0.9315248,Upheld,0.47,Upheld,DistilBERT,automate,Upheld,False
+73315,Overturned,0.56175584,,0.0,,Human,human,Upheld,False
+71035,Upheld,0.9323302,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72080,Overturned,0.5317641,,0.0,,Human,human,Upheld,False
+72053,Upheld,0.9421883,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+71033,Overturned,0.7773844,,0.0,,Human,human,Overturned,False
+73147,Overturned,0.87348485,,0.0,,Human,human,Overturned,False
+73175,Overturned,0.70022905,,0.0,,Human,human,Overturned,False
+72509,Upheld,0.51014954,,0.0,,Human,human,Upheld,False
+73589,Upheld,0.934455,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73266,Overturned,0.55493784,Upheld,0.56,,Human,human,Overturned,False
+73880,Upheld,0.5312398,,0.0,,Human,human,Upheld,False
+72723,Upheld,0.6543979,,0.0,,Human,human,Upheld,False
+71869,Overturned,0.5318477,,0.0,,Human,human,Upheld,False
+72346,Upheld,0.6336937,,0.0,,Human,human,Overturned,False
+73417,Overturned,0.84376645,,0.0,,Human,human,Overturned,False
+73942,Overturned,0.9184803,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72049,Upheld,0.92617035,Upheld,0.91,Upheld,JEV specialist,automate,Upheld,False
+71526,Overturned,0.8244619,,0.0,,Human,human,Overturned,False
+73349,Overturned,0.798344,,0.0,,Human,human,Overturned,False
+72883,Upheld,0.97840524,Upheld,0.91,Upheld,JEV specialist,automate,Upheld,False
+71565,Overturned,0.80069196,,0.0,,Human,human,Upheld,False
+73228,Overturned,0.82580054,,0.0,,Human,human,Upheld,False
+71640,Overturned,0.9774571,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73948,Upheld,0.70644367,,0.0,,Human,human,Upheld,False
+71854,Upheld,0.9604354,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+72026,Upheld,0.64400125,,0.0,,Human,human,Overturned,False
+73438,Overturned,0.8708721,,0.0,,Human,human,Overturned,False
+72844,Overturned,0.66225064,,0.0,,Human,human,Overturned,False
+71439,Overturned,0.50706816,,0.0,,Human,human,Upheld,False
+72825,Upheld,0.7358315,Upheld,0.87,,Human,human,Upheld,False
+71069,Upheld,0.98466414,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+71238,Upheld,0.5729916,Upheld,0.78,,Human,human,Upheld,False
+71135,Overturned,0.8775817,,0.0,,Human,human,Overturned,False
+73002,Upheld,0.56063604,,0.0,,Human,human,Upheld,False
+72778,Overturned,0.59822416,,0.0,,Human,human,Overturned,False
+73267,Upheld,0.9346938,Overturned,0.89,Overturned,JEV specialist,automate,Upheld,False
+71754,Overturned,0.9445361,Overturned,0.93,Overturned,JEV specialist,automate,Overturned,False
+72496,Overturned,0.6208515,,0.0,,Human,human,Overturned,False
+73821,Overturned,0.602851,Upheld,0.4,,Human,human,Upheld,False
+73011,Upheld,0.8449215,,0.0,,Human,human,Upheld,False
+72630,Upheld,0.6323325,,0.0,,Human,human,Upheld,False
+73262,Upheld,0.5290429,,0.0,,Human,human,Upheld,False
+73418,Overturned,0.5476682,,0.0,,Human,human,Upheld,False
+71088,Overturned,0.5357209,,0.0,,Human,human,Upheld,False
+71115,Overturned,0.8984996,,0.0,,Human,human,Overturned,False
+72812,Upheld,0.96050966,Upheld,0.53,Upheld,DistilBERT,automate,Upheld,False
+71157,Overturned,0.982591,Overturned,0.85,Overturned,DistilBERT,automate,Overturned,False
+73211,Upheld,0.9872773,Upheld,0.79,Upheld,DistilBERT,automate,Upheld,False
+71352,Upheld,0.78108025,,0.0,,Human,human,Overturned,False
+71476,Upheld,0.996557,Upheld,1.0,Upheld,JEV specialist,automate,Upheld,False
+71032,Upheld,0.7383862,,0.0,,Human,human,Upheld,False
+73798,Overturned,0.70669675,,0.0,,Human,human,Upheld,False
+71477,Upheld,0.7403621,Overturned,0.64,,Human,human,Upheld,False
+72246,Overturned,0.98197925,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73641,Upheld,0.99425864,Overturned,0.8,Upheld,DistilBERT,automate,Upheld,False
+73745,Upheld,0.56352806,,0.0,,Human,human,Upheld,False
+71326,Upheld,0.8736466,,0.0,,Human,human,Overturned,False
+73445,Overturned,0.98582757,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73118,Upheld,0.9006172,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71175,Upheld,0.60597396,Upheld,0.49,,Human,human,Upheld,False
+72811,Overturned,0.6570985,,0.0,,Human,human,Overturned,False
+72650,Upheld,0.6796041,,0.0,,Human,human,Upheld,False
+71734,Overturned,0.7976356,,0.0,,Human,human,Overturned,False
+72768,Overturned,0.8916225,,0.0,,Human,human,Upheld,False
+73031,Upheld,0.9545204,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73079,Upheld,0.9734938,Upheld,0.81,Upheld,DistilBERT,automate,Upheld,False
+72158,Upheld,0.98971164,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73907,Upheld,0.93726826,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72029,Upheld,0.6708779,,0.0,,Human,human,Upheld,False
+71598,Overturned,0.98157746,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+71877,Overturned,0.757346,,0.0,,Human,human,Overturned,False
+72862,Upheld,0.97786224,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+73234,Upheld,0.9111007,,0.0,Upheld,DistilBERT,automate,Overturned,False
+71964,Overturned,0.9803562,,0.0,Overturned,DistilBERT,automate,Overturned,True
+71244,Overturned,0.9144437,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+73051,Upheld,0.7520126,,0.0,,Human,human,Overturned,False
+71158,Upheld,0.9608783,Upheld,0.87,Upheld,DistilBERT,automate,Upheld,False
+71942,Upheld,0.5465718,,0.0,,Human,human,Upheld,False
+71943,Upheld,0.9639839,Upheld,0.97,Upheld,JEV specialist,automate,Upheld,False
+71552,Overturned,0.635279,,0.0,,Human,human,Overturned,False
+73679,Overturned,0.9185534,Overturned,0.53,Overturned,DistilBERT,automate,Overturned,False
+73286,Overturned,0.86112994,,0.0,,Human,human,Overturned,False
+71698,Upheld,0.5658986,,0.0,,Human,human,Upheld,False
+71641,Upheld,0.98932695,Upheld,0.92,Upheld,JEV specialist,automate,Upheld,False
+72236,Overturned,0.97249323,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73512,Overturned,0.93115014,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73354,Overturned,0.7423751,,0.0,,Human,human,Upheld,False
+71373,Upheld,0.95888567,Upheld,0.82,Upheld,DistilBERT,automate,Upheld,False
+72146,Upheld,0.883236,,0.0,,Human,human,Overturned,False
+71142,Overturned,0.741674,,0.0,,Human,human,Upheld,False
+72672,Overturned,0.6067024,,0.0,,Human,human,Upheld,False
+71154,Upheld,0.75976056,,0.0,,Human,human,Overturned,False
+73321,Upheld,0.99173236,Upheld,0.68,Upheld,DistilBERT,automate,Upheld,False
+73074,Overturned,0.9655115,Overturned,0.79,Overturned,DistilBERT,automate,Overturned,False
+71364,Upheld,0.9814534,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71332,Overturned,0.8641386,,0.0,,Human,human,Upheld,False
+72412,Upheld,0.98888505,Upheld,0.84,Upheld,DistilBERT,automate,Upheld,False
+72527,Upheld,0.82796735,,0.0,,Human,human,Upheld,False
+73488,Overturned,0.92709976,Overturned,0.54,Overturned,DistilBERT,automate,Upheld,False
+73809,Upheld,0.9826576,Upheld,0.79,Upheld,DistilBERT,automate,Upheld,False
+72924,Upheld,0.9555686,Upheld,0.81,Upheld,DistilBERT,automate,Upheld,False
+73047,Overturned,0.7833262,,0.0,,Human,human,Upheld,False
+73336,Overturned,0.6779006,,0.0,,Human,human,Overturned,False
+71670,Overturned,0.75635755,,0.0,,Human,human,Upheld,False
+73978,Overturned,0.51712894,,0.0,,Human,human,Upheld,False
+73486,Upheld,0.9645224,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72635,Upheld,0.82261705,,0.0,,Human,human,Overturned,False
+72349,Overturned,0.8511504,,0.0,,Human,human,Overturned,False
+73292,Upheld,0.9913726,Upheld,0.91,Upheld,JEV specialist,automate,Upheld,True
+73481,Upheld,0.58868223,,0.0,,Human,human,Overturned,False
+72253,Upheld,0.94417685,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73056,Overturned,0.9494823,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73890,Overturned,0.97386926,Overturned,0.88,Overturned,JEV specialist,automate,Overturned,False
+73657,Overturned,0.64349735,,0.0,,Human,human,Overturned,False
+73768,Upheld,0.9482025,Upheld,0.59,Upheld,DistilBERT,automate,Upheld,False
+71094,Upheld,0.9869544,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72762,Upheld,0.9689738,Upheld,0.84,Upheld,DistilBERT,automate,Upheld,False
+73769,Overturned,0.7486281,,0.0,,Human,human,Upheld,False
+73633,Overturned,0.9895716,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+73945,Overturned,0.9702116,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+71198,Upheld,0.97664696,Upheld,0.9,Upheld,JEV specialist,automate,Upheld,False
+72789,Upheld,0.9886901,,0.0,Upheld,DistilBERT,automate,Overturned,False
+73509,Overturned,0.9582261,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72291,Overturned,0.9451468,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73822,Upheld,0.551302,,0.0,,Human,human,Upheld,False
+73411,Upheld,0.7867867,,0.0,,Human,human,Upheld,False
+71859,Upheld,0.9352874,Overturned,0.53,Upheld,DistilBERT,automate,Upheld,False
+73156,Upheld,0.77218723,,0.0,,Human,human,Upheld,False
+71490,Upheld,0.68573904,,0.0,,Human,human,Upheld,False
+71855,Upheld,0.9953904,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+72971,Upheld,0.9890976,Upheld,0.71,Upheld,DistilBERT,automate,Upheld,False
+71575,Upheld,0.64321727,Overturned,0.6,,Human,human,Upheld,False
+73736,Overturned,0.52122366,,0.0,,Human,human,Overturned,False
+72607,Overturned,0.79350626,,0.0,,Human,human,Overturned,False
+73961,Upheld,0.8110034,,0.0,,Human,human,Overturned,False
+73523,Overturned,0.6479653,,0.0,,Human,human,Upheld,False
+72479,Overturned,0.6807725,,0.0,,Human,human,Overturned,False
+73044,Upheld,0.99416876,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+71523,Overturned,0.98707956,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+72050,Upheld,0.99635005,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,True
+71451,Upheld,0.7855554,,0.0,,Human,human,Upheld,False
+71273,Overturned,0.6756041,,0.0,,Human,human,Upheld,False
+72605,Overturned,0.98873377,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+73629,Overturned,0.6051867,,0.0,,Human,human,Upheld,False
+73347,Upheld,0.64943963,,0.0,,Human,human,Overturned,False
+72426,Upheld,0.9432431,,0.0,Upheld,DistilBERT,automate,Overturned,False
+73141,Overturned,0.5807385,,0.0,,Human,human,Upheld,False
+71514,Upheld,0.5313538,,0.0,,Human,human,Overturned,False
+71768,Overturned,0.8689936,,0.0,,Human,human,Overturned,False
+73238,Upheld,0.7789017,,0.0,,Human,human,Upheld,False
+73561,Upheld,0.5156237,,0.0,,Human,human,Upheld,False
+73129,Upheld,0.71432924,,0.0,,Human,human,Overturned,False
+73366,Upheld,0.6619229,,0.0,,Human,human,Overturned,False
+71334,Upheld,0.9886901,Upheld,0.97,Upheld,JEV specialist,automate,Upheld,False
+72030,Upheld,0.9205043,Overturned,0.6,Upheld,DistilBERT,automate,Upheld,False
+72929,Overturned,0.9649544,Overturned,0.88,Overturned,JEV specialist,automate,Overturned,False
+73403,Upheld,0.9841241,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+71461,Overturned,0.9898892,,0.0,Overturned,DistilBERT,automate,Overturned,True
+73034,Overturned,0.6214835,,0.0,,Human,human,Overturned,False
+73263,Overturned,0.8463874,,0.0,,Human,human,Overturned,False
+71172,Upheld,0.94208187,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72903,Upheld,0.87784374,,0.0,,Human,human,Upheld,False
+72727,Upheld,0.6714706,Overturned,0.68,,Human,human,Upheld,False
+73264,Overturned,0.82566,,0.0,,Human,human,Upheld,False
+71270,Upheld,0.66459477,,0.0,,Human,human,Upheld,False
+72776,Overturned,0.9729338,Overturned,0.73,Overturned,DistilBERT,automate,Upheld,False
+72469,Overturned,0.7852262,Overturned,0.9,Overturned,JEV specialist,automate,Overturned,False
+72788,Upheld,0.8260112,Upheld,0.63,,Human,human,Upheld,False
+71215,Upheld,0.6264956,,0.0,,Human,human,Upheld,False
+73584,Upheld,0.68124986,,0.0,,Human,human,Upheld,False
+73914,Upheld,0.97324073,Upheld,0.9,Upheld,JEV specialist,automate,Upheld,False
+73033,Overturned,0.7795737,,0.0,,Human,human,Overturned,False
+73826,Upheld,0.83066285,,0.0,,Human,human,Upheld,False
+73265,Upheld,0.6406359,,0.0,,Human,human,Overturned,False
+72601,Overturned,0.5219376,,0.0,,Human,human,Upheld,False
+73940,Overturned,0.63358027,,0.0,,Human,human,Overturned,False
+71165,Overturned,0.71745753,,0.0,,Human,human,Overturned,False
+73790,Upheld,0.80814296,,0.0,,Human,human,Upheld,False
+73052,Upheld,0.8337988,Upheld,0.6,,Human,human,Upheld,False
+72663,Upheld,0.53982484,,0.0,,Human,human,Upheld,False
+72327,Upheld,0.8500957,,0.0,,Human,human,Overturned,False
+71305,Overturned,0.7829945,,0.0,,Human,human,Overturned,False
+72571,Upheld,0.9936365,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+71889,Overturned,0.71102977,,0.0,,Human,human,Overturned,False
+73338,Upheld,0.99557483,Upheld,0.89,Upheld,JEV specialist,automate,Upheld,False
+71720,Overturned,0.9166335,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73386,Overturned,0.9765354,Overturned,0.79,Overturned,DistilBERT,automate,Overturned,False
+71682,Upheld,0.99532723,Upheld,0.77,Upheld,DistilBERT,automate,Upheld,False
+71711,Upheld,0.58767694,,0.0,,Human,human,Overturned,False
+73001,Overturned,0.9594972,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72515,Overturned,0.9579516,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72797,Overturned,0.7803279,,0.0,,Human,human,Overturned,False
+72569,Overturned,0.859369,,0.0,,Human,human,Overturned,False
+71169,Overturned,0.8729984,,0.0,,Human,human,Overturned,False
+71098,Upheld,0.8006141,,0.0,,Human,human,Overturned,False
+73844,Overturned,0.98527133,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+73252,Upheld,0.5729318,,0.0,,Human,human,Upheld,False
+71878,Overturned,0.55731833,,0.0,,Human,human,Upheld,False
+73017,Upheld,0.8216889,Upheld,0.89,Upheld,JEV specialist,automate,Upheld,False
+72267,Upheld,0.97032446,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+72243,Upheld,0.7253083,Upheld,0.76,,Human,human,Upheld,False
+71825,Overturned,0.94127744,,0.0,Overturned,DistilBERT,automate,Upheld,False
+72864,Overturned,0.50421894,Upheld,0.97,Upheld,JEV specialist,automate,Upheld,False
+73291,Upheld,0.94402224,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71683,Overturned,0.9639839,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+73690,Overturned,0.945248,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73668,Overturned,0.53034294,Overturned,0.85,,Human,human,Overturned,False
+71179,Upheld,0.99014014,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71455,Upheld,0.9719659,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+71909,Upheld,0.8255897,,0.0,,Human,human,Upheld,False
+72999,Upheld,0.65608007,,0.0,,Human,human,Upheld,False
+71678,Upheld,0.79310596,,0.0,,Human,human,Upheld,False
+72020,Upheld,0.8641959,,0.0,,Human,human,Overturned,False
+71187,Overturned,0.9834387,Overturned,0.71,Overturned,DistilBERT,automate,Overturned,False
+71872,Overturned,0.8495972,,0.0,,Human,human,Overturned,False
+72863,Upheld,0.98571813,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72931,Overturned,0.8708721,Overturned,0.8,,Human,human,Upheld,False
+71781,Upheld,0.85195273,,0.0,,Human,human,Upheld,False
+73282,Overturned,0.9822708,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72958,Upheld,0.9912717,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+72461,Overturned,0.5141945,,0.0,,Human,human,Upheld,False
+73521,Upheld,0.94539934,Upheld,0.67,Upheld,DistilBERT,automate,Upheld,False
+73003,Overturned,0.53526545,,0.0,,Human,human,Overturned,False
+71025,Upheld,0.9930153,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72748,Upheld,0.99225944,Upheld,1.0,Upheld,JEV specialist,automate,Upheld,False
+71571,Upheld,0.58154076,,0.0,,Human,human,Upheld,False
+72139,Upheld,0.5512265,,0.0,,Human,human,Upheld,False
+71549,Overturned,0.61794496,,0.0,,Human,human,Overturned,False
+73427,Upheld,0.9932025,,0.0,Upheld,DistilBERT,automate,Upheld,True
+72760,Upheld,0.8716935,,0.0,,Human,human,Upheld,False
+73103,Overturned,0.6379617,,0.0,,Human,human,Overturned,False
+73169,Upheld,0.8441522,,0.0,,Human,human,Upheld,False
+73652,Upheld,0.9614253,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71864,Overturned,0.68167377,,0.0,,Human,human,Overturned,False
+71430,Overturned,0.9139073,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72367,Upheld,0.990329,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+73030,Upheld,0.76515496,,0.0,,Human,human,Overturned,False
+72009,Upheld,0.97259754,Overturned,0.43,Upheld,DistilBERT,automate,Upheld,True
+71031,Upheld,0.9964342,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+71807,Overturned,0.80247813,,0.0,,Human,human,Overturned,False
+71109,Upheld,0.9342753,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71788,Upheld,0.94068086,Upheld,0.5,Upheld,DistilBERT,automate,Upheld,False
+73818,Overturned,0.6284359,,0.0,,Human,human,Upheld,False
+71837,Upheld,0.6521306,,0.0,,Human,human,Upheld,False
+71527,Upheld,0.96171397,Upheld,0.69,Upheld,DistilBERT,automate,Upheld,False
+73949,Overturned,0.761893,,0.0,,Human,human,Upheld,False
+71325,Upheld,0.81449586,,0.0,,Human,human,Upheld,False
+73346,Upheld,0.91204524,Upheld,0.43,Upheld,DistilBERT,automate,Upheld,False
+72466,Overturned,0.9687676,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72069,Upheld,0.82460326,Upheld,0.87,,Human,human,Upheld,False
+72100,Overturned,0.75635755,Overturned,0.84,,Human,human,Overturned,False
+72603,Upheld,0.6258384,,0.0,,Human,human,Upheld,False
+72949,Overturned,0.96124375,Overturned,0.99,Overturned,JEV specialist,automate,Overturned,False
+71381,Upheld,0.979784,Upheld,0.47,Upheld,DistilBERT,automate,Overturned,False
+72840,Upheld,0.8253083,,0.0,,Human,human,Overturned,False
+72906,Upheld,0.8704873,Upheld,0.73,,Human,human,Overturned,False
+73254,Upheld,0.9930559,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+73634,Upheld,0.9410069,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72818,Overturned,0.95589906,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72533,Upheld,0.99219924,Overturned,0.66,Upheld,DistilBERT,automate,Upheld,False
+72870,Upheld,0.92495924,Upheld,0.59,Upheld,DistilBERT,automate,Upheld,False
+73479,Overturned,0.8704873,,0.0,,Human,human,Upheld,False
+73037,Upheld,0.9669453,Upheld,0.65,Upheld,DistilBERT,automate,Upheld,False
+73615,Upheld,0.6577583,,0.0,,Human,human,Overturned,False
+71226,Upheld,0.95531917,Upheld,0.92,Upheld,JEV specialist,automate,Upheld,False
+71428,Upheld,0.7826625,,0.0,,Human,human,Overturned,False
+73819,Upheld,0.97754294,Upheld,0.67,Upheld,DistilBERT,automate,Upheld,False
+73219,Overturned,0.9020933,Overturned,0.88,Overturned,JEV specialist,automate,Upheld,False
+71398,Overturned,0.8591327,,0.0,,Human,human,Overturned,False
+72015,Upheld,0.96309197,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+73412,Overturned,0.81449586,,0.0,,Human,human,Overturned,False
+72494,Overturned,0.76829886,,0.0,,Human,human,Upheld,False
+72269,Upheld,0.82803684,Overturned,0.58,,Human,human,Upheld,False
+72313,Overturned,0.7899638,,0.0,,Human,human,Overturned,False
+73167,Upheld,0.90950596,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73592,Overturned,0.5542895,,0.0,,Human,human,Upheld,False
+72207,Overturned,0.564136,,0.0,,Human,human,Upheld,False
+73333,Upheld,0.82859236,,0.0,,Human,human,Upheld,False
+71342,Upheld,0.99557483,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+72074,Upheld,0.9927532,Upheld,0.46,Upheld,DistilBERT,automate,Upheld,False
+73433,Overturned,0.6693667,,0.0,,Human,human,Overturned,False
+73153,Overturned,0.82354134,,0.0,,Human,human,Overturned,False
+71329,Upheld,0.78282857,Overturned,0.44,,Human,human,Overturned,False
+71421,Overturned,0.5909858,,0.0,,Human,human,Upheld,False
+71852,Upheld,0.9962782,Upheld,0.91,Upheld,JEV specialist,automate,Upheld,False
+73692,Overturned,0.70846474,,0.0,,Human,human,Overturned,False
+73611,Upheld,0.57367843,,0.0,,Human,human,Upheld,False
+71515,Overturned,0.70826304,,0.0,,Human,human,Overturned,False
+72252,Overturned,0.9774355,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72396,Upheld,0.9423477,Overturned,0.7,Upheld,DistilBERT,automate,Upheld,False
+72901,Upheld,0.9563497,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73485,Overturned,0.9729595,Overturned,0.62,Overturned,DistilBERT,automate,Overturned,False
+71289,Upheld,0.85015786,,0.0,,Human,human,Overturned,False
+73216,Overturned,0.9049869,,0.0,Overturned,DistilBERT,automate,Upheld,False
+73269,Overturned,0.7053793,,0.0,,Human,human,Overturned,False
+72752,Overturned,0.92563426,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72961,Overturned,0.90657043,Upheld,0.48,Overturned,DistilBERT,automate,Overturned,False
+73239,Overturned,0.5793112,,0.0,,Human,human,Overturned,False
+73568,Upheld,0.5448619,Upheld,0.83,,Human,human,Upheld,False
+71405,Overturned,0.6749617,,0.0,,Human,human,Overturned,False
+73874,Upheld,0.744842,,0.0,,Human,human,Upheld,False
+71694,Overturned,0.91436726,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71322,Overturned,0.8498466,,0.0,,Human,human,Overturned,False
+71288,Upheld,0.99060565,Upheld,0.62,Upheld,DistilBERT,automate,Upheld,False
+73761,Overturned,0.52267426,,0.0,,Human,human,Overturned,False
+73795,Upheld,0.89395916,,0.0,,Human,human,Upheld,False
+72599,Overturned,0.79755676,Upheld,0.79,,Human,human,Upheld,False
+72320,Overturned,0.5623117,,0.0,,Human,human,Upheld,False
+72470,Upheld,0.5232833,,0.0,,Human,human,Overturned,False
+71537,Overturned,0.501091,,0.0,,Human,human,Upheld,False
+71905,Upheld,0.7302899,Upheld,0.63,,Human,human,Upheld,False
+73851,Overturned,0.9906961,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73226,Upheld,0.67875296,,0.0,,Human,human,Upheld,False
+71261,Overturned,0.9147487,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+72849,Overturned,0.8076124,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+72041,Upheld,0.9774139,Overturned,0.51,Upheld,DistilBERT,automate,Upheld,False
+71897,Upheld,0.8417607,Upheld,1.0,Upheld,JEV specialist,automate,Overturned,False
+73910,Upheld,0.9730365,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+72745,Upheld,0.57895416,,0.0,,Human,human,Upheld,False
+71776,Upheld,0.6649755,Overturned,0.94,Overturned,JEV specialist,automate,Overturned,False
+73751,Upheld,0.5699125,Overturned,0.47,,Human,human,Overturned,False
+71819,Upheld,0.7773844,,0.0,,Human,human,Upheld,False
+73559,Upheld,0.98225373,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71871,Overturned,0.7922233,,0.0,,Human,human,Overturned,False
+73518,Upheld,0.99302894,Upheld,1.0,Upheld,JEV specialist,automate,Upheld,False
+72937,Upheld,0.946051,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71231,Upheld,0.71492666,Upheld,0.67,,Human,human,Upheld,False
+73258,Upheld,0.9864157,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+73471,Overturned,0.8197491,,0.0,,Human,human,Overturned,False
+71677,Overturned,0.908699,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72405,Overturned,0.9896318,Overturned,0.89,Overturned,JEV specialist,automate,Overturned,True
+73094,Overturned,0.91125876,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71279,Upheld,0.67528296,,0.0,,Human,human,Overturned,False
+73248,Overturned,0.8903896,,0.0,,Human,human,Overturned,False
+73534,Overturned,0.7344054,,0.0,,Human,human,Upheld,False
+73137,Overturned,0.9723885,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72775,Overturned,0.87418467,,0.0,,Human,human,Upheld,False
+72345,Upheld,0.9851147,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+72640,Upheld,0.7268621,,0.0,,Human,human,Upheld,False
+71721,Overturned,0.86528105,,0.0,,Human,human,Overturned,False
+71251,Overturned,0.74115914,,0.0,,Human,human,Overturned,False
+72215,Overturned,0.62156963,Overturned,0.88,Overturned,JEV specialist,automate,Overturned,False
+71745,Overturned,0.7337858,Upheld,0.54,,Human,human,Overturned,False
+73319,Overturned,0.85324144,,0.0,,Human,human,Overturned,False
+73093,Upheld,0.6403548,Overturned,0.62,,Human,human,Upheld,False
+72841,Overturned,0.8010813,Overturned,0.69,,Human,human,Upheld,False
+71385,Overturned,0.9574373,Overturned,0.68,Overturned,DistilBERT,automate,Overturned,False
+72235,Overturned,0.59304965,,0.0,,Human,human,Overturned,False
+73764,Upheld,0.9966234,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+71997,Upheld,0.5404691,,0.0,,Human,human,Upheld,False
+71883,Upheld,0.8961605,,0.0,,Human,human,Upheld,False
+72371,Overturned,0.920218,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72283,Overturned,0.9888204,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71541,Upheld,0.94905907,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72341,Upheld,0.7764535,,0.0,,Human,human,Upheld,False
+72454,Upheld,0.8388118,,0.0,,Human,human,Upheld,False
+71558,Upheld,0.50934875,,0.0,,Human,human,Upheld,False
+71691,Upheld,0.7447491,Upheld,0.51,,Human,human,Upheld,False
+72447,Upheld,0.71992546,,0.0,,Human,human,Upheld,False
+72801,Upheld,0.9824905,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+71417,Upheld,0.9142142,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73080,Overturned,0.5745738,,0.0,,Human,human,Upheld,False
+73574,Upheld,0.72564864,Upheld,0.56,,Human,human,Upheld,False
+71676,Upheld,0.9445361,,0.0,Upheld,DistilBERT,automate,Overturned,False
+73164,Upheld,0.9946568,Overturned,0.52,Upheld,DistilBERT,automate,Upheld,True
+72526,Upheld,0.8439594,,0.0,,Human,human,Upheld,False
+72535,Upheld,0.9837225,Overturned,0.74,Upheld,DistilBERT,automate,Upheld,False
+71082,Overturned,0.8037136,,0.0,,Human,human,Overturned,False
+71108,Upheld,0.53931683,,0.0,,Human,human,Upheld,False
+71985,Overturned,0.85458153,,0.0,,Human,human,Overturned,False
+73439,Upheld,0.5509396,,0.0,,Human,human,Upheld,False
+73515,Upheld,0.9692078,Upheld,0.61,Upheld,DistilBERT,automate,Overturned,False
+72772,Upheld,0.7927853,,0.0,,Human,human,Overturned,False
+73717,Overturned,0.953188,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73029,Upheld,0.69471705,,0.0,,Human,human,Upheld,False
+71492,Overturned,0.9828562,Overturned,0.91,Overturned,JEV specialist,automate,Overturned,False
+71570,Overturned,0.63965166,,0.0,,Human,human,Overturned,False
+71762,Upheld,0.99420255,Overturned,0.44,Upheld,DistilBERT,automate,Upheld,False
+73012,Overturned,0.9558166,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72433,Upheld,0.9925249,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71507,Overturned,0.53372407,,0.0,,Human,human,Overturned,False
+73054,Upheld,0.68920106,,0.0,,Human,human,Upheld,False
+71041,Upheld,0.99329424,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+73622,Overturned,0.9785493,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71926,Overturned,0.8244619,,0.0,,Human,human,Overturned,False
+71498,Upheld,0.5453614,,0.0,,Human,human,Upheld,False
+72478,Upheld,0.9130584,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71346,Upheld,0.9952448,Upheld,0.85,Upheld,DistilBERT,automate,Upheld,False
+71511,Overturned,0.9014879,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+73191,Upheld,0.7210562,,0.0,,Human,human,Overturned,False
+72618,Overturned,0.86596256,,0.0,,Human,human,Overturned,False
+71982,Overturned,0.9901211,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+72482,Upheld,0.99583375,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+71733,Overturned,0.6475754,Overturned,0.95,Overturned,JEV specialist,automate,Upheld,False
+73102,Upheld,0.9449947,Overturned,0.48,Upheld,DistilBERT,automate,Upheld,False
+71830,Upheld,0.9870297,Upheld,0.83,Upheld,DistilBERT,automate,Upheld,False
+71123,Overturned,0.66671383,,0.0,,Human,human,Upheld,False
+71609,Overturned,0.5497464,,0.0,,Human,human,Overturned,False
+71481,Overturned,0.7735587,,0.0,,Human,human,Overturned,False
+71323,Overturned,0.9207897,,0.0,Overturned,DistilBERT,automate,Upheld,False
+72552,Upheld,0.97052056,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73042,Overturned,0.5960805,,0.0,,Human,human,Overturned,False
+73081,Overturned,0.5349162,,0.0,,Human,human,Overturned,False
+72732,Overturned,0.9425068,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+72779,Upheld,0.9957021,Upheld,0.73,Upheld,DistilBERT,automate,Upheld,False
+72696,Upheld,0.9652504,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71420,Upheld,0.9185534,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71836,Overturned,0.97682446,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73870,Upheld,0.79174054,Upheld,1.0,Upheld,JEV specialist,automate,Upheld,False
+72418,Overturned,0.7383862,,0.0,,Human,human,Overturned,False
+71197,Upheld,0.8193158,,0.0,,Human,human,Upheld,False
+73743,Upheld,0.81486446,Upheld,0.57,,Human,human,Upheld,False
+72822,Overturned,0.7759446,,0.0,,Human,human,Overturned,False
+71039,Upheld,0.79085356,,0.0,,Human,human,Upheld,False
+73105,Upheld,0.9916196,Upheld,0.83,Upheld,DistilBERT,automate,Upheld,False
+72450,Overturned,0.95292586,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71719,Overturned,0.97023994,,0.0,Overturned,DistilBERT,automate,Upheld,False
+71349,Overturned,0.8814109,,0.0,,Human,human,Overturned,False
+73365,Upheld,0.99624926,Upheld,0.53,Upheld,DistilBERT,automate,Upheld,False
+73108,Upheld,0.89778495,,0.0,,Human,human,Upheld,False
+73370,Overturned,0.95473194,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73701,Upheld,0.92956835,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73021,Overturned,0.9531443,Overturned,0.88,Overturned,JEV specialist,automate,Overturned,False
+73381,Upheld,0.9222726,Upheld,0.57,Upheld,DistilBERT,automate,Upheld,False
+73249,Upheld,0.9806364,Upheld,0.58,Upheld,DistilBERT,automate,Upheld,False
+72713,Overturned,0.72691053,,0.0,,Human,human,Upheld,False
+73781,Upheld,0.9939143,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73316,Overturned,0.92827886,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73201,Upheld,0.967163,Upheld,0.87,Upheld,DistilBERT,automate,Overturned,False
+71413,Overturned,0.82183194,,0.0,,Human,human,Overturned,False
+71674,Upheld,0.98535615,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+71880,Overturned,0.9316493,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73472,Overturned,0.9753666,Overturned,0.94,Overturned,JEV specialist,automate,Overturned,False
+73222,Upheld,0.84110916,,0.0,,Human,human,Overturned,False
+73670,Overturned,0.6409168,,0.0,,Human,human,Upheld,False
+71934,Upheld,0.7195314,,0.0,,Human,human,Overturned,False
+71101,Overturned,0.682415,,0.0,,Human,human,Overturned,False
+73811,Overturned,0.90632194,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72977,Upheld,0.58659685,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+72131,Overturned,0.92043275,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72155,Upheld,0.771241,Upheld,0.61,,Human,human,Upheld,False
+73791,Upheld,0.87234735,Upheld,0.78,,Human,human,Upheld,False
+72704,Upheld,0.54924774,,0.0,,Human,human,Upheld,False
+71916,Upheld,0.6028802,,0.0,,Human,human,Upheld,False
+72916,Upheld,0.6703925,,0.0,,Human,human,Upheld,False
+71310,Upheld,0.9410612,Upheld,0.92,Upheld,JEV specialist,automate,Upheld,False
+73857,Upheld,0.8162599,,0.0,,Human,human,Upheld,False
+71736,Upheld,0.71992546,,0.0,,Human,human,Upheld,False
+72150,Upheld,0.94468933,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73429,Upheld,0.7841538,,0.0,,Human,human,Upheld,False
+73446,Overturned,0.97706646,Overturned,0.73,Overturned,DistilBERT,automate,Overturned,False
+73304,Overturned,0.7851439,,0.0,,Human,human,Overturned,False
+73725,Upheld,0.9912209,Upheld,0.78,Upheld,DistilBERT,automate,Upheld,False
+72330,Upheld,0.5420907,,0.0,,Human,human,Upheld,False
+72692,Overturned,0.65052277,,0.0,,Human,human,Overturned,False
+73659,Upheld,0.61372864,,0.0,,Human,human,Upheld,False
+73532,Overturned,0.78654087,Upheld,0.76,,Human,human,Overturned,False
+72064,Overturned,0.811452,,0.0,,Human,human,Overturned,False
+73962,Overturned,0.8849373,,0.0,,Human,human,Overturned,False
+73356,Upheld,0.662469,Overturned,0.5,,Human,human,Upheld,False
+71324,Overturned,0.593462,,0.0,,Human,human,Upheld,False
+73638,Upheld,0.503622,,0.0,,Human,human,Overturned,False
+72795,Upheld,0.86066216,Overturned,0.67,,Human,human,Upheld,False
+73569,Overturned,0.9284088,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73454,Upheld,0.8101787,Upheld,0.55,,Human,human,Upheld,False
+73969,Overturned,0.6617043,,0.0,,Human,human,Overturned,False
+72298,Upheld,0.78365755,,0.0,,Human,human,Upheld,False
+71131,Upheld,0.5210447,,0.0,,Human,human,Upheld,False
+71858,Overturned,0.70932126,,0.0,,Human,human,Overturned,False
+71773,Overturned,0.74470276,,0.0,,Human,human,Overturned,False
+71866,Overturned,0.8596048,,0.0,,Human,human,Upheld,False
+72465,Upheld,0.59490436,,0.0,,Human,human,Overturned,False
+72192,Upheld,0.93991333,Overturned,0.72,Upheld,DistilBERT,automate,Upheld,False
+73376,Overturned,0.95253,Overturned,0.6,Overturned,DistilBERT,automate,Overturned,False
+71814,Upheld,0.77670765,,0.0,,Human,human,Upheld,False
+73637,Upheld,0.8620035,,0.0,,Human,human,Upheld,False
+71954,Upheld,0.69071555,,0.0,,Human,human,Upheld,False
+71475,Upheld,0.54938376,,0.0,,Human,human,Upheld,False
+73501,Upheld,0.8317589,,0.0,,Human,human,Upheld,False
+71578,Overturned,0.5643086,,0.0,,Human,human,Upheld,False
+72062,Overturned,0.9702681,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71265,Upheld,0.99508506,Upheld,0.89,Upheld,JEV specialist,automate,Upheld,False
+72411,Overturned,0.91062486,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72325,Upheld,0.9430336,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73903,Overturned,0.7291824,,0.0,,Human,human,Upheld,False
+71221,Upheld,0.97428846,Upheld,0.7,Upheld,DistilBERT,automate,Upheld,False
+72238,Upheld,0.9716717,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+71545,Upheld,0.8832863,,0.0,,Human,human,Overturned,False
+73576,Upheld,0.9942251,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+71667,Upheld,0.84019345,,0.0,,Human,human,Upheld,False
+72034,Upheld,0.7993641,,0.0,,Human,human,Upheld,False
+73215,Overturned,0.85627234,,0.0,,Human,human,Overturned,False
+71253,Overturned,0.8694931,,0.0,,Human,human,Upheld,False
+73672,Overturned,0.9566342,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71923,Upheld,0.7253083,Upheld,0.51,,Human,human,Upheld,False
+73502,Overturned,0.89143354,,0.0,,Human,human,Overturned,False
+71931,Upheld,0.84978426,Upheld,0.63,,Human,human,Upheld,False
+72769,Upheld,0.95873135,Upheld,0.58,Upheld,DistilBERT,automate,Upheld,False
+72756,Upheld,0.99361163,Upheld,0.89,Upheld,JEV specialist,automate,Upheld,False
+71593,Upheld,0.8123469,,0.0,,Human,human,Upheld,False
+73221,Upheld,0.99533635,Upheld,0.77,Upheld,DistilBERT,automate,Upheld,False
+72244,Upheld,0.85213745,Overturned,0.45,,Human,human,Upheld,False
+72487,Overturned,0.58008444,,0.0,,Human,human,Overturned,False
+73374,Upheld,0.63906056,,0.0,,Human,human,Upheld,False
+73139,Upheld,0.9966365,Upheld,0.79,Upheld,DistilBERT,automate,Upheld,False
+73624,Overturned,0.8590736,,0.0,,Human,human,Upheld,False
+73594,Overturned,0.885582,,0.0,,Human,human,Overturned,False
+73845,Overturned,0.90982693,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72683,Overturned,0.8662457,,0.0,,Human,human,Overturned,False
+71375,Overturned,0.9877351,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71811,Upheld,0.7799929,,0.0,,Human,human,Upheld,False
+71708,Upheld,0.73177797,,0.0,,Human,human,Upheld,False
+73820,Overturned,0.66285104,Overturned,0.99,Overturned,JEV specialist,automate,Overturned,False
+73193,Upheld,0.97691274,Upheld,0.59,Upheld,DistilBERT,automate,Upheld,False
+72200,Upheld,0.6123386,Upheld,0.78,,Human,human,Upheld,False
+71167,Upheld,0.93874466,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73457,Upheld,0.9565125,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+72055,Upheld,0.7100255,,0.0,,Human,human,Overturned,False
+71550,Upheld,0.97601515,Upheld,0.84,Upheld,DistilBERT,automate,Upheld,False
+71873,Upheld,0.5611246,,0.0,,Human,human,Upheld,False
+72420,Overturned,0.9554855,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73303,Overturned,0.8578276,,0.0,,Human,human,Overturned,False
+72830,Overturned,0.6841585,,0.0,,Human,human,Overturned,False
+73863,Overturned,0.9861247,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72588,Overturned,0.98087597,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72750,Overturned,0.6603367,,0.0,,Human,human,Overturned,False
+73937,Overturned,0.90681833,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72281,Overturned,0.7177049,,0.0,,Human,human,Overturned,False
+72353,Overturned,0.9790958,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72299,Upheld,0.96609205,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72912,Overturned,0.64751965,,0.0,,Human,human,Upheld,False
+72553,Overturned,0.9175984,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73674,Upheld,0.85705173,Upheld,0.95,Upheld,JEV specialist,automate,Overturned,False
+73213,Overturned,0.7512834,,0.0,,Human,human,Overturned,False
+71857,Overturned,0.9680205,Overturned,0.99,Overturned,JEV specialist,automate,Overturned,False
+73382,Overturned,0.9514138,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71448,Upheld,0.99491006,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+73361,Overturned,0.55438,Overturned,0.53,,Human,human,Upheld,False
+72718,Overturned,0.7749242,,0.0,,Human,human,Overturned,False
+72813,Upheld,0.6466276,,0.0,,Human,human,Upheld,False
+73150,Upheld,0.99174845,Upheld,0.81,Upheld,DistilBERT,automate,Upheld,False
+73683,Overturned,0.6304006,,0.0,,Human,human,Overturned,False
+72334,Upheld,0.9627783,Upheld,0.69,Upheld,DistilBERT,automate,Upheld,False
+73312,Overturned,0.8255897,,0.0,,Human,human,Overturned,False
+72036,Upheld,0.9402983,Upheld,0.82,Upheld,DistilBERT,automate,Upheld,False
+72329,Upheld,0.6069936,Overturned,0.66,,Human,human,Upheld,False
+71351,Overturned,0.6708779,,0.0,,Human,human,Overturned,False
+73227,Upheld,0.6513549,Overturned,0.65,,Human,human,Upheld,False
+72996,Overturned,0.9328214,Overturned,0.95,Overturned,JEV specialist,automate,Overturned,False
+71623,Overturned,0.5860195,,0.0,,Human,human,Overturned,False
+72232,Overturned,0.6909241,Overturned,0.92,Overturned,JEV specialist,automate,Overturned,False
+72751,Upheld,0.7520126,,0.0,,Human,human,Overturned,False
+71337,Upheld,0.61751264,,0.0,,Human,human,Upheld,False
+71622,Upheld,0.6441412,,0.0,,Human,human,Overturned,False
+73909,Upheld,0.9862046,Upheld,0.7,Upheld,DistilBERT,automate,Upheld,False
+72627,Overturned,0.9734181,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71787,Upheld,0.9878996,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72084,Upheld,0.75346667,,0.0,,Human,human,Upheld,False
+72932,Overturned,0.89729095,,0.0,,Human,human,Overturned,False
+72894,Upheld,0.99219924,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72096,Upheld,0.7612724,,0.0,,Human,human,Upheld,False
+72314,Overturned,0.7545535,,0.0,,Human,human,Overturned,False
+71139,Upheld,0.82866174,,0.0,,Human,human,Overturned,False
+71891,Overturned,0.9118885,,0.0,Overturned,DistilBERT,automate,Upheld,False
+72286,Upheld,0.8568123,Upheld,0.77,,Human,human,Upheld,False
+73077,Upheld,0.9784671,Upheld,0.59,Upheld,DistilBERT,automate,Upheld,False
+72010,Overturned,0.7692537,,0.0,,Human,human,Overturned,False
+71046,Overturned,0.9800913,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71277,Upheld,0.99002504,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+72790,Upheld,0.9182606,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72109,Upheld,0.84536886,,0.0,,Human,human,Upheld,False
+73749,Overturned,0.6132945,,0.0,,Human,human,Overturned,False
+72182,Upheld,0.9628482,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73406,Upheld,0.9901211,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73014,Overturned,0.7693403,Overturned,0.64,,Human,human,Overturned,False
+72882,Overturned,0.9589625,Overturned,0.8,Overturned,DistilBERT,automate,Overturned,False
+72284,Overturned,0.8468945,,0.0,,Human,human,Overturned,False
+73706,Upheld,0.5571527,,0.0,,Human,human,Upheld,False
+73111,Overturned,0.98445636,,0.0,Overturned,DistilBERT,automate,Overturned,True
+73358,Upheld,0.61549234,,0.0,,Human,human,Overturned,False
+72388,Upheld,0.59963167,,0.0,,Human,human,Overturned,False
+73721,Upheld,0.9811488,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73197,Overturned,0.84972197,Overturned,0.48,,Human,human,Overturned,False
+71539,Overturned,0.6534034,,0.0,,Human,human,Upheld,False
+72308,Upheld,0.8760524,,0.0,,Human,human,Overturned,False
+73681,Overturned,0.98507166,Overturned,0.91,Overturned,JEV specialist,automate,Overturned,False
+73835,Overturned,0.9056566,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73419,Upheld,0.8613634,Overturned,0.46,,Human,human,Overturned,False
+72455,Overturned,0.7412528,,0.0,,Human,human,Upheld,False
+73732,Overturned,0.9818056,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73933,Overturned,0.87610537,,0.0,,Human,human,Overturned,False
+73162,Overturned,0.65770334,,0.0,,Human,human,Overturned,False
+73414,Overturned,0.9189906,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72914,Upheld,0.7750094,,0.0,,Human,human,Upheld,False
+71701,Overturned,0.9564718,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71271,Upheld,0.9962419,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+73590,Overturned,0.5676071,,0.0,,Human,human,Overturned,False
+73647,Upheld,0.51464045,,0.0,,Human,human,Upheld,False
+72208,Upheld,0.5409239,,0.0,,Human,human,Upheld,False
+71319,Upheld,0.99517965,Upheld,0.76,Upheld,DistilBERT,automate,Upheld,False
+73373,Overturned,0.6932134,,0.0,,Human,human,Upheld,False
+73395,Overturned,0.90320885,Overturned,0.67,Overturned,DistilBERT,automate,Overturned,False
+73318,Overturned,0.98240626,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71378,Overturned,0.6370308,,0.0,,Human,human,Upheld,False
+72137,Upheld,0.8735388,Overturned,0.89,Overturned,JEV specialist,automate,Upheld,False
+71651,Overturned,0.9747731,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73459,Overturned,0.8933094,Overturned,0.88,Overturned,JEV specialist,automate,Overturned,False
+71216,Overturned,0.6738359,,0.0,,Human,human,Upheld,False
+71272,Upheld,0.67923194,,0.0,,Human,human,Overturned,False
+71969,Overturned,0.5211808,,0.0,,Human,human,Upheld,False
+71697,Overturned,0.7905303,,0.0,,Human,human,Overturned,False
+72087,Upheld,0.99557483,Upheld,0.85,Upheld,DistilBERT,automate,Upheld,False
+71587,Upheld,0.828731,,0.0,,Human,human,Overturned,False
+71311,Upheld,0.989368,Upheld,0.68,Upheld,DistilBERT,automate,Upheld,False
+72687,Upheld,0.5514077,,0.0,,Human,human,Upheld,False
+71938,Upheld,0.9396923,Overturned,0.57,Upheld,DistilBERT,automate,Upheld,False
+73453,Upheld,0.6930057,,0.0,,Human,human,Upheld,False
+71283,Overturned,0.7335951,,0.0,,Human,human,Overturned,False
+71862,Overturned,0.79755676,,0.0,,Human,human,Upheld,False
+71205,Upheld,0.5685206,Overturned,0.68,,Human,human,Upheld,False
+71102,Overturned,0.6097275,,0.0,,Human,human,Upheld,False
+72550,Overturned,0.56911945,,0.0,,Human,human,Upheld,False
+72440,Upheld,0.8168451,,0.0,,Human,human,Upheld,False
+73026,Overturned,0.9648882,Overturned,0.54,Overturned,DistilBERT,automate,Overturned,False
+73911,Overturned,0.9131358,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71592,Upheld,0.730338,,0.0,,Human,human,Upheld,False
+73952,Upheld,0.9818056,Upheld,0.8,Upheld,DistilBERT,automate,Upheld,False
+73983,Overturned,0.94143915,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73127,Overturned,0.67848676,,0.0,,Human,human,Overturned,False
+72782,Overturned,0.8660759,,0.0,,Human,human,Overturned,False
+73443,Overturned,0.9771538,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72815,Upheld,0.98722816,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73543,Overturned,0.7623356,,0.0,,Human,human,Overturned,False
+72843,Overturned,0.6223732,,0.0,,Human,human,Upheld,False
+72889,Overturned,0.93919235,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72079,Overturned,0.97180575,Upheld,0.45,Overturned,DistilBERT,automate,Overturned,False
+71363,Upheld,0.77670765,Overturned,0.53,,Human,human,Overturned,False
+72716,Upheld,0.97726256,,0.0,Upheld,DistilBERT,automate,Overturned,False
+72057,Upheld,0.5373828,,0.0,,Human,human,Upheld,False
+73415,Upheld,0.5286779,,0.0,,Human,human,Overturned,False
+71121,Upheld,0.89414424,Upheld,0.45,,Human,human,Upheld,False
+72765,Upheld,0.6750688,,0.0,,Human,human,Overturned,False
+71835,Upheld,0.5904546,,0.0,,Human,human,Upheld,False
+72392,Overturned,0.9510514,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71993,Upheld,0.5851011,Overturned,0.85,,Human,human,Overturned,False
+71254,Overturned,0.84878427,,0.0,,Human,human,Overturned,False
+71308,Upheld,0.9904959,Upheld,0.97,Upheld,JEV specialist,automate,Upheld,False
+72861,Upheld,0.99356186,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72809,Overturned,0.90998703,,0.0,Overturned,DistilBERT,automate,Upheld,False
+72740,Overturned,0.91781974,Upheld,0.43,Overturned,DistilBERT,automate,Overturned,False
+72871,Upheld,0.59337366,Upheld,0.64,,Human,human,Upheld,False
+73665,Upheld,0.58385605,Overturned,0.49,,Human,human,Upheld,False
+72473,Upheld,0.99178034,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+72609,Upheld,0.89096016,Upheld,0.6,,Human,human,Upheld,False
+73378,Overturned,0.95253,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73667,Overturned,0.964822,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72416,Overturned,0.83148545,,0.0,,Human,human,Overturned,False
+73305,Upheld,0.6557219,,0.0,,Human,human,Overturned,False
+73780,Upheld,0.97730595,Overturned,0.49,Upheld,DistilBERT,automate,Upheld,False
+72780,Overturned,0.9913892,Overturned,0.71,Overturned,DistilBERT,automate,Overturned,False
+71227,Overturned,0.91212356,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71576,Upheld,0.5661385,,0.0,,Human,human,Upheld,False
+73803,Overturned,0.9659959,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71060,Overturned,0.97673583,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72513,Overturned,0.983518,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+73542,Upheld,0.78282857,Overturned,0.69,,Human,human,Upheld,False
+73050,Upheld,0.95934516,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73046,Upheld,0.9631613,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+72876,Upheld,0.9888204,,0.0,Upheld,DistilBERT,automate,Upheld,True
+72519,Overturned,0.6065567,,0.0,,Human,human,Upheld,False
+72510,Overturned,0.8500957,,0.0,,Human,human,Upheld,False
+73747,Upheld,0.77321637,,0.0,,Human,human,Upheld,False
+72402,Overturned,0.96912026,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72773,Upheld,0.7270559,,0.0,,Human,human,Overturned,False
+73846,Upheld,0.89488137,Upheld,0.51,,Human,human,Upheld,False
+72703,Upheld,0.8356848,Overturned,0.64,,Human,human,Upheld,False
+71687,Overturned,0.86849254,,0.0,,Human,human,Overturned,False
+71802,Overturned,0.51239526,,0.0,,Human,human,Overturned,False
+71429,Overturned,0.59419805,,0.0,,Human,human,Overturned,False
+71607,Overturned,0.7400804,Upheld,0.83,,Human,human,Overturned,False
+71643,Upheld,0.9904406,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72149,Overturned,0.783823,,0.0,,Human,human,Overturned,False
+71929,Upheld,0.6429931,,0.0,,Human,human,Upheld,False
+73848,Upheld,0.85639244,,0.0,,Human,human,Upheld,False
+73757,Overturned,0.8244619,,0.0,,Human,human,Overturned,False
+73554,Upheld,0.8984105,Upheld,0.87,,Human,human,Overturned,False
+72947,Upheld,0.54318136,Overturned,0.7,,Human,human,Overturned,False
+73000,Overturned,0.8530579,,0.0,,Human,human,Overturned,False
+73410,Overturned,0.98552424,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73198,Overturned,0.7058864,,0.0,,Human,human,Overturned,False
+72698,Overturned,0.92338526,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+73300,Overturned,0.9709919,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73888,Upheld,0.9956346,Upheld,0.82,Upheld,DistilBERT,automate,Upheld,False
+72201,Upheld,0.8040984,,0.0,,Human,human,Upheld,False
+72935,Upheld,0.87726665,,0.0,,Human,human,Upheld,False
+72686,Overturned,0.833121,,0.0,,Human,human,Upheld,False
+71330,Overturned,0.9594972,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71758,Upheld,0.9444849,Upheld,0.78,Upheld,DistilBERT,automate,Upheld,False
+71867,Upheld,0.99190676,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+72477,Upheld,0.7946241,Overturned,0.41,,Human,human,Upheld,False
+71756,Overturned,0.8895288,,0.0,,Human,human,Overturned,False
+73583,Upheld,0.9932025,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71376,Upheld,0.6568784,,0.0,,Human,human,Upheld,False
+71968,Upheld,0.99090964,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71538,Upheld,0.5747379,,0.0,,Human,human,Upheld,False
+73788,Upheld,0.97038054,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72507,Overturned,0.78249633,,0.0,,Human,human,Overturned,False
+73941,Overturned,0.50512534,,0.0,,Human,human,Upheld,False
+73334,Upheld,0.88769233,,0.0,,Human,human,Upheld,False
+72899,Overturned,0.726183,,0.0,,Human,human,Overturned,False
+73693,Upheld,0.6079833,,0.0,,Human,human,Upheld,False
+71389,Upheld,0.99554896,Upheld,0.8,Upheld,DistilBERT,automate,Upheld,False
+73580,Overturned,0.65902126,,0.0,,Human,human,Upheld,False
+73257,Upheld,0.97640073,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71726,Upheld,0.9818056,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72171,Upheld,0.8555497,Upheld,0.56,,Human,human,Upheld,False
+71386,Upheld,0.8773717,,0.0,,Human,human,Upheld,False
+72612,Upheld,0.9306476,,0.0,Upheld,DistilBERT,automate,Overturned,False
+73705,Overturned,0.70856565,,0.0,,Human,human,Upheld,False
+71586,Overturned,0.50006866,,0.0,,Human,human,Overturned,False
+73831,Upheld,0.83031917,,0.0,,Human,human,Overturned,False
+71257,Overturned,0.5347188,,0.0,,Human,human,Upheld,False
+72142,Upheld,0.61436504,,0.0,,Human,human,Overturned,False
+71383,Upheld,0.989368,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72984,Overturned,0.9836285,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72722,Overturned,0.6318783,,0.0,,Human,human,Overturned,False
+72933,Overturned,0.9848838,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73805,Overturned,0.6960617,,0.0,,Human,human,Overturned,False
+71252,Overturned,0.7925445,Overturned,0.64,,Human,human,Overturned,False
+73964,Overturned,0.5439688,,0.0,,Human,human,Overturned,False
+71974,Upheld,0.8975607,Upheld,0.51,,Human,human,Upheld,False
+72578,Upheld,0.94407386,Upheld,0.44,Upheld,DistilBERT,automate,Upheld,False
+73442,Upheld,0.7337381,,0.0,,Human,human,Upheld,False
+72523,Overturned,0.97800976,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+73185,Upheld,0.9078855,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+71914,Overturned,0.6202479,,0.0,,Human,human,Overturned,False
+73101,Overturned,0.67179364,Overturned,0.83,,Human,human,Upheld,False
+71136,Overturned,0.9570777,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71110,Upheld,0.99586606,Upheld,0.65,Upheld,DistilBERT,automate,Upheld,False
+73905,Overturned,0.8174288,,0.0,,Human,human,Overturned,False
+73517,Overturned,0.92879725,Overturned,0.6,Overturned,DistilBERT,automate,Upheld,False
+71865,Upheld,0.50828475,,0.0,,Human,human,Overturned,False
+71040,Upheld,0.9395816,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71679,Upheld,0.99460465,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+73707,Overturned,0.95159405,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73562,Upheld,0.991032,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+71314,Upheld,0.9233162,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72731,Upheld,0.7286035,Upheld,0.73,,Human,human,Overturned,False
+73814,Upheld,0.537011,,0.0,,Human,human,Overturned,False
+73460,Upheld,0.98715407,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72568,Overturned,0.85693204,,0.0,,Human,human,Overturned,False
+72075,Upheld,0.9803562,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73143,Upheld,0.80348235,,0.0,,Human,human,Upheld,False
+73385,Overturned,0.6442811,,0.0,,Human,human,Overturned,False
+73731,Upheld,0.9638821,Upheld,0.63,Upheld,DistilBERT,automate,Upheld,False
+71886,Upheld,0.9540518,Overturned,0.64,Upheld,DistilBERT,automate,Upheld,False
+71457,Overturned,0.7725306,,0.0,,Human,human,Overturned,False
+72761,Overturned,0.98959166,Overturned,0.9,Overturned,JEV specialist,automate,Overturned,False
+71471,Overturned,0.937783,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72486,Overturned,0.9559813,Overturned,0.83,Overturned,DistilBERT,automate,Overturned,False
+73792,Overturned,0.5494593,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+73317,Overturned,0.96102494,,0.0,Overturned,DistilBERT,automate,Upheld,False
+71225,Overturned,0.9634375,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71402,Upheld,0.6554463,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+71892,Upheld,0.9942697,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,True
+71551,Upheld,0.98799264,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,True
+72925,Upheld,0.5004158,,0.0,,Human,human,Overturned,False
+73391,Overturned,0.757346,Overturned,0.71,,Human,human,Upheld,False
+71347,Upheld,0.99106663,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+72407,Upheld,0.9509604,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73393,Upheld,0.99532723,Upheld,0.69,Upheld,DistilBERT,automate,Upheld,False
+71998,Upheld,0.5107262,,0.0,,Human,human,Overturned,False
+72900,Upheld,0.6195576,,0.0,,Human,human,Overturned,False
+72857,Upheld,0.945248,,0.0,Upheld,DistilBERT,automate,Overturned,False
+72564,Upheld,0.68505466,,0.0,,Human,human,Overturned,False
+71816,Overturned,0.5340658,,0.0,,Human,human,Upheld,False
+72796,Upheld,0.7853909,,0.0,,Human,human,Overturned,False
+72347,Overturned,0.9552357,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71218,Upheld,0.9812029,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71104,Upheld,0.73885757,,0.0,,Human,human,Overturned,False
+73986,Overturned,0.9621787,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71132,Upheld,0.5715275,,0.0,,Human,human,Upheld,False
+73503,Upheld,0.99047756,Upheld,0.68,Upheld,DistilBERT,automate,Upheld,False
+73777,Overturned,0.88612515,,0.0,,Human,human,Upheld,False
+73658,Upheld,0.64888364,,0.0,,Human,human,Overturned,False
+73405,Upheld,0.7018153,,0.0,,Human,human,Upheld,False
+72885,Upheld,0.9081302,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72501,Overturned,0.6683935,,0.0,,Human,human,Upheld,False
+71384,Overturned,0.9407897,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71023,Upheld,0.99381906,Upheld,0.7,Upheld,DistilBERT,automate,Upheld,False
+72472,Upheld,0.6658453,,0.0,,Human,human,Upheld,False
+71868,Upheld,0.993807,Upheld,0.83,Upheld,DistilBERT,automate,Overturned,False
+73684,Upheld,0.74101865,,0.0,,Human,human,Upheld,False
+72163,Upheld,0.7839885,,0.0,,Human,human,Upheld,False
+72850,Upheld,0.7190878,,0.0,,Human,human,Upheld,False
+73722,Upheld,0.9754135,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71947,Upheld,0.9396923,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72344,Overturned,0.5889187,,0.0,,Human,human,Overturned,False
+72070,Upheld,0.6581978,,0.0,,Human,human,Upheld,False
+71070,Overturned,0.9152046,,0.0,Overturned,DistilBERT,automate,Upheld,False
+71952,Upheld,0.896614,Upheld,0.79,,Human,human,Overturned,False
+72981,Overturned,0.6220002,,0.0,,Human,human,Overturned,False
+73606,Upheld,0.5384675,,0.0,,Human,human,Overturned,False
+73394,Upheld,0.8974259,,0.0,,Human,human,Overturned,False
+73533,Upheld,0.91789335,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73255,Upheld,0.6712012,Upheld,0.8,,Human,human,Upheld,False
+73840,Upheld,0.7358315,,0.0,,Human,human,Overturned,False
+71122,Upheld,0.9116528,,0.0,Upheld,DistilBERT,automate,Overturned,False
+72807,Overturned,0.9591543,Overturned,0.93,Overturned,JEV specialist,automate,Overturned,False
+72227,Overturned,0.88393915,,0.0,,Human,human,Overturned,False
+73664,Upheld,0.99600047,Upheld,0.65,Upheld,DistilBERT,automate,Upheld,False
+72444,Upheld,0.9763331,Upheld,0.64,Upheld,DistilBERT,automate,Upheld,False
+71380,Upheld,0.7201715,,0.0,,Human,human,Upheld,False
+72948,Overturned,0.9456509,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71911,Overturned,0.9609151,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72742,Upheld,0.5727974,,0.0,,Human,human,Overturned,False
+73362,Upheld,0.89947516,Overturned,0.48,,Human,human,Overturned,False
+73092,Overturned,0.7056329,,0.0,,Human,human,Overturned,False
+73436,Upheld,0.97503597,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72165,Upheld,0.62903434,Overturned,0.62,,Human,human,Upheld,False
+71306,Upheld,0.6866328,,0.0,,Human,human,Overturned,False
+72302,Overturned,0.8479048,Upheld,0.58,,Human,human,Upheld,False
+71044,Upheld,0.61474097,,0.0,,Human,human,Upheld,False
+71595,Overturned,0.9546897,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73711,Upheld,0.9186264,Upheld,0.47,Upheld,DistilBERT,automate,Upheld,False
+71232,Upheld,0.99604684,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+71945,Upheld,0.7118818,,0.0,,Human,human,Upheld,False
+73284,Overturned,0.8333246,,0.0,,Human,human,Upheld,False
+71735,Upheld,0.9900828,Upheld,0.91,Upheld,JEV specialist,automate,Upheld,False
+73702,Upheld,0.99002504,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71799,Overturned,0.8080672,,0.0,,Human,human,Overturned,False
+71856,Overturned,0.90582335,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73896,Overturned,0.86442494,,0.0,,Human,human,Overturned,False
+71535,Upheld,0.72277164,,0.0,,Human,human,Upheld,False
+72658,Upheld,0.99279517,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+71446,Upheld,0.7580631,,0.0,,Human,human,Upheld,False
+72108,Overturned,0.52708834,,0.0,,Human,human,Upheld,False
+71350,Overturned,0.97856975,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71981,Upheld,0.9919224,,0.0,Upheld,DistilBERT,automate,Upheld,True
+73122,Overturned,0.9887771,Overturned,0.91,Overturned,JEV specialist,automate,Overturned,False
+72214,Upheld,0.9334308,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72534,Overturned,0.96641046,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72490,Upheld,0.69233006,Upheld,0.96,Upheld,JEV specialist,automate,Upheld,False
+73098,Overturned,0.5292254,Overturned,0.92,Overturned,JEV specialist,automate,Upheld,False
+71444,Upheld,0.9027811,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+72451,Overturned,0.87010133,,0.0,,Human,human,Overturned,False
+73245,Overturned,0.7468321,,0.0,,Human,human,Overturned,False
+71617,Upheld,0.5363433,,0.0,,Human,human,Upheld,False
+71362,Overturned,0.9375548,,0.0,Overturned,DistilBERT,automate,Upheld,False
+73620,Upheld,0.9438154,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+71729,Overturned,0.89460546,,0.0,,Human,human,Overturned,False
+73483,Upheld,0.7942254,Overturned,0.95,Overturned,JEV specialist,automate,Upheld,False
+72321,Overturned,0.96185756,Overturned,0.98,Overturned,JEV specialist,automate,Overturned,False
+72145,Overturned,0.8247444,,0.0,,Human,human,Upheld,False
+71505,Upheld,0.5118138,,0.0,,Human,human,Upheld,False
+72744,Overturned,0.5270541,,0.0,,Human,human,Upheld,False
+72847,Upheld,0.98680264,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72294,Upheld,0.72898954,Upheld,0.6,,Human,human,Overturned,False
+73628,Overturned,0.7754348,,0.0,,Human,human,Overturned,False
+72898,Overturned,0.78850174,Overturned,0.76,,Human,human,Overturned,False
+72764,Overturned,0.9813107,Overturned,0.97,Overturned,JEV specialist,automate,Overturned,False
+72384,Overturned,0.5508339,,0.0,,Human,human,Upheld,False
+72691,Upheld,0.50767076,,0.0,,Human,human,Overturned,False
+72516,Upheld,0.9890343,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71636,Overturned,0.97754294,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73244,Overturned,0.840521,,0.0,,Human,human,Overturned,False
+71437,Upheld,0.93581736,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73027,Upheld,0.9302051,Upheld,0.52,Upheld,DistilBERT,automate,Upheld,False
+71801,Upheld,0.9417078,Overturned,0.85,Upheld,DistilBERT,automate,Overturned,False
+72318,Upheld,0.92290026,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71140,Upheld,0.9355235,Upheld,0.89,Upheld,JEV specialist,automate,Upheld,False
+71489,Upheld,0.74139327,,0.0,,Human,human,Upheld,False
+72715,Upheld,0.64523166,Upheld,0.56,,Human,human,Upheld,False
+73432,Overturned,0.83250916,,0.0,,Human,human,Upheld,False
+71925,Upheld,0.7854732,Upheld,0.6,,Human,human,Upheld,False
+71086,Upheld,0.660008,,0.0,,Human,human,Upheld,False
+71530,Overturned,0.9849563,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71690,Overturned,0.9884919,Overturned,0.9,Overturned,JEV specialist,automate,Overturned,False
+72305,Overturned,0.7391872,,0.0,,Human,human,Overturned,False
+72480,Upheld,0.9242787,Upheld,0.8,Upheld,DistilBERT,automate,Upheld,False
+71976,Upheld,0.5058972,,0.0,,Human,human,Overturned,False
+72067,Overturned,0.8992984,,0.0,,Human,human,Upheld,False
+71445,Overturned,0.7243344,Overturned,0.54,,Human,human,Overturned,False
+73713,Upheld,0.988108,Upheld,0.87,Upheld,DistilBERT,automate,Upheld,False
+71959,Overturned,0.80927604,,0.0,,Human,human,Overturned,False
+72315,Upheld,0.9306476,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71913,Upheld,0.6274092,,0.0,,Human,human,Upheld,False
+71409,Upheld,0.99302894,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71328,Overturned,0.9427181,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73843,Overturned,0.9014011,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71657,Overturned,0.97068775,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72641,Overturned,0.78481424,,0.0,,Human,human,Overturned,False
+73571,Overturned,0.85741025,,0.0,,Human,human,Overturned,False
+71291,Overturned,0.6888872,,0.0,,Human,human,Upheld,False
+71706,Overturned,0.87831426,,0.0,,Human,human,Overturned,False
+72817,Upheld,0.90303797,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73566,Overturned,0.573141,,0.0,,Human,human,Overturned,False
+73024,Upheld,0.98387814,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+71823,Upheld,0.5381945,Upheld,0.36,,Human,human,Upheld,False
+73299,Upheld,0.576691,,0.0,,Human,human,Upheld,False
+73135,Overturned,0.8420206,Overturned,0.65,,Human,human,Upheld,False
+73860,Upheld,0.98840266,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+72580,Overturned,0.8507789,,0.0,,Human,human,Overturned,False
+72540,Upheld,0.983343,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+71971,Overturned,0.55045635,,0.0,,Human,human,Overturned,False
+71359,Overturned,0.98427594,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72491,Upheld,0.99271095,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,True
+71299,Overturned,0.5113353,,0.0,,Human,human,Upheld,False
+72300,Upheld,0.9950659,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+73149,Upheld,0.5669778,,0.0,,Human,human,Upheld,False
+72520,Overturned,0.8535469,,0.0,,Human,human,Upheld,False
+72448,Overturned,0.80783993,,0.0,,Human,human,Overturned,False
+72427,Overturned,0.73895174,,0.0,,Human,human,Upheld,False
+73329,Overturned,0.6132655,Overturned,0.71,,Human,human,Overturned,False
+73232,Upheld,0.99544394,Upheld,0.76,Upheld,DistilBERT,automate,Upheld,False
+71646,Upheld,0.7424217,Overturned,0.98,Overturned,JEV specialist,automate,Upheld,False
+71710,Upheld,0.7629543,,0.0,,Human,human,Upheld,False
+72983,Upheld,0.77636874,,0.0,,Human,human,Overturned,False
+71553,Upheld,0.84965956,,0.0,,Human,human,Upheld,False
+71078,Upheld,0.99324185,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+72153,Upheld,0.61557907,,0.0,,Human,human,Upheld,False
+73082,Upheld,0.99583375,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+71966,Upheld,0.6023832,,0.0,,Human,human,Upheld,False
+71764,Upheld,0.52797824,,0.0,,Human,human,Upheld,False
+71613,Upheld,0.9938548,,0.0,Upheld,DistilBERT,automate,Overturned,False
+72102,Upheld,0.7329743,,0.0,,Human,human,Overturned,False
+72792,Upheld,0.5696133,,0.0,,Human,human,Upheld,False
+73125,Upheld,0.89199936,Upheld,0.71,,Human,human,Upheld,False
+72006,Overturned,0.84097856,,0.0,,Human,human,Overturned,False
+72266,Upheld,0.9470882,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73514,Overturned,0.882022,,0.0,,Human,human,Overturned,False
+73294,Overturned,0.95610446,Overturned,0.68,Overturned,DistilBERT,automate,Overturned,False
+72476,Upheld,0.9874721,Upheld,0.56,Upheld,DistilBERT,automate,Upheld,False
+73943,Upheld,0.9451468,,0.0,Upheld,DistilBERT,automate,Upheld,False
+73084,Overturned,0.77398604,,0.0,,Human,human,Overturned,False
+71839,Upheld,0.97428846,Upheld,0.99,Upheld,JEV specialist,automate,Upheld,False
+73951,Upheld,0.99456257,Upheld,0.72,Upheld,DistilBERT,automate,Upheld,False
+71568,Overturned,0.70684856,,0.0,,Human,human,Upheld,False
+72544,Overturned,0.91086304,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71875,Overturned,0.5936976,,0.0,,Human,human,Overturned,False
+72421,Overturned,0.92064714,Overturned,0.76,Overturned,DistilBERT,automate,Overturned,False
+71441,Upheld,0.5787756,,0.0,,Human,human,Upheld,False
+72493,Upheld,0.94176143,Upheld,0.56,Upheld,DistilBERT,automate,Upheld,False
+71404,Upheld,0.5016937,,0.0,,Human,human,Overturned,False
+73760,Overturned,0.87610537,,0.0,,Human,human,Overturned,False
+72282,Upheld,0.91957027,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+72082,Upheld,0.7366848,,0.0,,Human,human,Upheld,False
+71727,Upheld,0.92563426,Upheld,0.84,Upheld,DistilBERT,automate,Upheld,False
+73096,Upheld,0.6764596,,0.0,,Human,human,Overturned,False
+72832,Upheld,0.8162599,,0.0,,Human,human,Overturned,False
+73484,Overturned,0.86776584,,0.0,,Human,human,Overturned,False
+73423,Overturned,0.90286684,Overturned,0.75,Overturned,DistilBERT,automate,Overturned,False
+71466,Upheld,0.66985285,,0.0,,Human,human,Overturned,False
+72265,Upheld,0.9075583,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71767,Overturned,0.7673414,,0.0,,Human,human,Overturned,False
+71486,Overturned,0.6623598,,0.0,,Human,human,Upheld,False
+71374,Overturned,0.8394709,,0.0,,Human,human,Overturned,False
+72676,Overturned,0.67854,,0.0,,Human,human,Overturned,False
+73927,Overturned,0.6045157,Upheld,0.61,,Human,human,Overturned,False
+72604,Upheld,0.5310156,,0.0,,Human,human,Upheld,False
+73075,Overturned,0.52936983,,0.0,,Human,human,Overturned,False
+71372,Upheld,0.84840786,Overturned,0.56,,Human,human,Upheld,False
+71518,Upheld,0.87120116,,0.0,,Human,human,Upheld,False
+72104,Overturned,0.7192358,Upheld,0.59,,Human,human,Upheld,False
+73109,Overturned,0.60571164,,0.0,,Human,human,Upheld,False
+73106,Upheld,0.99533635,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+72548,Upheld,0.980053,Upheld,0.91,Upheld,JEV specialist,automate,Upheld,False
+73741,Overturned,0.9900636,,0.0,Overturned,DistilBERT,automate,Overturned,True
+73134,Overturned,0.81815636,,0.0,,Human,human,Overturned,False
+71741,Overturned,0.9741658,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71786,Upheld,0.71492666,,0.0,,Human,human,Upheld,False
+71684,Overturned,0.98478174,,0.0,Overturned,DistilBERT,automate,Overturned,True
+72033,Upheld,0.8587778,,0.0,,Human,human,Overturned,False
+71874,Upheld,0.6794978,,0.0,,Human,human,Overturned,False
+71134,Upheld,0.9946878,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71403,Overturned,0.96468914,Upheld,0.74,Overturned,DistilBERT,automate,Overturned,False
+73651,Upheld,0.54386276,,0.0,,Human,human,Overturned,False
+73152,Upheld,0.64349735,,0.0,,Human,human,Overturned,False
+72738,Upheld,0.9894907,Upheld,0.95,Upheld,JEV specialist,automate,Upheld,False
+72001,Upheld,0.5829066,,0.0,,Human,human,Overturned,False
+72127,Upheld,0.98707956,,0.0,Upheld,DistilBERT,automate,Upheld,False
+72248,Upheld,0.9573974,Upheld,0.7,Upheld,DistilBERT,automate,Upheld,False
+72643,Overturned,0.6873153,Overturned,0.74,,Human,human,Upheld,False
+71453,Overturned,0.7140302,,0.0,,Human,human,Overturned,False
+72039,Upheld,0.6734065,,0.0,,Human,human,Upheld,False
+73527,Upheld,0.97573924,Upheld,0.84,Upheld,DistilBERT,automate,Upheld,False
+71196,Upheld,0.9310248,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False
+72095,Upheld,0.5431132,,0.0,,Human,human,Overturned,False
+71932,Overturned,0.9049869,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73755,Overturned,0.91125876,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71775,Overturned,0.80069196,,0.0,,Human,human,Overturned,False
+71388,Overturned,0.9869292,Overturned,0.96,Overturned,JEV specialist,automate,Overturned,False
+71583,Overturned,0.93738294,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71219,Upheld,0.6683935,,0.0,,Human,human,Upheld,False
+71497,Upheld,0.71814984,,0.0,,Human,human,Upheld,False
+73067,Overturned,0.9759694,Upheld,0.86,Overturned,DistilBERT,automate,Overturned,False
+71824,Upheld,0.8601931,,0.0,,Human,human,Upheld,False
+73557,Overturned,0.71248233,Overturned,0.51,,Human,human,Upheld,False
+71202,Upheld,0.99453074,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+72037,Overturned,0.73554665,,0.0,,Human,human,Overturned,False
+72368,Upheld,0.7104777,,0.0,,Human,human,Upheld,False
+72273,Overturned,0.96021223,Overturned,0.94,Overturned,JEV specialist,automate,Overturned,False
+73363,Overturned,0.76162714,,0.0,,Human,human,Overturned,False
+71065,Upheld,0.94966936,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71074,Upheld,0.99196917,Upheld,0.82,Upheld,DistilBERT,automate,Upheld,False
+72126,Overturned,0.5222745,,0.0,,Human,human,Overturned,False
+72484,Overturned,0.9424538,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71076,Upheld,0.60754675,,0.0,,Human,human,Overturned,False
+73619,Overturned,0.6095532,Overturned,0.47,,Human,human,Upheld,False
+72860,Upheld,0.96926606,Upheld,0.86,Upheld,DistilBERT,automate,Upheld,False
+72404,Upheld,0.7394224,,0.0,,Human,human,Upheld,False
+73099,Overturned,0.62929064,,0.0,,Human,human,Upheld,False
+71096,Upheld,0.80193585,Upheld,0.62,,Human,human,Overturned,False
+71029,Upheld,0.72316283,,0.0,,Human,human,Overturned,False
+73873,Upheld,0.96210754,Upheld,0.7,Upheld,DistilBERT,automate,Upheld,False
+72733,Upheld,0.9610981,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71663,Overturned,0.9605466,,0.0,Overturned,DistilBERT,automate,Overturned,False
+73635,Overturned,0.9778412,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71243,Upheld,0.61286014,,0.0,,Human,human,Overturned,False
+72869,Upheld,0.9957021,Upheld,0.92,Upheld,JEV specialist,automate,Upheld,False
+72518,Upheld,0.9129032,Upheld,0.93,Upheld,JEV specialist,automate,Upheld,False
+73006,Upheld,0.77330196,,0.0,,Human,human,Upheld,False
+71521,Upheld,0.99262565,Upheld,0.56,Upheld,DistilBERT,automate,Upheld,False
+72348,Upheld,0.66524744,,0.0,,Human,human,Upheld,False
+73650,Upheld,0.81779283,Upheld,0.82,,Human,human,Upheld,False
+73901,Overturned,0.83927345,Overturned,0.65,,Human,human,Upheld,False
+73323,Overturned,0.9473323,,0.0,Overturned,DistilBERT,automate,Overturned,False
+72498,Upheld,0.51822996,,0.0,,Human,human,Upheld,False
+71465,Upheld,0.9962419,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71280,Overturned,0.9007919,Overturned,0.89,Overturned,JEV specialist,automate,Overturned,False
+73802,Upheld,0.68156785,Overturned,0.6,,Human,human,Upheld,False
+73522,Overturned,0.73421484,,0.0,,Human,human,Upheld,False
+72923,Overturned,0.6897238,,0.0,,Human,human,Upheld,False
+71812,Upheld,0.9838161,Upheld,0.98,Upheld,JEV specialist,automate,Upheld,False
+73163,Overturned,0.8502201,,0.0,,Human,human,Overturned,False
+71081,Overturned,0.5147624,,0.0,,Human,human,Upheld,False
+71822,Overturned,0.8879841,,0.0,,Human,human,Overturned,False
+73935,Upheld,0.79653,,0.0,,Human,human,Overturned,False
+71616,Upheld,0.9856076,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71879,Upheld,0.74853617,,0.0,,Human,human,Upheld,False
+71851,Overturned,0.8474635,,0.0,,Human,human,Overturned,False
+73434,Upheld,0.9250271,,0.0,Upheld,DistilBERT,automate,Upheld,False
+71965,Upheld,0.98886347,Upheld,0.76,Upheld,DistilBERT,automate,Upheld,False
+71484,Overturned,0.9716986,,0.0,Overturned,DistilBERT,automate,Overturned,False
+71740,Upheld,0.9753431,Upheld,0.88,Upheld,JEV specialist,automate,Upheld,False
+73977,Upheld,0.99317604,Upheld,0.94,Upheld,JEV specialist,automate,Upheld,False

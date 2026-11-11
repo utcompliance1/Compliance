@@ -1,0 +1,7 @@
+{
+  "mode": "specialist_union",
+  "distilbert_threshold": 0.9,
+  "jev_threshold": 0.875,
+  "frozen_at_utc": "2026-11-11T21:41:05.096192+00:00",
+  "calibration_target_met": true
+}

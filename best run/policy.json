@@ -1,0 +1,26 @@
+{
+  "source_trial": "distilbert/selective-automation/pass13",
+  "distilbert_model": "utcompliance1/distilbert-imr-val-selected",
+  "jev_model": "jev-1.13.0",
+  "mode": "specialist_union",
+  "distilbert_probability_threshold": 0.9,
+  "jev_probability_threshold": 0.875,
+  "jev_question": {
+    "assessment": {
+      "type": "choice",
+      "instructions": "Assess ONLY appeals for inpatient, hospital, psychiatric residential, detoxification, partial hospital, or intensive outpatient care. Match the patient condition to the requested dates and intensity. Explicit clinical stability, no acute danger/withdrawal, preserved functioning and a feasible lower setting support sustaining denial. Persistent acute danger, severe impairment or documented failure of lower settings can support overturning. A diagnosis alone is insufficient. Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+      "criteria": {
+        "Upheld": "Requested intensive setting is unnecessary: explicit findings show stability or needs manageable at lower intensity.",
+        "Overturned": "Requested intensive setting is necessary: explicit findings show acute danger, severe impairment or failed lower care requiring this intensity.",
+        "Unresolved": "Not an intensity-of-care appeal, or clinical findings are insufficient, conflicting, or do not establish the required setting."
+      }
+    }
+  },
+  "precedence": [
+    "Use JEV outcome if assessment chooses Upheld or Overturned with selected probability >=0.875.",
+    "Otherwise use DistilBERT outcome if selected probability >=0.90.",
+    "Otherwise send to human review."
+  ],
+  "ground_truth": "Recorded IMR dataset decision; neither model is used as truth.",
+  "status": "Retrospectively evaluated research policy; not deployed."
+}

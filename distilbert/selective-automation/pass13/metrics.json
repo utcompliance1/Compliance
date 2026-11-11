@@ -1,0 +1,82 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 355,
+    "acceptance": 0.355,
+    "human_review": 645,
+    "correct": 327,
+    "errors": 28,
+    "accuracy": 0.9211267605633803,
+    "wilson95": [
+      0.8883682372010673,
+      0.9448688167966546
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 295,
+        "correct": 270
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  "evaluation": {
+    "total": 1200,
+    "accepted": 541,
+    "acceptance": 0.4508333333333333,
+    "human_review": 659,
+    "correct": 502,
+    "errors": 39,
+    "accuracy": 0.9279112754158965,
+    "wilson95": [
+      0.9029686716070174,
+      0.9468198173272874
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 380,
+        "correct": 351
+      },
+      "JEV specialist": {
+        "accepted": 161,
+        "correct": 151
+      }
+    }
+  },
+  "evaluation_without_literal_outcome_shortcuts": {
+    "total": 1181,
+    "accepted": 522,
+    "acceptance": 0.4419983065198984,
+    "human_review": 659,
+    "correct": 483,
+    "errors": 39,
+    "accuracy": 0.9252873563218391,
+    "wilson95": [
+      0.8994939925143071,
+      0.9448669694299259
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 368,
+        "correct": 339
+      },
+      "JEV specialist": {
+        "accepted": 154,
+        "correct": 144
+      }
+    }
+  },
+  "new_jev_calls": 1200,
+  "new_distilbert_calls": 0,
+  "cached_distilbert_rows_scored": 2200,
+  "rule": {
+    "mode": "specialist_union",
+    "distilbert_threshold": 0.9,
+    "jev_threshold": 0.875,
+    "frozen_at_utc": "2026-11-11T21:41:05.096192+00:00",
+    "calibration_target_met": true
+  },
+  "rule_sha256": "c3b53d5be226c2e2125104f011896a1889ae60bfcf250a2337f4b9d6606a8ee3"
+}

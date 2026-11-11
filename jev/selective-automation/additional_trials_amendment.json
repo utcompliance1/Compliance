@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-11-11T21:42:50.481035+00:00",
+  "original_plan": "additional_trials_plan.json",
+  "updated_target": {
+    "acceptance": 0.25,
+    "accuracy": 0.9
+  },
+  "reason": "User requested DistilBERT comparison and higher acceptance while trials were underway.",
+  "executed": "JEV passes4-12 completed; final tenth additional trial is distilbert/selective-automation/pass13. The originally planned JEV-only pass13 did not run.",
+  "final_rule_frozen_at_utc": "2026-11-11T21:41:05.096192+00:00",
+  "final_evaluation_ids": "unchanged original 1200 confirmation_ids",
+  "budget": "10 additional trials total; 9 JEV prompt/model methods and 1 DistilBERT/hybrid calibration-plus-confirmation trial."
+}

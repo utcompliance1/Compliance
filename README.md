@@ -36,3 +36,8 @@ python baseline_eval.py
 [Limited GPT-5 results on cleaned and uncleaned inputs](original-implementation-results/xverifier/RESULTS.md), with original per-seed outputs, saved predictions, and reproduction scripts.
 
 [Matched Jev and GPT-5 xverifier pilot with presentation plots](original-implementation-results/jev-xverifier/RESULTS.md).
+
+
+## Latest selective automation result
+
+The DistilBERT + JEV intensity-of-care specialist accepted **45.1%** of 1,200 reserved historical cases at **92.8% accuracy among accepted cases**, exceeding the 25% / 90% target. [Meeting-ready best run](best%20run/README.md) contains the summary, exact rule, prompt, results and per-case evidence. [Full trial report](distilbert/selective-automation/pass13/README.md) explains calibration, confirmation and limitations.

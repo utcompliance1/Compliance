@@ -1,5 +1,29 @@
 # JEV selective automation experiments
 
+## Latest result: updated 25% acceptance / 90% accuracy target
+
+**Met in reserved confirmation:** DistilBERT + JEV intensity-of-care specialist accepted **541/1,200 (45.08%)**, with **502/541 correct (92.79%)**. Human review: 659. Accepted errors: 39. The 95% Wilson interval for accuracy is 90.30%–94.68%.
+
+See the [separate DistilBERT trial report](../../distilbert/selective-automation/pass13/README.md) and [meeting-ready best run](../../best%20run/README.md). Ground truth is the recorded dataset outcome, not a model prediction. Excluding 19 literal-outcome shortcut cases gives 522/1,181 accepted (44.20%) and 483/522 correct (92.53%); its lower 95% bound is 89.95%, so do not present the lower-bound result as robust to every sensitivity analysis.
+
+The user authorized ten additional trials. Passes4–12 are nine JEV methods evaluated on a shared 600-case development batch; pass13 is the separate DistilBERT/hybrid confirmation on the reserved 1,200 cases. The original plan is preserved alongside additional_trials_amendment.json. Trial12 was already running when the user requested DistilBERT; final trial13 replaced the planned JEV-only confirmation. All earlier results remain preserved.
+
+| Trial | Method | Accepted | Acceptance | Accepted accuracy |
+| --- | --- | ---: | ---: | ---: |
+| [4](pass4/README.md) | Separate outcome prediction from evidence sufficiency | 74/600 | 12.3% | 82.4% |
+| [5](pass5/README.md) | Intensity-of-care specialist | 86/600 | 14.3% | 96.5% |
+| [6](pass6/README.md) | Treatment-alternatives specialist | 73/600 | 12.2% | 65.8% |
+| [7](pass7/README.md) | Opposing evidence tests | 78/600 | 13.0% | 79.5% |
+| [8](pass8/README.md) | Concise evidence adjudication with unresolved option | 47/600 | 7.8% | 93.6% |
+| [9](pass9/README.md) | Outcome plus sufficiency and evidence provenance | 100/600 | 16.7% | 73.0% |
+| [10](pass10/README.md) | Agreement of outcome and clinical-necessity questions | 79/600 | 13.2% | 83.5% |
+| [11](pass11/README.md) | Counterevidence-aware outcome prediction | 46/600 | 7.7% | 91.3% |
+| [12](pass12/README.md) | Newer JEV model with atomic evidence questions | 91/600 | 15.2% | 78.0% |
+| [13](../../distilbert/selective-automation/pass13/README.md) | DistilBERT + JEV specialist, reserved confirmation | 541/1,200 | 45.1% | 92.8% |
+
+JEV-only methods were strongest on explicit intensity-of-care evidence. Broad sufficiency/provenance questions often accepted incorrect Overturned predictions. The hybrid combines a more reliable general classifier with this narrow specialist. Independent audits reconstruct every accepted decision and check source joins, disjoint normalized texts, frozen configurations and selection rules. This is historical dataset evidence, not a clinical causal claim or guaranteed production accuracy.
+
+
 Goal: use JEV to identify tasks suitable for automation at >=90% accepted-task accuracy, sending the remaining tasks to human review. Acceptance is the accepted count divided by every task in the evaluation batch; accuracy is correct JEV outcomes divided by accepted tasks. Rejections are not counted as errors or assumed correct human decisions.
 
 ## Trials
@@ -37,6 +61,6 @@ Use untouched evaluation cases after prompt and threshold selection. Report bino
 
 `prompt_trial.py` performs the live revised prompt experiment and writes per-case predictions, calibration sweep, frozen rule, metrics and README. It requires a valid `TYPESAFE_API_KEY` in ignored `jev/.env`. Completed experiments cannot be overwritten; an authentication-only failure with zero successful calls can restart. No credentials or full patient narratives are included in the new committed prediction artifacts.
 
-## Conclusion
+## Earlier conclusion after the first three trials
 
 The revised prompt increases coverage, but these three trials do not establish a routing method achieving >=90% accuracy at >=10% acceptance. The promising discovery patterns did not generalize sufficiently. All measured failures are retained; no test-set tuning or selective omission was used to manufacture a success. Stronger candidates would distinguish explicit clinical facts from generic insurer assertions using separate JEV questions, and validate the combined criterion on another untouched batch rather than reuse this test set.

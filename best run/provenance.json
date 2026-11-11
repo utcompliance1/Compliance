@@ -1,0 +1,37 @@
+{
+  "updated_at_utc": "2026-11-11T21:43:21.230627+00:00",
+  "best_source": "distilbert/selective-automation/pass13",
+  "status": "Latest best completed trial meeting >=25% acceptance and >=90% accepted accuracy, on reserved confirmation cases.",
+  "selection_basis": "Nine JEV prompt methods tested; DistilBERT/hybrid strategy and threshold selected on separate 1000-case calibration. Final confirmation never retunes the rule.",
+  "evaluation_cases": 1200,
+  "files": {
+    "results.json": {
+      "source": "distilbert/selective-automation/pass13/metrics.json",
+      "sha256": "ec23f935355527db5f7034ad95b1c10c6cd9301cabc9496166c7ed70167363f2"
+    },
+    "acceptance_rule.json": {
+      "source": "distilbert/selective-automation/pass13/rule.json",
+      "sha256": "c3b53d5be226c2e2125104f011896a1889ae60bfcf250a2337f4b9d6606a8ee3"
+    },
+    "jev_prompt.json": {
+      "source": "distilbert/selective-automation/pass13/jev_prompt.json",
+      "sha256": "f70847f59ab288c12e547b114435cb46f59e39d2f82adacfc044c55b864dbfb6"
+    },
+    "evaluation_decisions.csv": {
+      "source": "distilbert/selective-automation/pass13/evaluation_decisions.csv",
+      "sha256": "f4310fd6051225b964a28767e92033b0b8d5f016fc82cca4f74f8d593c6fe1df"
+    },
+    "full_trial_report.md": {
+      "source": "distilbert/selective-automation/pass13/README.md",
+      "sha256": "42b24547fb66d4ef5157fa12cfd717c8ccca5ead73f4b7f8d115ca47201e0e8b"
+    },
+    "experiment_plan.json": {
+      "source": "distilbert/selective-automation/pass13/plan.json",
+      "sha256": "d1bdf644aeb366e4128e543f1a5f1d06fd3e125224df3504496d68d59587e029"
+    },
+    "policy.json": {
+      "source": "distilbert/selective-automation/selected_policy.json",
+      "sha256": "8fba5236ffb66e946a37f55b4952e8d35bae643e46243c1e2079647ebd8fb8d3"
+    }
+  }
+}

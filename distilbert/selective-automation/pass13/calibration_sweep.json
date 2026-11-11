@@ -1,0 +1,1346 @@
+[
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.5,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 1000,
+    "acceptance": 1.0,
+    "human_review": 0,
+    "correct": 742,
+    "errors": 258,
+    "accuracy": 0.742,
+    "wilson95": [
+      0.7139918832868724,
+      0.768155965606119
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 1000,
+        "correct": 742
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.6,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 846,
+    "acceptance": 0.846,
+    "human_review": 154,
+    "correct": 664,
+    "errors": 182,
+    "accuracy": 0.7848699763593381,
+    "wilson95": [
+      0.7559256448045889,
+      0.8112389657203679
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 846,
+        "correct": 664
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.7,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 702,
+    "acceptance": 0.702,
+    "human_review": 298,
+    "correct": 572,
+    "errors": 130,
+    "accuracy": 0.8148148148148148,
+    "wilson95": [
+      0.784393538947334,
+      0.841809405745777
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 702,
+        "correct": 572
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.75,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 607,
+    "acceptance": 0.607,
+    "human_review": 393,
+    "correct": 513,
+    "errors": 94,
+    "accuracy": 0.8451400329489291,
+    "wilson95": [
+      0.814198372389866,
+      0.8717406612980763
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 607,
+        "correct": 513
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.8,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 518,
+    "acceptance": 0.518,
+    "human_review": 482,
+    "correct": 450,
+    "errors": 68,
+    "accuracy": 0.8687258687258688,
+    "wilson95": [
+      0.8369105986439389,
+      0.8951124967676045
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 518,
+        "correct": 450
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.825,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 467,
+    "acceptance": 0.467,
+    "human_review": 533,
+    "correct": 416,
+    "errors": 51,
+    "accuracy": 0.8907922912205567,
+    "wilson95": [
+      0.8592515717907622,
+      0.9159562888640901
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 467,
+        "correct": 416
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.85,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 420,
+    "acceptance": 0.42,
+    "human_review": 580,
+    "correct": 381,
+    "errors": 39,
+    "accuracy": 0.9071428571428571,
+    "wilson95": [
+      0.8755767254891207,
+      0.931328764482503
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 420,
+        "correct": 381
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.875,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 377,
+    "acceptance": 0.377,
+    "human_review": 623,
+    "correct": 344,
+    "errors": 33,
+    "accuracy": 0.9124668435013262,
+    "wilson95": [
+      0.879619272006482,
+      0.9369935016212533
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 377,
+        "correct": 344
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.9,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 347,
+    "acceptance": 0.347,
+    "human_review": 653,
+    "correct": 320,
+    "errors": 27,
+    "accuracy": 0.9221902017291066,
+    "wilson95": [
+      0.8891590952208877,
+      0.9459759569045927
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 347,
+        "correct": 320
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.925,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 292,
+    "acceptance": 0.292,
+    "human_review": 708,
+    "correct": 271,
+    "errors": 21,
+    "accuracy": 0.928082191780822,
+    "wilson95": [
+      0.8925639602028866,
+      0.9524832518970304
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 292,
+        "correct": 271
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.95,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 211,
+    "acceptance": 0.211,
+    "human_review": 789,
+    "correct": 202,
+    "errors": 9,
+    "accuracy": 0.957345971563981,
+    "wilson95": [
+      0.9209369939219997,
+      0.9773998590272118
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 211,
+        "correct": 202
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.96,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 170,
+    "acceptance": 0.17,
+    "human_review": 830,
+    "correct": 163,
+    "errors": 7,
+    "accuracy": 0.9588235294117647,
+    "wilson95": [
+      0.9174560710897361,
+      0.9799132967139683
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 170,
+        "correct": 163
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.97,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 132,
+    "acceptance": 0.132,
+    "human_review": 868,
+    "correct": 129,
+    "errors": 3,
+    "accuracy": 0.9772727272727273,
+    "wilson95": [
+      0.9353108604232109,
+      0.9922410158144811
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 132,
+        "correct": 129
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.975,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 120,
+    "acceptance": 0.12,
+    "human_review": 880,
+    "correct": 117,
+    "errors": 3,
+    "accuracy": 0.975,
+    "wilson95": [
+      0.9290699666721339,
+      0.9914618252300978
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 120,
+        "correct": 117
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.98,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 94,
+    "acceptance": 0.094,
+    "human_review": 906,
+    "correct": 91,
+    "errors": 3,
+    "accuracy": 0.9680851063829787,
+    "wilson95": [
+      0.9103268539187764,
+      0.9890873725316923
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 94,
+        "correct": 91
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "distilbert",
+      "distilbert_threshold": 0.99,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 54,
+    "acceptance": 0.054,
+    "human_review": 946,
+    "correct": 53,
+    "errors": 1,
+    "accuracy": 0.9814814814814815,
+    "wilson95": [
+      0.9022856251121808,
+      0.9967235122817709
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 54,
+        "correct": 53
+      },
+      "JEV specialist": {
+        "accepted": 0,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.5,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 1000,
+    "acceptance": 1.0,
+    "human_review": 0,
+    "correct": 743,
+    "errors": 257,
+    "accuracy": 0.743,
+    "wilson95": [
+      0.7150222127820682,
+      0.769117982593952
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 940,
+        "correct": 686
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.6,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 848,
+    "acceptance": 0.848,
+    "human_review": 152,
+    "correct": 666,
+    "errors": 182,
+    "accuracy": 0.785377358490566,
+    "wilson95": [
+      0.7564898385271014,
+      0.8116910066152082
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 788,
+        "correct": 609
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.7,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 704,
+    "acceptance": 0.704,
+    "human_review": 296,
+    "correct": 574,
+    "errors": 130,
+    "accuracy": 0.8153409090909091,
+    "wilson95": [
+      0.7849935760497607,
+      0.8422655290325133
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 644,
+        "correct": 517
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.75,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 610,
+    "acceptance": 0.61,
+    "human_review": 390,
+    "correct": 516,
+    "errors": 94,
+    "accuracy": 0.8459016393442623,
+    "wilson95": [
+      0.8150936889788408,
+      0.8723802408706386
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 550,
+        "correct": 459
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.8,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 522,
+    "acceptance": 0.522,
+    "human_review": 478,
+    "correct": 454,
+    "errors": 68,
+    "accuracy": 0.8697318007662835,
+    "wilson95": [
+      0.8381347479122748,
+      0.8959268090932969
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 462,
+        "correct": 397
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.825,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 472,
+    "acceptance": 0.472,
+    "human_review": 528,
+    "correct": 421,
+    "errors": 51,
+    "accuracy": 0.8919491525423728,
+    "wilson95": [
+      0.8607126800641872,
+      0.9168572292854368
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 412,
+        "correct": 364
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.85,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 426,
+    "acceptance": 0.426,
+    "human_review": 574,
+    "correct": 386,
+    "errors": 40,
+    "accuracy": 0.9061032863849765,
+    "wilson95": [
+      0.8746616354224666,
+      0.9302863120121057
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 366,
+        "correct": 329
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.875,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 384,
+    "acceptance": 0.384,
+    "human_review": 616,
+    "correct": 350,
+    "errors": 34,
+    "accuracy": 0.9114583333333334,
+    "wilson95": [
+      0.8788183041230202,
+      0.9359476081155997
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 324,
+        "correct": 293
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.9,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 355,
+    "acceptance": 0.355,
+    "human_review": 645,
+    "correct": 327,
+    "errors": 28,
+    "accuracy": 0.9211267605633803,
+    "wilson95": [
+      0.8883682372010673,
+      0.9448688167966546
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 295,
+        "correct": 270
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.925,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 303,
+    "acceptance": 0.303,
+    "human_review": 697,
+    "correct": 280,
+    "errors": 23,
+    "accuracy": 0.9240924092409241,
+    "wilson95": [
+      0.8886771010742737,
+      0.9488889859458657
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 243,
+        "correct": 223
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.95,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 225,
+    "acceptance": 0.225,
+    "human_review": 775,
+    "correct": 214,
+    "errors": 11,
+    "accuracy": 0.9511111111111111,
+    "wilson95": [
+      0.9145920407786103,
+      0.9724849820918746
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 165,
+        "correct": 157
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.96,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 187,
+    "acceptance": 0.187,
+    "human_review": 813,
+    "correct": 178,
+    "errors": 9,
+    "accuracy": 0.9518716577540107,
+    "wilson95": [
+      0.911075982677249,
+      0.974475831086576
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 127,
+        "correct": 121
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.97,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 155,
+    "acceptance": 0.155,
+    "human_review": 845,
+    "correct": 150,
+    "errors": 5,
+    "accuracy": 0.967741935483871,
+    "wilson95": [
+      0.9267157883592679,
+      0.9861441228789004
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 95,
+        "correct": 93
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.975,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 144,
+    "acceptance": 0.144,
+    "human_review": 856,
+    "correct": 139,
+    "errors": 5,
+    "accuracy": 0.9652777777777778,
+    "wilson95": [
+      0.9212970800343208,
+      0.9850792576242422
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 84,
+        "correct": 82
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.98,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 122,
+    "acceptance": 0.122,
+    "human_review": 878,
+    "correct": 117,
+    "errors": 5,
+    "accuracy": 0.9590163934426229,
+    "wilson95": [
+      0.9076394737210987,
+      0.9823692805447255
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 62,
+        "correct": 60
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "specialist_union",
+      "distilbert_threshold": 0.99,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 97,
+    "acceptance": 0.097,
+    "human_review": 903,
+    "correct": 93,
+    "errors": 4,
+    "accuracy": 0.9587628865979382,
+    "wilson95": [
+      0.8987247439592628,
+      0.9838487634138368
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 37,
+        "correct": 36
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.5,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 995,
+    "acceptance": 0.995,
+    "human_review": 5,
+    "correct": 740,
+    "errors": 255,
+    "accuracy": 0.7437185929648241,
+    "wilson95": [
+      0.7156904126440857,
+      0.7698721315585015
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 940,
+        "correct": 686
+      },
+      "JEV specialist": {
+        "accepted": 55,
+        "correct": 54
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.6,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 844,
+    "acceptance": 0.844,
+    "human_review": 156,
+    "correct": 664,
+    "errors": 180,
+    "accuracy": 0.7867298578199052,
+    "wilson95": [
+      0.7578281113028834,
+      0.8130333333276024
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 788,
+        "correct": 609
+      },
+      "JEV specialist": {
+        "accepted": 56,
+        "correct": 55
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.7,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 700,
+    "acceptance": 0.7,
+    "human_review": 300,
+    "correct": 572,
+    "errors": 128,
+    "accuracy": 0.8171428571428572,
+    "wilson95": [
+      0.7868023303926414,
+      0.8440215496668458
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 644,
+        "correct": 517
+      },
+      "JEV specialist": {
+        "accepted": 56,
+        "correct": 55
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.75,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 606,
+    "acceptance": 0.606,
+    "human_review": 394,
+    "correct": 514,
+    "errors": 92,
+    "accuracy": 0.8481848184818482,
+    "wilson95": [
+      0.8174270746781445,
+      0.8745560528974385
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 550,
+        "correct": 459
+      },
+      "JEV specialist": {
+        "accepted": 56,
+        "correct": 55
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.8,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 518,
+    "acceptance": 0.518,
+    "human_review": 482,
+    "correct": 452,
+    "errors": 66,
+    "accuracy": 0.8725868725868726,
+    "wilson95": [
+      0.8411047732059475,
+      0.8985834855083347
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 462,
+        "correct": 397
+      },
+      "JEV specialist": {
+        "accepted": 56,
+        "correct": 55
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.825,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 469,
+    "acceptance": 0.469,
+    "human_review": 531,
+    "correct": 419,
+    "errors": 50,
+    "accuracy": 0.8933901918976546,
+    "wilson95": [
+      0.8621942660747014,
+      0.9181941561256627
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 412,
+        "correct": 364
+      },
+      "JEV specialist": {
+        "accepted": 57,
+        "correct": 55
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.85,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 424,
+    "acceptance": 0.424,
+    "human_review": 576,
+    "correct": 385,
+    "errors": 39,
+    "accuracy": 0.9080188679245284,
+    "wilson95": [
+      0.8767270123312947,
+      0.931983767951003
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 366,
+        "correct": 329
+      },
+      "JEV specialist": {
+        "accepted": 58,
+        "correct": 56
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.875,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 383,
+    "acceptance": 0.383,
+    "human_review": 617,
+    "correct": 349,
+    "errors": 34,
+    "accuracy": 0.9112271540469974,
+    "wilson95": [
+      0.8785085677282495,
+      0.9357785072928549
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 324,
+        "correct": 293
+      },
+      "JEV specialist": {
+        "accepted": 59,
+        "correct": 56
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.9,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 354,
+    "acceptance": 0.354,
+    "human_review": 646,
+    "correct": 326,
+    "errors": 28,
+    "accuracy": 0.9209039548022598,
+    "wilson95": [
+      0.8880595818723679,
+      0.9447114474602639
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 295,
+        "correct": 270
+      },
+      "JEV specialist": {
+        "accepted": 59,
+        "correct": 56
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.925,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 303,
+    "acceptance": 0.303,
+    "human_review": 697,
+    "correct": 280,
+    "errors": 23,
+    "accuracy": 0.9240924092409241,
+    "wilson95": [
+      0.8886771010742737,
+      0.9488889859458657
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 243,
+        "correct": 223
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.95,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 225,
+    "acceptance": 0.225,
+    "human_review": 775,
+    "correct": 214,
+    "errors": 11,
+    "accuracy": 0.9511111111111111,
+    "wilson95": [
+      0.9145920407786103,
+      0.9724849820918746
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 165,
+        "correct": 157
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.96,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 187,
+    "acceptance": 0.187,
+    "human_review": 813,
+    "correct": 178,
+    "errors": 9,
+    "accuracy": 0.9518716577540107,
+    "wilson95": [
+      0.911075982677249,
+      0.974475831086576
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 127,
+        "correct": 121
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.97,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 155,
+    "acceptance": 0.155,
+    "human_review": 845,
+    "correct": 150,
+    "errors": 5,
+    "accuracy": 0.967741935483871,
+    "wilson95": [
+      0.9267157883592679,
+      0.9861441228789004
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 95,
+        "correct": 93
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.975,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 144,
+    "acceptance": 0.144,
+    "human_review": 856,
+    "correct": 139,
+    "errors": 5,
+    "accuracy": 0.9652777777777778,
+    "wilson95": [
+      0.9212970800343208,
+      0.9850792576242422
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 84,
+        "correct": 82
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.98,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 122,
+    "acceptance": 0.122,
+    "human_review": 878,
+    "correct": 117,
+    "errors": 5,
+    "accuracy": 0.9590163934426229,
+    "wilson95": [
+      0.9076394737210987,
+      0.9823692805447255
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 62,
+        "correct": 60
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  },
+  {
+    "rule": {
+      "mode": "union_defer_conflicts",
+      "distilbert_threshold": 0.99,
+      "jev_threshold": 0.875
+    },
+    "total": 1000,
+    "accepted": 97,
+    "acceptance": 0.097,
+    "human_review": 903,
+    "correct": 93,
+    "errors": 4,
+    "accuracy": 0.9587628865979382,
+    "wilson95": [
+      0.8987247439592628,
+      0.9838487634138368
+    ],
+    "per_source": {
+      "DistilBERT": {
+        "accepted": 37,
+        "correct": 36
+      },
+      "JEV specialist": {
+        "accepted": 60,
+        "correct": 57
+      }
+    }
+  }
+]
