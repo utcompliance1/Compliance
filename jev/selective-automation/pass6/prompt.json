@@ -1,0 +1,11 @@
+{
+  "assessment": {
+    "type": "choice",
+    "instructions": "Assess appeals for a drug, procedure, device or therapy. Determine whether documented treatment response and indication evidence resolve the request. Failed alternatives alone do not justify investigational care; patient preference alone is not necessity. Exclude level-of-care disputes. Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+    "criteria": {
+      "Upheld": "Explicit findings show the requested intervention is ineffective, inappropriate for this indication, or unnecessary given an effective suitable alternative.",
+      "Overturned": "Persistent disease plus documented failure, intolerance or contraindication of relevant alternatives supports this specifically indicated intervention, or explicit indication evidence directly rebuts denial.",
+      "Unresolved": "Insufficient indication or treatment history, conflicting evidence, investigational uncertainty, or an out-of-scope level-of-care appeal."
+    }
+  }
+}

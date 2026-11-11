@@ -1,0 +1,58 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 118,
+    "human_review": 882,
+    "acceptance": 0.118,
+    "correct": 100,
+    "errors": 18,
+    "accuracy": 0.847457627118644,
+    "wilson95": [
+      0.771728055334007,
+      0.901277675175785
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 14,
+        "correct": 14
+      },
+      "Overturned": {
+        "accepted": 104,
+        "correct": 86
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 73,
+    "human_review": 527,
+    "acceptance": 0.12166666666666667,
+    "correct": 48,
+    "errors": 25,
+    "accuracy": 0.6575342465753424,
+    "wilson95": [
+      0.5432662599276812,
+      0.7560513266068143
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 1,
+        "correct": 1
+      },
+      "Overturned": {
+        "accepted": 72,
+        "correct": 47
+      }
+    }
+  },
+  "configuration": "Treatment-alternatives specialist",
+  "selected_pass": null,
+  "calibration_target_met": false,
+  "new_case_requests": 1600,
+  "successful_responses": 1600,
+  "prompt_sha256": "2592e3289dd79d36ff10bb39f39ac58232b57f34573c772e7c482a146957f53b",
+  "rule_sha256": "7ba13bd267381cf3e701d95857642f205fb93b80a8177b93048e9cdefbc9614e",
+  "evaluation_role": "shared development evaluation"
+}
