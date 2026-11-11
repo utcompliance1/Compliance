@@ -1,0 +1,10 @@
+{
+  "decision": {
+    "type": "choice",
+    "instructions": "Predict the independent review outcome. First distinguish documented negative findings from missing information. Then consider the strongest supplied clinical evidence against each outcome. Favor Upheld only when facts actually undermine the specific requested service, not merely because it was denied. Favor Overturned when facts establish its need or supported indication, not merely because disease is serious. If evidence conflicts, spread probabilities instead of guessing confidently. Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+    "criteria": {
+      "Upheld": "Specific requested care is not warranted or supported by the supplied clinical facts.",
+      "Overturned": "Specific requested care is warranted and supported by the supplied clinical facts."
+    }
+  }
+}
