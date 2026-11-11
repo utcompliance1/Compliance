@@ -1,0 +1,134 @@
+[
+  {
+    "threshold": 0,
+    "total": 600,
+    "accepted": 84,
+    "human_review": 516,
+    "acceptance": 0.14,
+    "correct": 72,
+    "errors": 12,
+    "accuracy": 0.8571428571428571,
+    "wilson95": [
+      0.7666989708237691,
+      0.9163497945943307
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.2,
+    "total": 600,
+    "accepted": 83,
+    "human_review": 517,
+    "acceptance": 0.13833333333333334,
+    "correct": 71,
+    "errors": 12,
+    "accuracy": 0.8554216867469879,
+    "wilson95": [
+      0.7640819877833326,
+      0.9153170089771919
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.4,
+    "total": 600,
+    "accepted": 56,
+    "human_review": 544,
+    "acceptance": 0.09333333333333334,
+    "correct": 51,
+    "errors": 5,
+    "accuracy": 0.9107142857142857,
+    "wilson95": [
+      0.8074399861448884,
+      0.9612578515504131
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.5,
+    "total": 600,
+    "accepted": 37,
+    "human_review": 563,
+    "acceptance": 0.06166666666666667,
+    "correct": 32,
+    "errors": 5,
+    "accuracy": 0.8648648648648649,
+    "wilson95": [
+      0.7202258821599021,
+      0.9408670557426799
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.6,
+    "total": 600,
+    "accepted": 28,
+    "human_review": 572,
+    "acceptance": 0.04666666666666667,
+    "correct": 26,
+    "errors": 2,
+    "accuracy": 0.9285714285714286,
+    "wilson95": [
+      0.7735463743160095,
+      0.9801879358846942
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.7,
+    "total": 600,
+    "accepted": 19,
+    "human_review": 581,
+    "acceptance": 0.03166666666666667,
+    "correct": 18,
+    "errors": 1,
+    "accuracy": 0.9473684210526315,
+    "wilson95": [
+      0.753612688331012,
+      0.9906480059376995
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.8,
+    "total": 600,
+    "accepted": 7,
+    "human_review": 593,
+    "acceptance": 0.011666666666666667,
+    "correct": 7,
+    "errors": 0,
+    "accuracy": 1.0,
+    "wilson95": [
+      0.6456695649333126,
+      1.0
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.9,
+    "total": 600,
+    "accepted": 2,
+    "human_review": 598,
+    "acceptance": 0.0033333333333333335,
+    "correct": 2,
+    "errors": 0,
+    "accuracy": 1.0,
+    "wilson95": [
+      0.34238022750665303,
+      1.0
+    ],
+    "api_failures": 0
+  },
+  {
+    "threshold": 0.95,
+    "total": 600,
+    "accepted": 0,
+    "human_review": 600,
+    "acceptance": 0.0,
+    "correct": 0,
+    "errors": 0,
+    "accuracy": null,
+    "wilson95": null,
+    "api_failures": 0
+  }
+]

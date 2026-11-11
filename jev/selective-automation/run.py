@@ -1,5 +1,6 @@
 """Reproducible cached-JEV selective routing; no labels enter route()."""
 import argparse, csv, hashlib, json, math, random, re
+from functools import lru_cache
 from pathlib import Path
 from datetime import datetime, timezone
 ROOT = Path(__file__).resolve().parents[2]
@@ -13,9 +14,12 @@ def interval(k,n,z=1.959963984540054):
     p=k/n; d=1+z*z/n; c=(p+z*z/(2*n))/d
     h=z*math.sqrt(p*(1-p)/n+z*z/(4*n*n))/d
     return [c-h,c+h]
+@lru_cache(maxsize=10000)
+def normalized(text): return " ".join(re.findall(r"[a-z]+", text.lower()))
+
 def route(r, rule):
     if r.get('pred') not in ['Upheld','Overturned'] or not isinstance(r.get('confidence'),(float,int)): return False
-    return any(r['confidence'] >= t['threshold'] and (t['label']=='any' or r['pred']==t['label']) and (not t.get('phrase') or t['phrase'] in ' '.join(re.findall(r'[a-z]+',r['text'].lower()))) for t in rule['terms'])
+    return any(r['confidence'] >= t['threshold'] and (t['label']=='any' or r['pred']==t['label']) and (not t.get('phrase') or t['phrase'] in normalized(r['text'])) for t in rule['terms'])
 def stats(rows,rule):
     a=[r for r in rows if route(r,rule)]; k=sum(r['pred']==r['true'] for r in a);n=len(a)
     return dict(total=len(rows),accepted=n,human_review=len(rows)-n,acceptance=n/len(rows),correct=k,errors=n-k,accuracy=k/n if n else None,wilson95=interval(k,n),wilson_one_sided95_lower=interval(k,n,1.6448536269514722)[0],per_predicted_label={label:{'accepted':sum(r['pred']==label for r in a),'correct':sum(r['pred']==label and r['pred']==r['true'] for r in a)} for label in ['Upheld','Overturned']})
@@ -65,12 +69,12 @@ def main():
     dump(folder/'rule.json',{'frozen_at_utc':datetime.now(timezone.utc).isoformat(),'title':title,**rule})
     # Only discovery chooses the policy; calibration and test never alter it.
     with (folder/'discovery_candidates.csv').open('w') as f:
-        w=csv.writer(f);w.writerow(['rule','accepted','accuracy','wilson95_lower'])
+        w=csv.writer(f,lineterminator="\n");w.writerow(['rule','accepted','accuracy','wilson95_lower'])
         for m,c in scores:w.writerow([json.dumps(c),m['accepted'],m['accuracy'],m['wilson95'][0]])
     d=stats(discovery,rule);c=stats(cal,rule);test=batches[p-1];m=stats(test,rule)
     dump(folder/'metrics.json',{'discovery':d,'calibration':c,'evaluation':m,'rule_sha256':sha((folder/'rule.json').read_bytes()),'new_api_calls':0})
     with (folder/'decisions.csv').open('w') as f:
-        w=csv.writer(f);w.writerow(['row_id','text_sha256','jev_prediction','jev_confidence','selected_probability','route','true_label','correct'])
+        w=csv.writer(f,lineterminator="\n");w.writerow(['row_id','text_sha256','jev_prediction','jev_confidence','selected_probability','route','true_label','correct'])
         for r in test:w.writerow([r['row_id'],r['text_sha256'],r['pred'],r['confidence'],r['probabilities'][r['pred']],'automate' if route(r,rule) else 'human',r['true'],r['pred']==r['true']])
     fmt=lambda x:f'{100*x:.2f}%'
     ruletext=' OR '.join(f"(confidence >= {t['threshold']}; predicted label = {t['label']}; text contains {t['phrase']!r})" for t in rule['terms']) or 'Accept none'

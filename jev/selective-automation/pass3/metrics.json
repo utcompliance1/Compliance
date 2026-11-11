@@ -1,0 +1,33 @@
+{
+  "calibration": {
+    "total": 600,
+    "accepted": 84,
+    "human_review": 516,
+    "acceptance": 0.14,
+    "correct": 72,
+    "errors": 12,
+    "accuracy": 0.8571428571428571,
+    "wilson95": [
+      0.7666989708237691,
+      0.9163497945943307
+    ],
+    "api_failures": 0
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 147,
+    "human_review": 453,
+    "acceptance": 0.245,
+    "correct": 122,
+    "errors": 25,
+    "accuracy": 0.8299319727891157,
+    "wilson95": [
+      0.7609894313410643,
+      0.8820698492994412
+    ],
+    "api_failures": 0
+  },
+  "new_api_calls": 1200,
+  "prompt_sha256": "09addfa5bdc6c360450614194e52d40b37154e6054a848a886b3a724fa019933",
+  "rule_sha256": "e12e8ee767c4abe2ee181e76eb5a5d5a6ee9e26eac9096bea6a5b8bd20496393"
+}

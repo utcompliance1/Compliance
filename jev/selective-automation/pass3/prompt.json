@@ -1,0 +1,21 @@
+{
+  "routing": {
+    "type": "choice",
+    "instructions": {
+      "task": "Predict the final independent medical review outcome ONLY when the supplied clinical facts make it sufficiently determinate for automation. Otherwise defer to a human reviewer. Choose AutomateUpheld, AutomateOverturned, or HumanReview.",
+      "evidence_test": "Identify the requested service and the clinical fact that directly establishes or refutes its need for THIS patient. Distinguish explicit negative findings from missing information. Evaluate whether the same facts could reasonably support the opposite review outcome. If they could, use HumanReview.",
+      "patterns": [
+        "For inpatient, residential, detoxification or intensive outpatient care: explicit stability, absence of acute danger or withdrawal, preserved functioning and feasible lower-intensity care can support Upheld. Persistent dangerous symptoms or functional impairment despite adequate lower-intensity care can support Overturned. Connect the findings to the requested dates and intensity.",
+        "For drugs or treatments: documented failure, intolerance or contraindication of relevant alternatives, persistent disease and an established indication for the specific requested treatment can support Overturned. Failure alone does not establish benefit of an investigational treatment.",
+        "Explicit findings that the specific service is unnecessary, inappropriate for the indication, or unsupported by evidence can support Upheld when grounded in clinical facts rather than merely repeating the insurer allegation.",
+        "Generic diagnosis, request and insurer denial without discriminating clinical details must go to HumanReview. Mixed evidence, unclear indication, missing critical severity or treatment history, or truncated facts that change the interpretation also require HumanReview."
+      ],
+      "boundaries": "The original denial is not the review outcome. Do not infer a negative clinical finding from an omitted fact. Do not invent guidelines, policy exclusions, treatment failures or indications. Words such as documented or did not are not sufficient by themselves. No preference for Upheld over Overturned; automate either when concrete facts resolve the case."
+    },
+    "criteria": {
+      "AutomateUpheld": "Concrete patient-specific findings establish that the requested care, intensity or indication is not warranted or supported. The facts favor sustaining the denial and no material contrary evidence or critical unresolved issue remains.",
+      "AutomateOverturned": "Concrete patient-specific findings establish the need for the requested care and undermine the denial rationale, such as persistent disease plus documented failure/intolerance of relevant alternatives or dangerous impairment requiring escalation. No material contrary evidence or critical unresolved issue remains.",
+      "HumanReview": "The description contains only a diagnosis/request/denial, lacks decisive clinical evidence, has material conflicting evidence, or needs medical/policy assumptions to choose the outcome reliably."
+    }
+  }
+}

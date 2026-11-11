@@ -1,0 +1,14 @@
+{
+  "total": 600,
+  "accepted": 66,
+  "acceptance": 0.11,
+  "correct": 59,
+  "accuracy": 0.8939393939393939,
+  "wilson95": [
+    0.7968769124835199,
+    0.9476665274452051
+  ],
+  "new_prompt_only_accepted": 110,
+  "new_prompt_only_correct": 87,
+  "new_api_calls": 600
+}
