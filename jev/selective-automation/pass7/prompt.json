@@ -1,0 +1,18 @@
+{
+  "upheld": {
+    "type": "choice",
+    "instructions": "Do concrete patient facts affirmatively show that the requested care is NOT warranted at the requested intensity or indication? Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+    "criteria": {
+      "Yes": "Explicit clinical findings establish lack of need, inappropriate setting, effective alternative, or lack of demonstrated benefit.",
+      "No": "Lack of need is not established by patient facts; denial language or omitted facts alone do not count."
+    }
+  },
+  "overturned": {
+    "type": "choice",
+    "instructions": "Do concrete patient facts affirmatively establish that the particular requested care IS warranted despite the denial? Use supplied patient facts only. The insurer denial is the starting allegation, not the independent review outcome. Missing information is unknown, not a negative finding. Do not invent policy terms or clinical facts.",
+    "criteria": {
+      "Yes": "Explicit patient need, failed relevant alternatives, severity or supported indication establishes this requested care.",
+      "No": "Necessity is not established; a diagnosis, request, preference or unsubstantiated provider claim is insufficient."
+    }
+  }
+}

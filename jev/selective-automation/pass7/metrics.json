@@ -1,0 +1,58 @@
+{
+  "calibration": {
+    "total": 1000,
+    "accepted": 84,
+    "human_review": 916,
+    "acceptance": 0.084,
+    "correct": 75,
+    "errors": 9,
+    "accuracy": 0.8928571428571429,
+    "wilson95": [
+      0.8087538548365549,
+      0.9425997871233551
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 11,
+        "correct": 11
+      },
+      "Overturned": {
+        "accepted": 73,
+        "correct": 64
+      }
+    }
+  },
+  "evaluation": {
+    "total": 600,
+    "accepted": 78,
+    "human_review": 522,
+    "acceptance": 0.13,
+    "correct": 62,
+    "errors": 16,
+    "accuracy": 0.7948717948717948,
+    "wilson95": [
+      0.692460269547539,
+      0.8696020478016797
+    ],
+    "api_failures": 0,
+    "per_label": {
+      "Upheld": {
+        "accepted": 10,
+        "correct": 10
+      },
+      "Overturned": {
+        "accepted": 68,
+        "correct": 52
+      }
+    }
+  },
+  "configuration": "Opposing evidence tests",
+  "selected_pass": null,
+  "calibration_target_met": false,
+  "new_case_requests": 1600,
+  "successful_responses": 1600,
+  "prompt_sha256": "00c242815d521668f8a3b0a0e1bd62804e08c4926ad22e93970b375f64db765f",
+  "rule_sha256": "adfbc7e02c1dc4f63e45ba633270bb30c26386c7543f9846a6af2a11c6c86df5",
+  "evaluation_role": "shared development evaluation"
+}
