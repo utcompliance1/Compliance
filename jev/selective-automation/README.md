@@ -4,7 +4,7 @@
 
 **Met in reserved confirmation:** DistilBERT + JEV intensity-of-care specialist accepted **541/1,200 (45.08%)**, with **502/541 correct (92.79%)**. Human review: 659. Accepted errors: 39. The 95% Wilson interval for accuracy is 90.30%–94.68%.
 
-See the [separate DistilBERT trial report](../../distilbert/selective-automation/pass13/README.md) and [meeting-ready best run](../../best%20run/README.md). Ground truth is the recorded dataset outcome, not a model prediction. Excluding 19 literal-outcome shortcut cases gives 522/1,181 accepted (44.20%) and 483/522 correct (92.53%); its lower 95% bound is 89.95%, so do not present the lower-bound result as robust to every sensitivity analysis.
+See the [separate DistilBERT trial report](../../distilbert/selective-automation/pass13/README.md) and [meeting-ready best run](best%20run/README.md). Ground truth is the recorded dataset outcome, not a model prediction. Excluding 19 literal-outcome shortcut cases gives 522/1,181 accepted (44.20%) and 483/522 correct (92.53%); its lower 95% bound is 89.95%, so do not present the lower-bound result as robust to every sensitivity analysis.
 
 The user authorized ten additional trials. Passes4–12 are nine JEV methods evaluated on a shared 600-case development batch; pass13 is the separate DistilBERT/hybrid confirmation on the reserved 1,200 cases. The original plan is preserved alongside additional_trials_amendment.json. Trial12 was already running when the user requested DistilBERT; final trial13 replaced the planned JEV-only confirmation. All earlier results remain preserved.
 
